@@ -8,168 +8,80 @@
 
     <!--Default Styles-->
     <link rel="stylesheet" href="css/foundation.css">
-    
+
     <!--Custom Styles-->
     <link rel="stylesheet" href="css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
 
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
+  <div class="overlay">
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+  </div>
+
+    <header>
+
+      <div class="row">
+        <div class="large-12 columns">
+
+          <div class="top-bar">
+            <img src="img/logo.svg" id="logo">
+            <button type="button" class="nav-toggle" aria-label="toggle navigation">
+              <span class="nav-label">Menu</span>
+              <span class="nav-svg">
+                <svg width="54" height="54" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 524.5 2000 2000.5" enable-background="new 0 524.5 2000 2000.5" xml:space="preserve" stroke-linecap="round">
+                  <path class="x" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1235.2H589.3"/>
+                  <path class="x" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1815H589.3"/>
+                  <path class="yy" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1524.7c0,0-821.2,0-821.2,0c-211.3,0-260,98-218.2,217.6l0,0.1c90.1,260.7,337.6,447.9,628.9,447.9c367.4,0,665.2-297.8,665.2-665.2c0-79-13.8-154.8-39.1-225.2"/>
+                  <path class="yy" fill="none" stroke="#000000" stroke-miterlimit="10" d="M589.3,1524.7c0,0,821.2,0,821.2,0c211.3,0,260-98,218.2-217.6l0-0.1c-90.1-260.7-337.6-447.9-628.9-447.9c-367.4,0-665.2,297.8-665.2,665.2c0,79,13.8,154.8,39.1,225.2"/>
+                </svg>
+              </span>
+            </button>
           </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
-          </div>
+
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+      <div class="row">
+        <div class="large-12 columns">
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
+          <div class="intro">
+            <h4>Hello! My name is <span>Mike Peters</span></h4>
+            <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta, GA.</h1>
           </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
 
-        <hr />
-
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input type="text" placeholder="small-9.columns" class="input-group-field" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br/>
-        <a href="#" class="success button">Success Btn</a><br/>
-        <a href="#" class="alert button">Alert Btn</a><br/>
-        <a href="#" class="secondary button">Secondary Btn</a></p>
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
         </div>
       </div>
-    </div>
+
+    </header>
+
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+
+    <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
+    <script>
+// Toggle Overlay
+$(document).ready(function() {
+    $(".nav-toggle").click(function() {
+        $("#logo").fadeToggle();
+        $('body').toggleClass('no-scroll');
+        $(this).toggleClass('nav-open');
+        $( ".overlay" ).fadeToggle();
+    });
+});
+
+</script>
+
   </body>
 </html>
