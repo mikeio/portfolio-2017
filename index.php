@@ -30,13 +30,14 @@
     </div>
 
 
-    <header>
+    <header id="top">
 
       <div class="row">
         <div class="large-12 columns">
-          <div class="top-bar">
-            <img src="img/logo.svg" class="logo">
-            <button type="button" class="nav-toggle" aria-label="toggle navigation">
+
+            <div class="nav-mobile">
+              <img src="img/logo.svg" class="logo">
+              <button type="button" class="nav-toggle" aria-label="toggle navigation">
               <span class="nav-label">Menu</span>
               <span class="nav-svg">
                 <svg width="54" height="54" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 524.5 2000 2000.5" enable-background="new 0 524.5 2000 2000.5" xml:space="preserve" stroke-linecap="round">
@@ -46,8 +47,19 @@
                   <path class="yy" fill="none" stroke="#000000" stroke-miterlimit="10" d="M589.3,1524.7c0,0,821.2,0,821.2,0c211.3,0,260-98,218.2-217.6l0-0.1c-90.1-260.7-337.6-447.9-628.9-447.9c-367.4,0-665.2,297.8-665.2,665.2c0,79,13.8,154.8,39.1,225.2"/>
                 </svg>
               </span>
-            </button>
-          </div>
+              </button>
+            </div>
+
+            <div class="nav-large">
+              <ul>
+                <li><img src="img/logo.svg" class="logo"></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#featured">Featured Projects</a></li>
+                <li><a href="#resume">My Resume</a></li>
+                <li><a class="btn btn-dark" href="#">Let's Talk</a></li>
+              </ul>
+            </div>
+
         </div>
       </div>
 
@@ -67,7 +79,7 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <img src="img/books.png">
+        <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]">
           <h2>About Me</h2>
           <h4>Various Aspects</h4>
           <h1>An eye for innovation and a drive to create beautiful & simple solutions.</h1>
@@ -87,104 +99,109 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1000/600/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
+
+      <div class="project-container">
+
+        <div class="row">
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1000/600/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1001/601/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1002/602/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1003/603/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+        </div>
+  
+        <div class="row" id="hidden">
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1000/600/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1001/601/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1002/602/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+  
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/1003/603/?random">
+              <figcaption>
+                <h1>Project Title</h1>
+                <h4>Subtitle</h4>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="large-12 columns">
+            <a class="btn btn-light" id="view-all">View All Projects</a>
+          </div>
         </div>
 
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1001/601/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1002/602/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1003/603/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-      </div>
-
-      <div class="row" id="hidden">
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1000/600/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1001/601/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1002/602/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/1003/603/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="large-12 columns">
-          <a class="btn btn-light" id="view-all">View All Projects</a>
-        </div>
       </div>
 
     </section>
@@ -200,20 +217,36 @@
         </div>
       </div>
 
+      <div class="top-arrow">
+        <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+      </div>
+
     </section>
 
 
     <footer>
 
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="navigation">
-            <li><a href="/">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#featured">Featured Projects</a></li>
-            <li><a href="#resume">My Resume</a></li>
-            <li><a class="btn btn-light" href="#">Lets Talk</a></li>
-          </ul>
+      <div class="nav-mobile">
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#featured">Featured Projects</a></li>
+          <li><a href="#resume">My Resume</a></li>
+          <li><a class="btn btn-light" href="#">Let's Talk</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-large">
+        <div class="row">
+          <div class="large-12 columns">
+            <ul>
+              <li><img src="img/logo-alt.svg" class="logo"></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#featured">Featured Projects</a></li>
+              <li><a href="#resume">My Resume</a></li>
+              <li><a class="btn btn-light" href="#">Let's Talk</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -286,6 +319,14 @@ $(document).ready(function(){
         $("#hidden").slideToggle(1000);
     });
 });
+
+$(function(){
+   $("#view-all").click(function () {
+      $(this).text(function(i, text){
+          return text === "View All Projects" ? "View Less" : "View All Projects";
+      })
+   });
+})
 
 //Smooth Scroll
 $(function() {
