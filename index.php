@@ -65,10 +65,12 @@
 
       <div class="row">
         <div class="large-12 columns">
+
           <div class="intro">
             <h4>Hello! My name is Mike&nbsp;Peters</h4>
             <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
           </div>
+
         </div>
       </div>
 
@@ -79,7 +81,7 @@
 
       <div class="row">
         <div class="large-12 columns">
-        <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]">
+          <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]">
           <h2>About Me</h2>
           <h4>Various Aspects</h4>
           <h1>An eye for innovation and a drive to create beautiful & simple solutions.</h1>
@@ -100,9 +102,10 @@
       </div>
 
 
-      <div class="project-container">
+      <div class="container">
 
         <div class="row">
+
           <div class="large-6 columns">
             <figure class="project-list">
               <img src="https://unsplash.it/1000/600/?random">
@@ -226,67 +229,81 @@
 
     <footer>
 
-      <div class="nav-mobile">
-        <ul>
-          <li><a href="#top">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#featured">Featured Projects</a></li>
-          <li><a href="#resume">My Resume</a></li>
-          <li><a class="btn btn-light" href="#">Let's Talk</a></li>
-        </ul>
-      </div>
+      <div class="container">
 
-      <div class="nav-large">
         <div class="row">
           <div class="large-12 columns">
-            <ul>
-              <li><img src="img/logo-alt.svg" class="logo"></li>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#featured">Featured Projects</a></li>
-              <li><a href="#resume">My Resume</a></li>
-              <li><a class="btn btn-light" href="#">Let's Talk</a></li>
-            </ul>
+  
+            <div class="nav-mobile">
+              <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#featured">Featured Projects</a></li>
+                <li><a href="#resume">My Resume</a></li>
+                <li><a class="btn btn-light" href="#">Let's Talk</a></li>
+              </ul>
+            </div>
+  
           </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="large-12 columns">
-          <ul class="social-icons">
-            <li>
-              <a href="https://www.facebook.com/mike.peters.94">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/mikeio_/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/mikepetersio">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/mikeio">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
+  
+        <div class="row">
+          <div class="large-12 columns">
+  
+            <div class="nav-large">
+              <ul>
+                <li><img src="img/logo-alt.svg" class="logo"></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#featured">Featured Projects</a></li>
+                <li><a href="#resume">My Resume</a></li>
+                <li><a class="btn btn-light" href="#">Let's Talk</a></li>
+              </ul>
+            </div>
+  
+          </div>
         </div>
+  
+        <div class="row">
+          <div class="large-12 columns">
+  
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.facebook.com/mike.peters.94">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/mikeio_/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/mikepetersio">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/mikeio">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+  
+          </div>
+        </div>
+
       </div>
 
       <div class="copyright">

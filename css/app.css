@@ -43,7 +43,7 @@
 
 /* 0px+ */
 @media screen {
-  div {
+  * {
     border: 1px solid red; }
   .row {
     padding-right: 0.625rem;
@@ -57,7 +57,7 @@
     font-family: 'Arvo', serif;
     font-size: 1.875em;
     font-weight: 400;
-    color: #212121;
+    color: #1f2021;
     line-height: 1.4; }
   h2 {
     font-family: 'Playfair Display', serif;
@@ -112,7 +112,7 @@
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .24em;
-    color: #212121;
+    color: #1f2021;
     border-width: 2px;
     border-style: solid;
     border-radius: 100px;
@@ -141,10 +141,10 @@
     .btn:hover::before, .btn:hover::after {
       width: 131%; }
   .btn-light {
-    color: #212121;
-    border-color: #212121; }
+    color: #1f2021;
+    border-color: #1f2021; }
     .btn-light::before, .btn-light::after {
-      background: #212121; }
+      background: #1f2021; }
     .btn-light:hover {
       color: #ffffff !important; }
   .btn-dark {
@@ -153,7 +153,7 @@
     .btn-dark::before, .btn-dark::after {
       background: #ffffff; }
     .btn-dark:hover {
-      color: #212121 !important;
+      color: #1f2021 !important;
       border-color: #ffffff; }
   .no-scroll {
     position: fixed;
@@ -170,7 +170,7 @@
     overflow: auto;
     width: 100%;
     height: 100%;
-    background-color: #212121;
+    background-color: #1f2021;
     color: #ffffff;
     padding: 75px 30px 0px; }
   .nav-toggle {
@@ -229,7 +229,7 @@
     -webkit-transition: .2s .2s ease-in-out;
     transition: .2s .2s ease-in-out; }
   header {
-    background-color: #212121; }
+    background-color: #1f2021; }
     header .nav-mobile {
       height: 75px;
       position: relative; }
@@ -359,7 +359,7 @@
       transform: translateY(0);
       opacity: 1; }
   .my-resume {
-    background-color: #212121;
+    background-color: #1f2021;
     padding: 55px 0px 60px;
     text-align: center;
     position: relative; }
@@ -369,8 +369,8 @@
       color: #85898c;
       margin-bottom: 20px; }
     .my-resume .top-arrow {
-      width: 239px;
-      height: 39px;
+      width: 195px;
+      height: 32px;
       background-image: url("../img/arrow_top.png");
       background-repeat: no-repeat;
       background-position: center center;
@@ -396,12 +396,13 @@
           color: #85898c; }
   footer {
     text-align: center;
-    padding-top: 60px;
     background-color: #ffffff; }
+    footer .container {
+      padding: 60px 0px; }
     footer .nav-large {
       display: none; }
     footer .nav-mobile a {
-      color: #212121;
+      color: #1f2021;
       -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
       footer .nav-mobile a:hover {
@@ -426,13 +427,12 @@
         -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         footer ul.social-icons a:hover {
-          color: #212121; }
+          color: #1f2021; }
       footer ul.social-icons li {
         display: inline;
         padding: 0px 5px; }
     footer .copyright {
       background-color: #f5f5f5;
-      margin-top: 55px;
       padding: 20px;
       font-family: 'Proxima Nova', sans-serif;
       font-weight: 700;
@@ -530,56 +530,58 @@
       margin-right: auto; }
   .featured-projects {
     padding: 120px 0px 130px; }
-    .featured-projects .project-container {
+    .featured-projects .container {
       margin-top: 40px; }
   .my-resume {
     padding: 80px 0px; }
-  footer {
-    padding-top: 120px; }
-    footer .nav-mobile {
-      display: none; }
-    footer .nav-large {
+  footer .container {
+    padding: 120px 0px; }
+  footer .nav-mobile {
+    display: none; }
+  footer ul.social-icons {
+    font-size: 16px; }
+    footer ul.social-icons li {
+      padding: 0px 15px; }
+  footer .nav-large {
+    display: block;
+    margin-bottom: 40px; }
+    footer .nav-large ul {
+      list-style-type: none;
       display: block;
-      margin-bottom: 40px; }
-      footer .nav-large ul {
-        list-style-type: none;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        vertical-align: middle; }
-        footer .nav-large ul li {
-          display: inline-block;
-          padding: 13px 40px; }
-          footer .nav-large ul li a {
-            font-family: 'Proxima Nova', sans-serif;
-            font-weight: 700;
-            text-transform: uppercase;
-            font-size: 15px;
-            letter-spacing: .24em;
-            color: #212121;
-            -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-            transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-            footer .nav-large ul li a:hover {
-              color: #85898c; }
-          footer .nav-large ul li .btn {
-            font-family: 'Proxima Nova', sans-serif;
-            font-weight: 700;
-            text-transform: uppercase;
-            font-size: 13px;
-            letter-spacing: .24em; }
-          footer .nav-large ul li:first-child {
-            float: left;
-            padding: 0; }
-          footer .nav-large ul li:last-child {
-            float: right;
-            padding: 0; }
-      footer .nav-large .logo {
-        width: 66px;
-        height: 51px; }
-    footer .copyright {
-      margin-top: 120px;
-      padding: 40px 0px;
-      font-weight: 600; } }
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: middle; }
+      footer .nav-large ul li {
+        display: inline-block;
+        padding: 13px 40px; }
+        footer .nav-large ul li a {
+          font-family: 'Proxima Nova', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 15px;
+          letter-spacing: .24em;
+          color: #1f2021;
+          -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+          footer .nav-large ul li a:hover {
+            color: #85898c; }
+        footer .nav-large ul li .btn {
+          font-family: 'Proxima Nova', sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 13px;
+          letter-spacing: .24em; }
+        footer .nav-large ul li:first-child {
+          float: left;
+          padding: 0; }
+        footer .nav-large ul li:last-child {
+          float: right;
+          padding: 0; }
+    footer .nav-large .logo {
+      width: 66px;
+      height: 51px; }
+  footer .copyright {
+    padding: 40px 0px; } }
 
 /* 1200px+ */
 /* 1400px+ */
