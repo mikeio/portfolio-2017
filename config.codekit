@@ -93,6 +93,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/arrow_top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16194,
+		"inputAbbreviatedPath": "\/img\/arrow_top.png",
+		"outputAbbreviatedPath": "\/img\/arrow_top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/books.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -100,6 +111,17 @@
 		"initialSize": 130158,
 		"inputAbbreviatedPath": "\/img\/books.png",
 		"outputAbbreviatedPath": "\/img\/books.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/books@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130109,
+		"inputAbbreviatedPath": "\/img\/books@2x.png",
+		"outputAbbreviatedPath": "\/img\/books@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

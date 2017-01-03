@@ -43,7 +43,7 @@
 
 /* 0px+ */
 @media screen {
-  .div {
+  div {
     border: 1px solid red; }
   .row {
     padding-right: 0.625rem;
@@ -116,7 +116,7 @@
     border-width: 2px;
     border-style: solid;
     border-radius: 100px;
-    padding: 15px 30px 12px;
+    padding: 14px 30px 12px;
     margin-bottom: 0;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;

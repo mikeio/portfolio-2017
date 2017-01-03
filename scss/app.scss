@@ -9,7 +9,7 @@ $gray: #878a8c;
 /* 0px+ */
 @media screen {
 
-	.div { border: 1px solid red;}
+	div { border: 1px solid red;}
 
 	.row {
     	padding-right: 0.625rem;
@@ -95,7 +95,7 @@ $gray: #878a8c;
 		border-width: 2px;
 		border-style: solid;
 		border-radius: 100px;
-		padding: 15px 30px 12px;
+		padding: 14px 30px 12px;
 		margin-bottom: 0;
 		
 		display: inline-flex;
