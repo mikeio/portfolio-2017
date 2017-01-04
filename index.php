@@ -26,9 +26,13 @@
 
 
     <div class="overlay">
-      <div class="container">
-        <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
-      </div>
+
+        <div class="row">
+          <div class="large-12 columns">
+            <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
+          </div>
+        </div>
+
     </div>
 
 
@@ -51,17 +55,17 @@
             </button>
           </div>
         </div>
-        </div>
+      </div>
       
       <div class="nav-large">
         <div class="row">
           <div class="large-12 columns">
+            <img src="img/logo.svg" class="logo">
+            <a class="btn btn-dark" href="#">Let's Talk</a>
             <ul>
-              <li><img src="img/logo.svg" class="logo"></li>
               <li><a href="#about">About Me</a></li>
               <li><a href="#featured">Featured Projects</a></li>
               <li><a href="#resume">My Resume</a></li>
-              <li><a class="btn btn-dark" href="#">Let's Talk</a></li>
             </ul>
           </div>
         </div>
@@ -156,7 +160,7 @@
   
         </div>
   
-        <div class="row" id="hidden">
+        <div class="row" id="show-more">
   
           <div class="large-6 columns">
             <figure class="project-list">
@@ -202,13 +206,13 @@
             </figure>
           </div>
         </div>
-  
-        <div class="row">
-          <div class="large-12 columns">
-            <a class="btn btn-light" id="view-all">View All Projects</a>
-          </div>
-        </div>
 
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <a class="btn btn-light" id="view-all">View All Projects</a>
+        </div>
       </div>
 
     </section>
@@ -236,12 +240,12 @@
       <div class="container">
         
         <div class="nav-footer">
-          
           <div class="row">
             <div class="large-12 columns">
+              <img src="img/logo-alt.svg" class="logo">
+              <a class="btn btn-light" href="#">Let's Talk</a>
               <ul>
-                <li class="logo"><img src="img/logo-alt.svg"></li>
-                <li class="home"><a href="/">Home</a></li>
+                <li><a href="#about">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#featured">Featured Projects</a></li>
                 <li><a href="#resume">My Resume</a></li>
@@ -249,7 +253,6 @@
               </ul>
             </div>
           </div>
-
         </div>
   
         <div class="row">
@@ -312,7 +315,7 @@
       // Toggle Overlay
       $(document).ready(function() {
           $(".nav-toggle").click(function() {
-              $("#logo").fadeToggle();
+              $(".logo").fadeToggle();
               $('body').toggleClass('no-scroll');
               $(this).toggleClass('nav-open');
               $( ".overlay" ).fadeToggle();
@@ -322,7 +325,7 @@
       // Toggle Projects
       $(document).ready(function(){
           $("#view-all").click(function(){
-              $("#hidden").slideToggle(1000);
+              $("#show-more").slideToggle(1000);
           });
       });
       
