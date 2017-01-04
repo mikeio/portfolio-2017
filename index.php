@@ -41,7 +41,7 @@
       <div class="nav-mobile">
         <div class="row">
           <div class="large-12 columns">
-            <img src="img/logo.svg" class="logo">
+            <a href="/"><img src="img/logo.svg" class="logo"></a>
             <button type="button" class="nav-toggle" aria-label="toggle navigation">
             <span class="nav-label">Menu</span>
             <span class="nav-svg">
@@ -60,8 +60,8 @@
       <div class="nav-large">
         <div class="row">
           <div class="large-12 columns">
-            <img src="img/logo.svg" class="logo">
-            <a class="btn btn-dark" href="#">Let's Talk</a>
+            <a href="/"><img src="img/logo.svg" class="logo"></a>
+            <a class="btn btn-dark" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a>
             <ul>
               <li><a href="#about">About Me</a></li>
               <li><a href="#featured">Featured Projects</a></li>
@@ -211,7 +211,7 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <a class="btn btn-light" id="view-all">View All Projects</a>
+          <a class="btn btn-light" id="view-all">View More</a>
         </div>
       </div>
 
@@ -242,14 +242,14 @@
         <div class="nav-footer">
           <div class="row">
             <div class="large-12 columns">
-              <img src="img/logo-alt.svg" class="logo">
-              <a class="btn btn-light" href="#">Let's Talk</a>
+              <a href="/"><img src="img/logo-alt.svg" class="logo"></a>
+              <a class="btn btn-light" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a>
               <ul>
                 <li><a href="#about">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#featured">Featured Projects</a></li>
                 <li><a href="#resume">My Resume</a></li>
-                <li><a class="btn btn-light" href="#">Let's Talk</a></li>
+                <li><a class="btn btn-light" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
               </ul>
             </div>
           </div>
@@ -311,48 +311,8 @@
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
 
-    <script>
-      // Toggle Overlay
-      $(document).ready(function() {
-          $(".nav-toggle").click(function() {
-              $(".logo").fadeToggle();
-              $('body').toggleClass('no-scroll');
-              $(this).toggleClass('nav-open');
-              $( ".overlay" ).fadeToggle();
-          });
-      });
-      
-      // Toggle Projects
-      $(document).ready(function(){
-          $("#view-all").click(function(){
-              $("#show-more").slideToggle(1000);
-          });
-      });
-      
-      $(function(){
-         $("#view-all").click(function () {
-            $(this).text(function(i, text){
-                return text === "View All Projects" ? "View Less" : "View All Projects";
-            })
-         });
-      })
-      
-      //Smooth Scroll
-      $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html, body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-  </script>
+    <!-- Custom Scripts -->
+    <script src="js/scripts.js"></script>
 
   </body>
 </html>

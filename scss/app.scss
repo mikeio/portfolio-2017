@@ -423,14 +423,20 @@ $gray: #878a8c;
   			a {
   				font-size: 1.5em;
   				line-height: 1;
-  				padding: 10px 10px 0px;
   				color: lighten($gray, 25);
+
   				-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 				transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
 				position: absolute;
 				bottom: 0;
 				left: 50%;
   				transform: translate(-50%,0);
+
+  				display: block;
+    			width: 50%;
+    			height: 100%;
+    			line-height: 1.9;
 
   				&:hover {
   					color: $gray;
