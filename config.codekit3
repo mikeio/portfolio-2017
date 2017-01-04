@@ -304,6 +304,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/scripts.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/scripts-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/vendor\/foundation.js": {
 		"ft": 64,
 		"mi": 1,
