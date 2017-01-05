@@ -92,8 +92,6 @@
     padding: 17px 30px 15px;
     margin-bottom: 0;
     line-height: 1;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
     overflow: hidden;
@@ -108,10 +106,8 @@
       width: 0%;
       left: 0;
       top: 0;
-      -webkit-transform: skew(-50deg);
-              transform: skew(-50deg);
-      -webkit-transform-origin: top left;
-              transform-origin: top left;
+      transform: skew(-50deg);
+      transform-origin: top left;
       -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .btn:hover::before, .btn:hover::after {
@@ -134,8 +130,7 @@
   .no-scroll {
     position: fixed;
     left: 50%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     width: 100%;
     overflow-y: scroll; }
   .overlay {
@@ -207,8 +202,7 @@
       header .nav-mobile .row {
         position: relative;
         top: 50%;
-        -webkit-transform: translateY(-50%);
-                transform: translateY(-50%); }
+        transform: translateY(-50%); }
       header .nav-mobile .logo {
         width: 56px;
         height: 44px;
@@ -240,6 +234,7 @@
       max-width: 320px;
       position: relative;
       -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
       transform: translate(0%, -50%); }
     .about-me h1 {
       margin-bottom: 16px;
@@ -258,8 +253,8 @@
     text-align: center; }
     .featured-projects h4 {
       margin-bottom: 0.625rem; }
-    .featured-projects .container {
-      margin-bottom: 30px; }
+    .featured-projects .btn {
+      margin-top: 30px; }
     .featured-projects .project-list {
       font-family: 'Source Sans Pro', sans-serif;
       position: relative;
@@ -271,34 +266,25 @@
       z-index: 1;
       border-radius: 5px; }
     .featured-projects .project-list * {
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .featured-projects .project-list img {
       vertical-align: top;
       max-width: 100%;
-      -webkit-backface-visibility: hidden;
-              backface-visibility: hidden; }
+      backface-visibility: hidden; }
     .featured-projects .project-list figcaption {
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       z-index: 1;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      align-items: center;
       bottom: 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      flex-direction: column;
+      justify-content: center;
       background-color: rgba(0, 0, 0, 0.8); }
     .featured-projects .project-list h1,
     .featured-projects .project-list h4,
@@ -357,8 +343,7 @@
       position: absolute;
       bottom: 0;
       left: 50%;
-      -webkit-transform: translate(-50%, 0);
-              transform: translate(-50%, 0); }
+      transform: translate(-50%, 0); }
       .my-resume .top-arrow a {
         font-size: 1.5em;
         line-height: 1;
@@ -368,8 +353,7 @@
         position: absolute;
         bottom: 0;
         left: 50%;
-        -webkit-transform: translate(-50%, 0);
-                transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
         display: block;
         width: 50%;
         height: 100%;
@@ -400,8 +384,6 @@
           footer .nav-footer ul li:last-child {
             padding-bottom: 0; }
           footer .nav-footer ul li .btn {
-            display: -webkit-inline-box;
-            display: -ms-inline-flexbox;
             display: inline-flex; }
           footer .nav-footer ul li a {
             color: #2b2d2e;
@@ -454,8 +436,7 @@
     header .nav-large .row {
       position: relative;
       top: 50%;
-      -webkit-transform: translateY(-50%);
-              transform: translateY(-50%); }
+      transform: translateY(-50%); }
     header .nav-large .logo {
       width: 65px;
       height: 50px;
@@ -517,8 +498,8 @@
     padding: 120px 0px 130px; }
     .featured-projects h4 {
       margin-bottom: 1.250rem; }
-    .featured-projects .container {
-      margin: 0px auto 60px; }
+    .featured-projects .btn {
+      margin-top: 60px; }
     .featured-projects .project-list {
       margin-top: 30px; }
   .my-resume {
@@ -544,8 +525,6 @@
     footer .nav-footer .btn {
       font-weight: 700;
       font-size: 13px;
-      display: -webkit-inline-box;
-      display: -ms-inline-flexbox;
       display: inline-flex;
       float: right; }
     footer .nav-footer ul {
