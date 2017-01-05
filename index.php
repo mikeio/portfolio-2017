@@ -109,104 +109,99 @@
         </div>
       </div>
 
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1000/600/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1001/601/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1002/602/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1003/603/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-        </div>
-  
-        <div class="row" id="show-more">
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1000/600/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1001/601/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1002/602/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
-  
-          <div class="large-6 columns">
-            <figure class="project-list">
-              <img src="https://unsplash.it/1003/603/?random">
-              <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-          </div>
+      <div class="row container">
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1000/600/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
         </div>
 
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1001/601/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1002/602/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1003/603/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+      </div>
+
+      <div class="row" id="show-more">
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1000/600/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1001/601/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1002/602/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+
+        <div class="large-6 columns">
+          <figure class="project-list">
+            <img src="https://unsplash.it/1003/603/?random">
+            <figcaption>
+              <h1>Project Title</h1>
+              <h4>Subtitle</h4>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        
       </div>
 
       <div class="row">
