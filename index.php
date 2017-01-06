@@ -45,11 +45,12 @@
             <button type="button" class="nav-toggle" aria-label="toggle navigation">
             <span class="nav-label">Menu</span>
             <span class="nav-svg">
-              <svg width="54" height="54" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 524.5 2000 2000.5" enable-background="new 0 524.5 2000 2000.5" xml:space="preserve" stroke-linecap="round">
-                <path class="x" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1235.2H589.3"/>
-                <path class="x" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1815H589.3"/>
-                <path class="yy" fill="none" stroke="#000000" stroke-miterlimit="10" d="M1410.5,1524.7c0,0-821.2,0-821.2,0c-211.3,0-260,98-218.2,217.6l0,0.1c90.1,260.7,337.6,447.9,628.9,447.9c367.4,0,665.2-297.8,665.2-665.2c0-79-13.8-154.8-39.1-225.2"/>
-                <path class="yy" fill="none" stroke="#000000" stroke-miterlimit="10" d="M589.3,1524.7c0,0,821.2,0,821.2,0c211.3,0,260-98,218.2-217.6l0-0.1c-90.1-260.7-337.6-447.9-628.9-447.9c-367.4,0-665.2,297.8-665.2,665.2c0,79,13.8,154.8,39.1,225.2"/>
+              <svg version="1.1" id="hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+                <style type="text/css">.x,.yy{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}</style>
+                <g><path class="x" d="M31.4,12H8.6"/></g>
+                <g><path class="x" d="M31.4,28.1H8.6"/></g>
+                <path class="yy" d="M31.4,20H8.6c-5.9,0-7.2,2.7-6.1,6v0C5,33.3,11.9,38.5,20,38.5c10.2,0,18.5-8.3,18.5-18.5c0-2.2-0.4-4.3-1.1-6.3"/>
+                <path class="yy" d="M8.6,20h22.8c5.9,0,7.2-2.7,6.1-6v0C35,6.7,28.1,1.5,20,1.5C9.8,1.5,1.5,9.8,1.5,20c0,2.2,0.4,4.3,1.1,6.3"/>
               </svg>
             </span>
             </button>
