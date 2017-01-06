@@ -309,6 +309,8 @@
 
     <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.0/velocity.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.4.0/velocity.ui.min.js"></script>
 
   </body>
 </html>
