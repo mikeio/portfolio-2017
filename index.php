@@ -24,17 +24,61 @@
   </head>
   <body>
 
-
     <div class="overlay">
 
-        <div class="row">
-          <div class="large-12 columns">
-            <p>Donec lobortis pretium leo et laoreet. Praesent quis commodo neque. Pellentesque ante nulla, feugiat a magna quis, sagittis vehicula eros. Curabitur finibus arcu vitae neque pulvinar, sit amet consequat ligula pharetra. Cras sed mi feugiat, fringilla ex a, viverra odio. Nullam sodales consequat mauris, a vulputate dui fermentum aliquam. Nunc et ligula dignissim massa placerat malesuada sit amet eu magna. Proin feugiat lacus non porta molestie. Curabitur imperdiet venenatis nulla, a bibendum sapien semper eget. Etiam eleifend, mi a fermentum ultricies, eros quam tincidunt erat, id pharetra nisl tortor eget nunc. Vestibulum rhoncus libero ac posuere ultrices. Phasellus elementum velit nec quam mattis, nec semper neque ornare. Suspendisse potenti. Suspendisse vel risus sed elit mattis congue. Ut vestibulum sapien nec nisl euismod tincidunt.</p>
-          </div>
+      <div class="row">
+        <div class="large-12 columns">
+
+          <h4>Navigation</h4>
+          <nav>
+            <ul class="overlay-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/#about">About Me</a></li>
+              <li><a href="/#featured">Featured Projects</a></li>
+              <li><a href="/#resume">My Resume</a></li>
+              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
+            </ul>
+          </nav>
+
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.facebook.com/mike.peters.94">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mikeio_/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mikepetersio">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/mikeio">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+
         </div>
-
+      </div>
+      
     </div>
-
 
     <header id="top">
 

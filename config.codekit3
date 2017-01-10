@@ -44,7 +44,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/css\/app-min.css",
 		"oF": 0,
 		"oS": 0
@@ -299,6 +299,12 @@
 		"plM": 3758088159,
 		"prP": 1
 		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
 	"\/js\/app.js": {
 		"ft": 64,
 		"mi": 1,
@@ -306,6 +312,15 @@
 		"oAP": "\/js\/min\/app-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scripts.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/scripts-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/vendor\/foundation.js": {

@@ -44,7 +44,7 @@
 /* 0px+ */
 @media screen {
   /* DEBUGGING START */
-  div {
+  .div {
     border: 1px solid red; }
   /* DEBUGGING END */
   .row {
@@ -135,16 +135,96 @@
     overflow-y: scroll; }
   .overlay {
     position: fixed;
+    background: #1f2021;
     top: 0;
-    z-index: 3;
-    display: none;
-    overflow: auto;
+    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: #1f2021;
-    color: #ffffff;
-    padding-top: 75px;
-    will-change: display; }
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .overlay h4 {
+      color: #ffffff;
+      text-align: center; }
+    .overlay nav {
+      position: relative;
+      text-align: center;
+      margin-top: 60px; }
+      .overlay nav ul.overlay-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: inline-block;
+        position: relative;
+        height: 100%; }
+        .overlay nav ul.overlay-nav li {
+          display: block;
+          position: relative;
+          opacity: 0;
+          margin-bottom: 30px; }
+          .overlay nav ul.overlay-nav li a {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.250rem;
+            letter-spacing: .24em;
+            color: #878a8c;
+            z-index: 2;
+            position: relative;
+            line-height: 1.4; }
+            .overlay nav ul.overlay-nav li a:hover, .overlay nav ul.overlay-nav li a:focus, .overlay nav ul.overlay-nav li a:active {
+              color: #ffffff; }
+    .overlay ul.social-icons {
+      margin: 0;
+      font-size: 15px;
+      display: block;
+      text-align: center; }
+      .overlay ul.social-icons li {
+        display: inline;
+        padding: 0px 5px;
+        opacity: 0; }
+        .overlay ul.social-icons li a {
+          color: #484a4b;
+          -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+          .overlay ul.social-icons li a:hover {
+            color: #878a8c; }
+  .overlay.open {
+    opacity: 1;
+    visibility: visible;
+    height: 100vh; }
+    .overlay.open ul.overlay-nav li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .35s; }
+      .overlay.open ul.overlay-nav li:nth-of-type(2) {
+        animation-delay: .4s; }
+      .overlay.open ul.overlay-nav li:nth-of-type(3) {
+        animation-delay: .45s; }
+      .overlay.open ul.overlay-nav li:nth-of-type(4) {
+        animation-delay: .50s; }
+      .overlay.open ul.overlay-nav li:nth-of-type(5) {
+        animation-delay: .55s; }
+    .overlay.open ul.social-icons li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .60s; }
+      .overlay.open ul.social-icons li:nth-of-type(2) {
+        animation-delay: .65s; }
+      .overlay.open ul.social-icons li:nth-of-type(3) {
+        animation-delay: .70s; }
+      .overlay.open ul.social-icons li:nth-of-type(4) {
+        animation-delay: .75s; }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      left: 20%; }
+    100% {
+      opacity: 1;
+      left: 0; } }
   .nav-toggle {
     width: 40px;
     height: 40px;
