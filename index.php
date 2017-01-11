@@ -43,34 +43,22 @@
           <ul class="social-icons">
             <li>
               <a href="https://www.facebook.com/mike.peters.94">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
+                  <i class="fa fa-facebook"></i>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/mikeio_/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
+                  <i class="fa fa-instagram"></i>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/mikepetersio">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
+                  <i class="fa fa-linkedin"></i>
               </a>
             </li>
             <li>
               <a href="https://github.com/mikeio">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
-                </span>
+                  <i class="fa fa-github-alt"></i>
               </a>
             </li>
           </ul>

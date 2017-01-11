@@ -14,7 +14,7 @@ $(document).ready(function() {
       $(this).toggleClass('nav-open');
       $('.overlay').toggleClass('open');
       $('body').toggleClass('no-scroll');
-      $(".logo").fadeToggle();
+      $(".logo").fadeToggle(350);
   });
 });
 
@@ -23,9 +23,10 @@ $(document).ready(function() {
       $('.nav-toggle').toggleClass('nav-open');
       $('.overlay').toggleClass('open');
       $('body').toggleClass('no-scroll');
-      $(".logo").fadeToggle();
+      $(".logo").fadeToggle(350);
   });
 });
+
 
 // View More/Less Projects
 $(document).ready(function(){

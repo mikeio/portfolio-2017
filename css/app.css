@@ -181,19 +181,19 @@
               color: #ffffff; }
     .overlay ul.social-icons {
       margin: 0;
-      font-size: 15px;
+      font-size: 22px;
       display: block;
       text-align: center; }
       .overlay ul.social-icons li {
         display: inline;
-        padding: 0px 5px;
+        padding: 0px 15px;
         opacity: 0; }
         .overlay ul.social-icons li a {
           color: #484a4b;
           -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           .overlay ul.social-icons li a:hover {
-            color: #878a8c; }
+            color: #ffffff; }
   .overlay.open {
     opacity: 1;
     visibility: visible;
