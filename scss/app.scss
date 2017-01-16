@@ -4,6 +4,7 @@ $black: #1f2021;
 $white: #ffffff;
 $whitesmoke: #f5f5f5;
 $gray: #878a8c;
+$custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
 
 /* 0px+ */
@@ -72,8 +73,7 @@ $gray: #878a8c;
 		position: relative;
 		overflow: hidden;
 		z-index: 1;
-		-webkit-transition: all .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-		transition: all .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+		transition: all .3s $custom-transition;
   
 		&::before,
 		&::after {
@@ -86,8 +86,7 @@ $gray: #878a8c;
 			top: 0;
 			transform: skew(-50deg);
 			transform-origin: top left;
-			-webkit-transition: all .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-			transition: all .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+			transition: all .3s $custom-transition;
 		}
   
 		&:hover {
@@ -160,7 +159,7 @@ $gray: #878a8c;
 		nav {
 			position: relative;
 			text-align: center;
-			margin-top: 60px;
+			margin-top: 40px;
 	
 			ul.overlay-nav {
 				list-style: none;
@@ -180,7 +179,7 @@ $gray: #878a8c;
 						font-family: 'Proxima Nova', sans-serif;
 						font-weight: 700;
 						text-transform: uppercase;
-						font-size: 1.250rem;
+						font-size: 1.125rem;
 						letter-spacing: .24em;
 						color: $gray;
 						z-index: 2;
@@ -210,8 +209,7 @@ $gray: #878a8c;
 
 				a {
 					color: darken($gray, 25%);
-					-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-					transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+					transition: all .2s $custom-transition;
 
 					&:hover {
 						color: $white;
@@ -459,8 +457,7 @@ $gray: #878a8c;
 		.project-list * {
 			-webkit-box-sizing: border-box;
 			box-sizing: border-box;
-			-webkit-transition: all .4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-			transition: all .4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+			transition: all .4s $custom-transition;
 		}
 		
 		.project-list img {
@@ -567,8 +564,7 @@ $gray: #878a8c;
   				line-height: 1;
   				color: lighten($gray, 25);
 
-  				-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-				transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+				transition: all .2s $custom-transition;
 
 				position: absolute;
 				bottom: 0;
@@ -627,8 +623,7 @@ $gray: #878a8c;
 
 					a {
 						color: lighten($black, 5%);
-						-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-						transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+						transition: all .2s $custom-transition;
 
 						&:hover {
 							color: $gray;
@@ -640,7 +635,7 @@ $gray: #878a8c;
 
 		ul.social-icons {
 			margin: 0px;
-			font-size: 15px;
+			font-size: 14px;
 			display: inline-block;
 
 			li { 
@@ -649,8 +644,7 @@ $gray: #878a8c;
 
 				a {
 					color: lighten($gray, 10%);
-					-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-					transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+					transition: all .2s $custom-transition;
 
 					&:hover {
 						color: $black;
@@ -749,8 +743,7 @@ $gray: #878a8c;
 						font-size: 15px;
 						letter-spacing: .24em;
 						color: $white;
-						-webkit-transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-						transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+						transition: all .2s $custom-transition;
 
 						&:hover {
 							color: $gray;
@@ -834,11 +827,11 @@ $gray: #878a8c;
 
 		.copyright {
 			font-size: 14px;
-			padding: 40px 0px;
+			padding: 30px 0px;
 		}
 
 		ul.social-icons {
-			font-size: 16px;
+			font-size: 15px;
 
 			li { 
 				padding: 0px 12px;

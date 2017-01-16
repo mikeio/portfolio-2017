@@ -96,7 +96,6 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
     transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .btn::before, .btn::after {
       content: '';
@@ -108,7 +107,6 @@
       top: 0;
       transform: skew(-50deg);
       transform-origin: top left;
-      -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .btn:hover::before, .btn:hover::after {
       width: 131%; }
@@ -154,7 +152,7 @@
     .overlay nav {
       position: relative;
       text-align: center;
-      margin-top: 60px; }
+      margin-top: 40px; }
       .overlay nav ul.overlay-nav {
         list-style: none;
         padding: 0;
@@ -171,7 +169,7 @@
             font-family: 'Proxima Nova', sans-serif;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 1.250rem;
+            font-size: 1.125rem;
             letter-spacing: .24em;
             color: #878a8c;
             z-index: 2;
@@ -190,7 +188,6 @@
         opacity: 0; }
         .overlay ul.social-icons li a {
           color: #484a4b;
-          -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           .overlay ul.social-icons li a:hover {
             color: #ffffff; }
@@ -350,7 +347,6 @@
     .featured-projects .project-list * {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .featured-projects .project-list img {
       vertical-align: top;
@@ -430,7 +426,6 @@
         font-size: 1.5em;
         line-height: 1;
         color: #c8c9ca;
-        -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         position: absolute;
         bottom: 0;
@@ -469,20 +464,18 @@
             display: inline-flex; }
           footer .nav-footer ul li a {
             color: #2b2d2e;
-            -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
             transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
             footer .nav-footer ul li a:hover {
               color: #878a8c; }
     footer ul.social-icons {
       margin: 0px;
-      font-size: 15px;
+      font-size: 14px;
       display: inline-block; }
       footer ul.social-icons li {
         display: inline;
         padding: 0px 5px; }
         footer ul.social-icons li a {
           color: #a1a3a5;
-          -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           footer ul.social-icons li a:hover {
             color: #1f2021; }
@@ -546,7 +539,6 @@
           font-size: 15px;
           letter-spacing: .24em;
           color: #ffffff;
-          -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           header .nav-large ul li a:hover {
             color: #878a8c; }
@@ -592,9 +584,9 @@
     padding: 120px 0px 80px; }
   footer .copyright {
     font-size: 14px;
-    padding: 40px 0px; }
+    padding: 30px 0px; }
   footer ul.social-icons {
-    font-size: 16px; }
+    font-size: 15px; }
     footer ul.social-icons li {
       padding: 0px 12px; }
   footer .nav-footer {
