@@ -278,15 +278,32 @@
       height: 75px;
       position: relative;
       z-index: 4; }
-      header .nav-header .btn {
-        display: none; }
       header .nav-header ul {
-        display: none; }
+        list-style-type: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 800px; }
+        header .nav-header ul li {
+          display: inline-block;
+          height: 50px;
+          line-height: 50px; }
+          header .nav-header ul li:nth-child(2) {
+            padding: 0px 80px; }
+          header .nav-header ul li a {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 15px;
+            letter-spacing: .24em;
+            color: #ffffff;
+            transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+            header .nav-header ul li a:hover {
+              color: #878a8c; }
       header .nav-header .logo {
         width: 56px;
         height: 44px;
-        float: left;
-        margin-top: 2px; }
+        float: left; }
       header .nav-header .columns {
         position: relative;
         top: 50%;
@@ -447,9 +464,6 @@
     footer .nav-footer {
       margin-bottom: 25px;
       position: relative; }
-      footer .nav-footer .logo,
-      footer .nav-footer .btn {
-        display: none; }
       footer .nav-footer ul {
         margin: 0; }
         footer .nav-footer ul li {
@@ -460,10 +474,10 @@
           font-size: 15px;
           letter-spacing: .24em;
           padding-bottom: 20px; }
-          footer .nav-footer ul li:last-child {
+          footer .nav-footer ul li:nth-of-type(1) {
+            display: none; }
+          footer .nav-footer ul li:nth-of-type(6) {
             padding-bottom: 0; }
-          footer .nav-footer ul li .btn {
-            display: inline-flex; }
           footer .nav-footer ul li a {
             color: #2b2d2e;
             transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
@@ -507,37 +521,10 @@
     margin-right: auto; }
   header .nav-header {
     height: 125px; }
-    header .nav-header .nav-toggle {
-      display: none; }
     header .nav-header .logo {
       width: 65px;
       height: 50px;
       margin-top: 0; }
-    header .nav-header .btn {
-      float: right;
-      display: block; }
-    header .nav-header ul {
-      list-style-type: none;
-      display: block;
-      margin: 0 auto;
-      text-align: center;
-      max-width: 800px; }
-      header .nav-header ul li {
-        display: inline-block;
-        height: 50px;
-        line-height: 50px; }
-        header .nav-header ul li:nth-child(2) {
-          padding: 0px 80px; }
-        header .nav-header ul li a {
-          font-family: 'Proxima Nova', sans-serif;
-          font-weight: 600;
-          text-transform: uppercase;
-          font-size: 15px;
-          letter-spacing: .24em;
-          color: #ffffff;
-          transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-          header .nav-header ul li a:hover {
-            color: #878a8c; }
   header .intro {
     margin: 80px 0px 180px;
     padding: 40px 0px;
@@ -587,11 +574,6 @@
       padding: 0px 12px; }
   footer .nav-footer {
     margin-bottom: 40px; }
-    footer .nav-footer .logo {
-      width: 65px;
-      height: 50px;
-      display: block;
-      float: left; }
     footer .nav-footer .btn {
       font-weight: 700;
       font-size: 13px;
@@ -601,17 +583,28 @@
       list-style-type: none;
       display: block;
       margin: 0 auto;
-      text-align: center;
-      max-width: 800px; }
+      text-align: center; }
       footer .nav-footer ul li {
         display: inline-block;
         height: 50px;
         line-height: 50px;
         padding-bottom: 0; }
-        footer .nav-footer ul li:first-child, footer .nav-footer ul li:last-child {
+        footer .nav-footer ul li .logo {
+          width: 65px;
+          height: 50px;
+          display: block;
+          float: left; }
+        footer .nav-footer ul li:nth-of-type(1) {
+          display: inline-block;
+          position: absolute;
+          left: 30px; }
+        footer .nav-footer ul li:nth-of-type(2) {
           display: none; }
-        footer .nav-footer ul li:nth-child(3) {
-          padding: 0px 80px; } }
+        footer .nav-footer ul li:nth-of-type(4) {
+          padding: 0px 80px; }
+        footer .nav-footer ul li:nth-of-type(6) {
+          position: absolute;
+          right: 30px; } }
 
 /* 1200px+ */
 /* 1400px+ */
