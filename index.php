@@ -70,11 +70,11 @@
 
     <header id="top">
 
-      <div class="nav-mobile">
-        <div class="row">
-          <div class="large-12 columns">
-            <a href="/"><img src="img/logo.svg" class="logo"></a>
-            <button type="button" class="nav-toggle" aria-label="toggle navigation">
+      <div class="row nav-header">
+        <div class="large-12 columns">
+          <a href="/"><img src="img/logo.svg" class="logo"></a>
+          <a class="btn btn-dark" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a>
+          <button type="button" class="nav-toggle" aria-label="toggle navigation">
             <span class="nav-label">Menu</span>
             <span class="nav-svg">
               <svg version="1.1" id="hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
@@ -85,22 +85,12 @@
                 <path class="yy" d="M8.6,20h22.8c5.9,0,7.2-2.7,6.1-6v0C35,6.7,28.1,1.5,20,1.5C9.8,1.5,1.5,9.8,1.5,20c0,2.2,0.4,4.3,1.1,6.3"/>
               </svg>
             </span>
-            </button>
-          </div>
-        </div>
-      </div>
-      
-      <div class="nav-large">
-        <div class="row">
-          <div class="large-12 columns">
-            <a href="/"><img src="img/logo.svg" class="logo"></a>
-            <a class="btn btn-dark" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a>
-            <ul>
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#featured">Featured Projects</a></li>
-              <li><a href="#resume">My Resume</a></li>
-            </ul>
-          </div>
+          </button>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#featured">Featured Projects</a></li>
+            <li><a href="#resume">My Resume</a></li>
+          </ul>
         </div>
       </div>
 
@@ -267,8 +257,7 @@
 
       <div class="container">
         
-        <div class="nav-footer">
-          <div class="row">
+          <div class="row nav-footer">
             <div class="large-12 columns">
               <a href="/"><img src="img/logo-alt.svg" class="logo"></a>
               <a class="btn btn-light" href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a>
@@ -281,7 +270,6 @@
               </ul>
             </div>
           </div>
-        </div>
   
         <div class="row">
           <div class="large-12 columns">

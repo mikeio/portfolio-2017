@@ -11,7 +11,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 @media screen {
 
 	/* DEBUGGING START */
-	.div { border: 1px solid red; }	
+	div, section { border: 1px solid red; }	
 	/* DEBUGGING END */
 
 	.row {
@@ -352,27 +352,31 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 	header {
 		background-color: $black;
 
-		.nav-mobile {
+		.nav-header {
 			height: 75px;
 			position: relative;
 			z-index: 4;
 
-			.row {
-				position: relative;
-    			top: 50%;
-    			transform: translateY(-50%);
+			.btn {
+				display: none;
+			}
+
+			ul {
+				display: none;
 			}
 
 			.logo {
 				width: 56px;
 				height: 44px;
 				float: left;
-				margin-top: 4px;
+				margin-top: 2px;
 			}
-		}
 
-		.nav-large {
-			display: none;
+			.columns {
+				position: relative;
+    			top: 50%;
+    			transform: translateY(-50%);
+			}
 		}
 
 		.intro {
@@ -694,30 +698,22 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
 	header {
 
-		.nav-mobile {
-			display: none;
-		}
-
-		.nav-large {
+		.nav-header {
 			height: 125px;
-			display: block;
 
-			.row {
-				position: relative;
-    			top: 50%;
-    			transform: translateY(-50%);
+			.nav-toggle {
+				display: none;
 			}
 
 			.logo {
 				width: 65px;
 				height: 50px;
-				float: left;
+				margin-top: 0;
 			}
 
 			.btn {
-    			font-weight: 700;
-    			font-size: 13px;
     			float: right;
+    			display: block;
 			}
 
 			ul {
