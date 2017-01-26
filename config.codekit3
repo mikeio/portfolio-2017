@@ -7,7 +7,7 @@
 		"uuidString": "298CABDE-327F-4370-8008-2FEA1827EC77"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -316,11 +316,11 @@
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/scripts-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/vendor\/foundation.js": {
@@ -1110,6 +1110,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1649,6 +1653,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
