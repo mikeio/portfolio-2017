@@ -44,7 +44,7 @@
 /* 0px+ */
 @media screen {
   /* DEBUGGING START */
-  .div, .section {
+  .div, .section, .li {
     border: 1px solid red; }
   /* DEBUGGING END */
   .row {

@@ -235,10 +235,10 @@
       bottom: 0,
       right: 0,
       overflow: 'hidden',
-      '-webkit-background-size': 'cover',
-      '-moz-background-size': 'cover',
-      '-o-background-size': 'cover',
-      'background-size': 'cover',
+      '-webkit-background-size': 'auto',
+      '-moz-background-size': 'auto',
+      '-o-background-size': 'auto',
+      'background-size': 'auto',
       'background-repeat': 'no-repeat',
       'background-position': position.x + ' ' + position.y
     });
