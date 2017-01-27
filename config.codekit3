@@ -308,9 +308,9 @@
 	"\/js\/app.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/min\/app-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -326,37 +326,46 @@
 	"\/js\/vendor\/foundation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/foundation-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/vendor\/foundation.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/foundation.min-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/vendor\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/jquery-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/vendor\/what-input.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/what-input-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/vidbg.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/js\/min\/vidbg-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/manifest.json": {
@@ -452,6 +461,24 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/video\/quote.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/quote.mp4",
+		"oF": 0
+		},
+	"\/video\/quote.ogv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/quote.ogv",
+		"oF": 0
+		},
+	"\/video\/quote.webm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/quote.webm",
+		"oF": 0
 		}
 	},
 "hooks": [

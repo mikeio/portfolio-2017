@@ -101,7 +101,7 @@
       <div class="row">
         <div class="large-12 columns">
 
-          <div class="intro">
+          <div class="intro" data-vidbg-bg="mp4: video/quote.mp4, webm: video/quote.webm, poster: video/quote.jpg" data-vidbg-options="loop: true, muted: true, overlay: false, resizing: false">
             <h4>Hello! My name is Mike&nbsp;Peters</h4>
             <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
           </div>
@@ -333,6 +333,7 @@
 
     <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
+    <script src="js/vidbg.js"></script>
 
   </body>
 </html>

@@ -11,7 +11,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 @media screen {
 
 	/* DEBUGGING START */
-	div, section { border: 1px solid red; }	
+	.div, .section { border: 1px solid red; }	
 	/* DEBUGGING END */
 
 	.row {
@@ -431,6 +431,10 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			margin-top: 40px;
 			margin-bottom: 135px;
 
+			video {
+				display: none;
+			}
+
 			h1 {
 				font-size: 2.5em;
 				color: $white;
@@ -784,13 +788,14 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		.intro {
 			margin: 80px 0px 180px;
 			padding: 40px 0px;
-			background-image: url('../img/quote.svg');
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: 376px 248px;
 			max-width: 840px;
 			margin-left: auto;
 			margin-right: auto;
+
+			video {
+				width: auto !important;
+				display: block;
+			}
 
 			h1 {
 				font-size: 3em;
