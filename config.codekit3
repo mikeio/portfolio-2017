@@ -462,6 +462,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/video\/quote.jpg": {
+		"ft": 16384,
+		"iS": 6770,
+		"oA": 0,
+		"oAP": "\/video\/quote.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/video\/quote.mp4": {
 		"ft": 8192,
 		"oA": 2,
