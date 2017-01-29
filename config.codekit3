@@ -7,7 +7,7 @@
 		"uuidString": "298CABDE-327F-4370-8008-2FEA1827EC77"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25479",
 "files": {
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -305,68 +305,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/js\/app.js": {
-		"ft": 64,
-		"mi": 1,
+	"\/js": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/js\/min\/app-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/scripts.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/min\/scripts-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/js\/vendor\/foundation.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/vendor\/min\/foundation-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/vendor\/foundation.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/vendor\/min\/foundation.min-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/vendor\/jquery.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/vendor\/min\/jquery-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/vendor\/what-input.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/vendor\/min\/what-input-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/vidbg.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "\/js\/min\/vidbg-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
+		"oAP": "\/build\/js",
+		"oF": 0
 		},
 	"\/manifest.json": {
 		"ft": 524288,
@@ -464,11 +407,11 @@
 		},
 	"\/video\/quote.jpg": {
 		"ft": 16384,
-		"iS": 6770,
+		"iS": 4342,
 		"oA": 0,
 		"oAP": "\/video\/quote.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/video\/quote.mp4": {
 		"ft": 8192,
@@ -1145,10 +1088,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1688,10 +1627,6 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
-			},
-		"prefer-destructuring": {
-			"active": 0,
-			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
@@ -2415,7 +2350,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/js",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

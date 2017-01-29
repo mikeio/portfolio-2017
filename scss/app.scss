@@ -252,18 +252,18 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		ul.social-icons {
 			li {
 				animation: fadeInRight .5s ease forwards;
-				animation-delay: .60s;
+				animation-delay: .75s;
 
 				&:nth-of-type(2) {
-					animation-delay: .65s;
+					animation-delay: .7s;
 				}
 		
 				&:nth-of-type(3) {
-					animation-delay: .70s;
+					animation-delay: .65s;
 				}
 		
 				&:nth-of-type(4) {
-					animation-delay: .75s;
+					animation-delay: .6s;
 				}
 			}
 		}
@@ -659,7 +659,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 					text-transform: uppercase;
 					font-size: 15px;
 					letter-spacing: .24em;
-					padding-bottom: 20px;
+					padding-bottom: 25px;
 
 					&:nth-of-type(1) {
 						display: none;
@@ -740,6 +740,10 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		margin-right: auto;
 	}
 
+	.overlay.open {
+		display: none;
+	}
+
 	header {
 
 		.nav-header {
@@ -748,6 +752,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			.logo {
 				width: 65px;
 				height: 50px;
+				display: block !important;
 			}
 
 			.btn {

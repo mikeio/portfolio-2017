@@ -1,25 +1,6 @@
 // Toggle Overlay
-// $(document).ready(function() {
-//     $(".nav-toggle").click(function() {
-//         $(".logo").fadeToggle();
-//         $('body').toggleClass('no-scroll');
-//         $(this).toggleClass('nav-open');
-//         $( ".overlay" ).fadeToggle();
-//     });
-// });
-
-// Overlay Navigation
 $(document).ready(function() {
-  $('.nav-toggle').on('click', function() {
-      $(this).toggleClass('nav-open');
-      $('.overlay').toggleClass('open');
-      $('body').toggleClass('no-scroll');
-      $(".logo").fadeToggle(350);
-  });
-});
-
-$(document).ready(function() {
-  $('.overlay a').on('click', function() {
+  $('.nav-toggle, .overlay a').on('click', function() {
       $('.nav-toggle').toggleClass('nav-open');
       $('.overlay').toggleClass('open');
       $('body').toggleClass('no-scroll');
@@ -27,21 +8,15 @@ $(document).ready(function() {
   });
 });
 
-
-// View More/Less Projects
+// Toggle Projects
 $(document).ready(function(){
     $("#view-all").click(function(){
         $("#show-more").slideToggle(1000);
-    });
-});
-
-$(function(){
-   $("#view-all").click(function () {
-      $(this).text(function(i, text){
+        $('#view-all').text(function(i, text){
           return text === "View More" ? "View Less" : "View More";
       })
-   });
-})
+    });
+});
 
 // Smooth Scroll
 $(function() {
@@ -58,3 +33,4 @@ $(function() {
     }
   });
 });
+

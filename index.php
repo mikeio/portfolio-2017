@@ -138,7 +138,7 @@
 
         <div class="row">
 
-          <div class="large-6 columns">
+          <div class="large-6 columns fadeInLeft">
             <figure class="project-list">
               <img src="https://unsplash.it/1000/600/?random">
               <figcaption>
@@ -149,7 +149,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="large-6 columns fadeInRight">
             <figure class="project-list">
               <img src="https://unsplash.it/1001/601/?random">
               <figcaption>
@@ -160,7 +160,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="large-6 columns fadeInLeft">
             <figure class="project-list">
               <img src="https://unsplash.it/1002/602/?random">
               <figcaption>
@@ -171,7 +171,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="large-6 columns fadeInRight">
             <figure class="project-list">
               <img src="https://unsplash.it/1003/603/?random">
               <figcaption>
@@ -334,6 +334,37 @@
     <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
     <script src="js/vidbg.js"></script>
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+        sr.reveal('.fadeInLeft', { 
+          mobile: false, 
+          viewFactor: 0.7, 
+          distance: '50px',
+          cale: 1, 
+          duration: 1950, 
+          delay: 250, 
+          origin: 'left', 
+          easing: 'cubic-bezier(.18,1,.21,1)' });
+        sr.reveal('.fadeInRight', { 
+          mobile: false, 
+          viewFactor: 0.7, 
+          distance: '50px',
+          cale: 1, 
+          duration: 1950, 
+          delay: 250, 
+          origin: 'right', 
+          easing: 'cubic-bezier(.18,1,.21,1)' });
+        sr.reveal('.fadeInTop', { 
+          mobile: false, 
+          viewFactor: 0.7, 
+          distance: '50px',
+          cale: 1, 
+          duration: 1950, 
+          delay: 250, 
+          origin: 'bottom', 
+          easing: 'cubic-bezier(.18,1,.21,1)' });
+    </script>
 
   </body>
 </html>
