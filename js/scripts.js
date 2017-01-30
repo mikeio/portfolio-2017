@@ -34,3 +34,31 @@ $(function() {
   });
 });
 
+window.sr = ScrollReveal();
+  sr.reveal('.fadeInLeft', { 
+    mobile: false, 
+    viewFactor: 0.5, 
+    distance: '30px',
+    scale: 1, 
+    duration: 1950, 
+    delay: 250, 
+    origin: 'left', 
+    easing: 'cubic-bezier(.18,1,.21,1)' });
+  sr.reveal('.fadeInRight', { 
+    mobile: false, 
+    viewFactor: 0.5, 
+    distance: '30px',
+    scale: 1, 
+    duration: 1950, 
+    delay: 250, 
+    origin: 'right', 
+    easing: 'cubic-bezier(.18,1,.21,1)' });
+  sr.reveal('.fadeInTop', { 
+    mobile: false, 
+    viewFactor: 0.5, 
+    distance: '30px',
+    scale: 1, 
+    duration: 1950, 
+    delay: 250, 
+    origin: 'bottom', 
+    easing: 'cubic-bezier(.18,1,.21,1)' });
