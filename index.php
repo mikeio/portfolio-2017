@@ -340,8 +340,8 @@
         sr.reveal('.fadeInLeft', { 
           mobile: false, 
           viewFactor: 0.7, 
-          distance: '50px',
-          cale: 1, 
+          distance: '30px',
+          scale: 1, 
           duration: 1950, 
           delay: 250, 
           origin: 'left', 
@@ -349,8 +349,8 @@
         sr.reveal('.fadeInRight', { 
           mobile: false, 
           viewFactor: 0.7, 
-          distance: '50px',
-          cale: 1, 
+          distance: '30px',
+          scale: 1, 
           duration: 1950, 
           delay: 250, 
           origin: 'right', 
@@ -358,8 +358,8 @@
         sr.reveal('.fadeInTop', { 
           mobile: false, 
           viewFactor: 0.7, 
-          distance: '50px',
-          cale: 1, 
+          distance: '30px',
+          scale: 1, 
           duration: 1950, 
           delay: 250, 
           origin: 'bottom', 
