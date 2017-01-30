@@ -332,39 +332,9 @@
     <script src="js/app.js"></script>
 
     <!-- Custom Scripts -->
-    <script src="js/scripts.js"></script>
     <script src="js/vidbg.js"></script>
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-    <script>
-      window.sr = ScrollReveal();
-        sr.reveal('.fadeInLeft', { 
-          mobile: false, 
-          viewFactor: 0.7, 
-          distance: '30px',
-          scale: 1, 
-          duration: 1950, 
-          delay: 250, 
-          origin: 'left', 
-          easing: 'cubic-bezier(.18,1,.21,1)' });
-        sr.reveal('.fadeInRight', { 
-          mobile: false, 
-          viewFactor: 0.7, 
-          distance: '30px',
-          scale: 1, 
-          duration: 1950, 
-          delay: 250, 
-          origin: 'right', 
-          easing: 'cubic-bezier(.18,1,.21,1)' });
-        sr.reveal('.fadeInTop', { 
-          mobile: false, 
-          viewFactor: 0.7, 
-          distance: '30px',
-          scale: 1, 
-          duration: 1950, 
-          delay: 250, 
-          origin: 'bottom', 
-          easing: 'cubic-bezier(.18,1,.21,1)' });
-    </script>
+    <script src="js/scripts.js"></script>
 
   </body>
 </html>

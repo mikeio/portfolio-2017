@@ -560,13 +560,13 @@
     header .nav-header ul li:nth-of-type(6) {
       display: none; }
   header .intro {
-    margin: 80px 0px 180px;
-    padding: 40px 0px;
+    margin: 80px 0px 185px;
+    padding: 40px 0px 35px;
     max-width: 840px;
     margin-left: auto;
     margin-right: auto; }
     header .intro video {
-      width: auto !important;
+      width: 576px !important;
       display: block; }
     header .intro h1 {
       font-size: 3em; }
