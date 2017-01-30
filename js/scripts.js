@@ -41,7 +41,6 @@ window.sr = ScrollReveal();
     distance: '30px',
     scale: 1, 
     duration: 1950, 
-    delay: 250, 
     origin: 'left', 
     easing: 'cubic-bezier(.18,1,.21,1)' });
   sr.reveal('.fadeInRight', { 
@@ -50,15 +49,13 @@ window.sr = ScrollReveal();
     distance: '30px',
     scale: 1, 
     duration: 1950, 
-    delay: 250, 
     origin: 'right', 
     easing: 'cubic-bezier(.18,1,.21,1)' });
-  sr.reveal('.fadeInTop', { 
+  sr.reveal('.nav-footer ul li, footer ul.social-icons li', { 
     mobile: false, 
-    viewFactor: 0.5, 
+    viewFactor: 1, 
     distance: '30px',
     scale: 1, 
     duration: 1950, 
-    delay: 250, 
     origin: 'bottom', 
-    easing: 'cubic-bezier(.18,1,.21,1)' });
+    easing: 'cubic-bezier(.18,1,.21,1)' }, 100);
