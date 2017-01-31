@@ -37,25 +37,17 @@ $(function() {
 window.sr = ScrollReveal();
   sr.reveal('.fadeInLeft', { 
     mobile: false, 
-    viewFactor: 0.5, 
-    distance: '30px',
+    viewFactor: 0.7, 
+    distance: '50px',
     scale: 1, 
     duration: 1950, 
     origin: 'left', 
     easing: 'cubic-bezier(.18,1,.21,1)' });
   sr.reveal('.fadeInRight', { 
     mobile: false, 
-    viewFactor: 0.5, 
-    distance: '30px',
+    viewFactor: 0.7, 
+    distance: '50px',
     scale: 1, 
     duration: 1950, 
     origin: 'right', 
     easing: 'cubic-bezier(.18,1,.21,1)' });
-  sr.reveal('.nav-footer ul li, footer ul.social-icons li', { 
-    mobile: false, 
-    viewFactor: 1, 
-    distance: '30px',
-    scale: 1, 
-    duration: 1950, 
-    origin: 'bottom', 
-    easing: 'cubic-bezier(.18,1,.21,1)' }, 100);
