@@ -47,6 +47,8 @@
   .div, .section, .li {
     border: 1px solid red; }
   /* DEBUGGING END */
+  .wow {
+    visibility: hidden; }
   .row {
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
