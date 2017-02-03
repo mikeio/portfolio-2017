@@ -11,7 +11,7 @@
 
     <!--Custom Styles-->
     <link rel="stylesheet" href="css/app.css">
-
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -138,7 +138,7 @@
 
         <div class="row">
 
-          <div class="large-6 columns fadeInLeft">
+          <div class="large-6 columns wow fadeInLeft">
             <figure class="project-list">
               <img src="https://unsplash.it/1000/600/?random">
               <figcaption>
@@ -149,7 +149,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns fadeInRight">
+          <div class="large-6 columns wow fadeInRight">
             <figure class="project-list">
               <img src="https://unsplash.it/1001/601/?random">
               <figcaption>
@@ -160,7 +160,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns fadeInLeft">
+          <div class="large-6 columns wow fadeInLeft">
             <figure class="project-list">
               <img src="https://unsplash.it/1002/602/?random">
               <figcaption>
@@ -171,7 +171,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns fadeInRight">
+          <div class="large-6 columns wow fadeInRight">
             <figure class="project-list">
               <img src="https://unsplash.it/1003/603/?random">
               <figcaption>
@@ -333,7 +333,7 @@
 
     <!-- Custom Scripts -->
     <script src="js/vidbg.js"></script>
-    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
