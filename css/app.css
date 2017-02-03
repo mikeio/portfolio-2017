@@ -568,6 +568,8 @@
     header .intro video {
       width: 576px !important;
       display: block; }
+    header .intro .vidbg-container {
+      background-size: 576px auto !important; }
     header .intro h1 {
       font-size: 3em; }
     header .intro h4 {
