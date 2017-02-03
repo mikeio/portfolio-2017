@@ -127,7 +127,7 @@
     .btn-dark:hover {
       color: #1e1f20 !important;
       border-color: #ffffff; }
-  .no-scroll {
+  .fixed {
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
@@ -165,7 +165,7 @@
         .overlay nav ul.overlay-nav li {
           display: block;
           position: relative;
-          opacity: 0;
+          opacity: 1;
           margin-bottom: 30px; }
           .overlay nav ul.overlay-nav li a {
             font-family: 'Proxima Nova', sans-serif;
@@ -187,7 +187,7 @@
       .overlay ul.social-icons li {
         display: inline;
         padding: 0px 15px;
-        opacity: 0; }
+        opacity: 1; }
         .overlay ul.social-icons li a {
           color: #484a4b;
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
@@ -197,33 +197,6 @@
     opacity: 1;
     visibility: visible;
     height: 100vh; }
-    .overlay.open ul.overlay-nav li {
-      animation: fadeInRight .5s ease forwards;
-      animation-delay: .35s; }
-      .overlay.open ul.overlay-nav li:nth-of-type(2) {
-        animation-delay: .4s; }
-      .overlay.open ul.overlay-nav li:nth-of-type(3) {
-        animation-delay: .45s; }
-      .overlay.open ul.overlay-nav li:nth-of-type(4) {
-        animation-delay: .50s; }
-      .overlay.open ul.overlay-nav li:nth-of-type(5) {
-        animation-delay: .55s; }
-    .overlay.open ul.social-icons li {
-      animation: fadeInRight .5s ease forwards;
-      animation-delay: .75s; }
-      .overlay.open ul.social-icons li:nth-of-type(2) {
-        animation-delay: .7s; }
-      .overlay.open ul.social-icons li:nth-of-type(3) {
-        animation-delay: .65s; }
-      .overlay.open ul.social-icons li:nth-of-type(4) {
-        animation-delay: .6s; }
-  @keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      left: 20%; }
-    100% {
-      opacity: 1;
-      left: 0; } }
   header {
     background-color: #1e1f20; }
     header .nav-header {

@@ -128,7 +128,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		}
 	}
 
-	.no-scroll {
+	.fixed {
 		position: fixed;
 		left: 50%;
 		transform: translate(-50%, 0);
@@ -175,7 +175,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 				li {
 					display: block;
 					position: relative;
-					opacity: 0;
+					opacity: 1;
 					margin-bottom: 30px;
 	
 					a {
@@ -208,7 +208,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			li { 
 				display: inline;
 				padding: 0px 15px;
-				opacity: 0;
+				opacity: 1;
 
 				a {
 					color: darken($gray, 25%);
@@ -226,60 +226,6 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		opacity: 1;
 		visibility: visible;
 		height: 100vh;
-
-		ul.overlay-nav {
-	
-			li {
-				animation: fadeInRight .5s ease forwards;
-				animation-delay: .35s;
-		
-				&:nth-of-type(2) {
-					animation-delay: .4s;
-				}
-		
-				&:nth-of-type(3) {
-					animation-delay: .45s;
-				}
-		
-				&:nth-of-type(4) {
-					animation-delay: .50s;
-				}
-	
-				&:nth-of-type(5) {
-					animation-delay: .55s;
-				}
-			}
-		}
-
-		ul.social-icons {
-			li {
-				animation: fadeInRight .5s ease forwards;
-				animation-delay: .75s;
-
-				&:nth-of-type(2) {
-					animation-delay: .7s;
-				}
-		
-				&:nth-of-type(3) {
-					animation-delay: .65s;
-				}
-		
-				&:nth-of-type(4) {
-					animation-delay: .6s;
-				}
-			}
-		}
-	}
-
-	@keyframes fadeInRight {
-	  0% {
-	    opacity: 0;
-	    left: 20%;
-	  }
-	  100% {
-	    opacity: 1;
-	    left: 0;
-	  }
 	}
 
 	header {
