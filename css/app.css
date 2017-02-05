@@ -303,7 +303,8 @@
       color: #ffffff;
       margin-top: 40px;
       margin-bottom: 135px; }
-      header .intro video {
+      header .intro video,
+      header .intro .vidbg-container {
         display: none; }
       header .intro h1 {
         font-size: 2.5em;
@@ -540,11 +541,9 @@
     max-width: 840px;
     margin-left: auto;
     margin-right: auto; }
-    header .intro video {
-      width: 576px !important;
-      display: block; }
+    header .intro video,
     header .intro .vidbg-container {
-      background-size: 576px auto !important; }
+      display: block; }
     header .intro h1 {
       font-size: 3em; }
     header .intro h4 {

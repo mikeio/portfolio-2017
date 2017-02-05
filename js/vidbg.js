@@ -235,10 +235,10 @@
       bottom: 0,
       right: 0,
       overflow: 'hidden',
-      '-webkit-background-size': 'auto',
-      '-moz-background-size': 'auto',
-      '-o-background-size': 'auto',
-      'background-size': 'auto',
+      '-webkit-background-size': '576px auto',
+      '-moz-background-size': '576px auto',
+      '-o-background-size': '576px auto',
+      'background-size': '576px auto',
       'background-repeat': 'no-repeat',
       'background-position': position.x + ' ' + position.y
     });
@@ -319,7 +319,7 @@
       '-ms-transform': 'translate(-' + position.x + ', -' + position.y + ')',
       '-moz-transform': 'translate(-' + position.x + ', -' + position.y + ')',
       transform: 'translate(-' + position.x + ', -' + position.y + ')',
-      'max-width' : 'none',
+      'max-width' : '576px',
 
       // Disable visibility, while loading
       visibility: 'hidden',

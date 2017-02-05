@@ -379,7 +379,8 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			margin-top: 40px;
 			margin-bottom: 135px;
 
-			video {
+			video,
+			.vidbg-container {
 				display: none;
 			}
 
@@ -745,13 +746,9 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			margin-left: auto;
 			margin-right: auto;
 
-			video {
-				width: 576px !important;
-				display: block;
-			}
-
+			video,
 			.vidbg-container {
-				background-size: 576px auto !important;
+				display: block;
 			}
 
 			h1 {
