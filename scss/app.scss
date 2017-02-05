@@ -136,7 +136,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		overflow-y: scroll;
 	}
 	
-	.overlay {
+	.mobile-nav {
 		position: fixed;
 		background: $black;
 		top: 0;
@@ -164,7 +164,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 			text-align: center;
 			margin-top: 40px;
 	
-			ul.overlay-nav {
+			ul.nav {
 				list-style: none;
 				padding: 0;
 				margin: 0 auto;
@@ -222,7 +222,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		}
 	}
 
-	.overlay.open {
+	.mobile-nav.open {
 		opacity: 1;
 		visibility: visible;
 		height: 100vh;
@@ -688,7 +688,7 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		margin-right: auto;
 	}
 
-	.overlay.open {
+	.mobile-nav.open {
 		display: none;
 	}
 

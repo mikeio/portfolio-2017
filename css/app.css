@@ -133,7 +133,7 @@
     transform: translate(-50%, 0);
     width: 100%;
     overflow-y: scroll; }
-  .overlay {
+  .mobile-nav {
     position: fixed;
     background: #1e1f20;
     top: 0;
@@ -146,28 +146,28 @@
     overflow: hidden;
     z-index: 4;
     display: flex; }
-    .overlay .row {
+    .mobile-nav .row {
       margin: auto; }
-    .overlay h4 {
+    .mobile-nav h4 {
       color: #ffffff;
       text-align: center; }
-    .overlay nav {
+    .mobile-nav nav {
       position: relative;
       text-align: center;
       margin-top: 40px; }
-      .overlay nav ul.overlay-nav {
+      .mobile-nav nav ul.nav {
         list-style: none;
         padding: 0;
         margin: 0 auto;
         display: inline-block;
         position: relative;
         height: 100%; }
-        .overlay nav ul.overlay-nav li {
+        .mobile-nav nav ul.nav li {
           display: block;
           position: relative;
           opacity: 1;
           margin-bottom: 30px; }
-          .overlay nav ul.overlay-nav li a {
+          .mobile-nav nav ul.nav li a {
             font-family: 'Proxima Nova', sans-serif;
             font-weight: 700;
             text-transform: uppercase;
@@ -177,23 +177,23 @@
             z-index: 2;
             position: relative;
             line-height: 1.4; }
-            .overlay nav ul.overlay-nav li a:hover, .overlay nav ul.overlay-nav li a:focus, .overlay nav ul.overlay-nav li a:active {
+            .mobile-nav nav ul.nav li a:hover, .mobile-nav nav ul.nav li a:focus, .mobile-nav nav ul.nav li a:active {
               color: #ffffff; }
-    .overlay ul.social-icons {
+    .mobile-nav ul.social-icons {
       margin: 0;
       font-size: 22px;
       display: block;
       text-align: center; }
-      .overlay ul.social-icons li {
+      .mobile-nav ul.social-icons li {
         display: inline;
         padding: 0px 15px;
         opacity: 1; }
-        .overlay ul.social-icons li a {
+        .mobile-nav ul.social-icons li a {
           color: #484a4b;
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-          .overlay ul.social-icons li a:hover {
+          .mobile-nav ul.social-icons li a:hover {
             color: #ffffff; }
-  .overlay.open {
+  .mobile-nav.open {
     opacity: 1;
     visibility: visible;
     height: 100vh; }
@@ -331,7 +331,7 @@
       z-index: 2;
       position: relative; }
     .about-me p {
-      color: #767575;
+      color: #767676;
       margin-bottom: 0; }
     .about-me .playfair {
       max-width: 400px;
@@ -511,7 +511,7 @@
     max-width: 900px;
     margin-left: auto;
     margin-right: auto; }
-  .overlay.open {
+  .mobile-nav.open {
     display: none; }
   header .nav-header {
     height: 125px; }
