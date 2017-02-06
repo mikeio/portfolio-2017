@@ -215,56 +215,37 @@
       header .nav-header .logo {
         width: 56px;
         height: 44px; }
-      header .nav-header .nav-toggle {
-        width: 40px;
-        height: 40px;
-        border: none;
-        background: none;
-        -webkit-appearence: none;
-        float: right;
-        right: -8px;
-        position: relative;
-        cursor: pointer;
-        margin: 4px 0; }
-      header .nav-header .nav-toggle:focus, header .nav-header .nav-toggle:active {
-        outline: none; }
-      header .nav-header .nav-toggle .nav-label {
-        opacity: 1;
-        float: left;
-        display: none;
-        font-size: 14px;
-        text-transform: uppercase; }
-      header .nav-header .nav-toggle.nav-open .nav-svg g {
-        -webkit-transition: .2s .2s ease-in-out;
-        transition: .2s .2s ease-in-out;
-        -webkit-transform: rotate(45deg) translate(15px, -28px) scaleX(0.7);
-        transform: rotate(45deg) translate(15px, -28px) scaleX(0.7);
-        will-change: transform; }
-      header .nav-header .nav-toggle.nav-open .nav-svg g:first-of-type {
-        -webkit-transform: rotate(-45deg) translate(-14px, 17px) scaleX(0.7);
-        transform: rotate(-45deg) translate(-14px, 17px) scaleX(0.7);
-        will-change: transform; }
-      header .nav-header .nav-toggle.nav-open .nav-svg path.yy {
-        stroke-dashoffset: -34;
-        -webkit-transition: .25s 0s ease-in-out;
-        transition: .25s 0s ease-in-out; }
-      header .nav-header .nav-toggle .nav-svg {
-        display: inline-block;
-        width: 40px;
-        height: 40px; }
-      header .nav-header .nav-toggle .nav-svg path {
-        stroke: white;
-        stroke-width: 2; }
-      header .nav-header .nav-toggle .nav-svg g {
-        -webkit-transition: .25s 0s ease-in-out;
-        transition: .25s 0s ease-in-out;
-        -webkit-transform: rotate(0deg) translateX(0px);
-        transform: rotate(0deg) translateX(0px); }
-      header .nav-header .nav-toggle .nav-svg path.yy {
-        stroke-dashoffset: 34;
-        stroke-dasharray: 57 69;
-        -webkit-transition: .2s .2s ease-in-out;
-        transition: .2s .2s ease-in-out; }
+      header .nav-header .burger {
+        cursor: pointer; }
+        header .nav-header .burger span {
+          width: 25px;
+          height: 3px;
+          background: #ffffff;
+          display: block;
+          -webkit-border-radius: 10px;
+          border-radius: 10px;
+          margin-bottom: 4px;
+          -webkit-transition: all .3s;
+          transition: all .3s; }
+          header .nav-header .burger span:nth-child(1) {
+            width: 16px; }
+        header .nav-header .burger:hover span:nth-child(1) {
+          width: 25px; }
+      header .nav-header .nav-open span {
+        -webkit-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        transform-origin: 50% 50%; }
+        header .nav-header .nav-open span:nth-child(1) {
+          width: 25px;
+          -webkit-transform: rotate(45deg) translate(5px, 5px);
+          -ms-transform: rotate(45deg) translate(5px, 5px);
+          transform: rotate(45deg) translate(5px, 5px); }
+        header .nav-header .nav-open span:nth-child(2) {
+          opacity: 0; }
+        header .nav-header .nav-open span:nth-child(3) {
+          -webkit-transform: rotate(-45deg) translate(5px, -5px);
+          -ms-transform: rotate(-45deg) translate(5px, -5px);
+          transform: rotate(-45deg) translate(5px, -5px); }
       header .nav-header ul {
         list-style-type: none;
         display: block;
@@ -285,7 +266,7 @@
           header .nav-header ul li:nth-of-type(6) {
             position: absolute;
             right: 30px;
-            top: 2px; }
+            top: 16px; }
           header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4), header .nav-header ul li:nth-of-type(5) {
             display: none; }
           header .nav-header ul li a {
@@ -332,7 +313,7 @@
       z-index: 2;
       position: relative; }
     .about-me p {
-      color: #767676;
+      color: #767575;
       margin-bottom: 0; }
     .about-me .playfair {
       max-width: 400px;

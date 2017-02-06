@@ -1,7 +1,7 @@
 // Toggle Overlay
 $(document).ready(function() {
-  $('.nav-toggle, .mobile-nav a').on('click', function() {
-      $('.nav-toggle').toggleClass('nav-open');
+  $('.burger, .mobile-nav a').on('click', function() {
+      $('.burger').toggleClass('nav-open');
       $('.mobile-nav').toggleClass('open');
       $('body').toggleClass('fixed');
       $(".logo").fadeToggle(350);
@@ -34,6 +34,7 @@ $(function() {
   });
 });
 
+// Wow.js
 var wow = new WOW(
   {
     boxClass:     'wow',      // animated element css class (default is wow)
