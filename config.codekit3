@@ -277,6 +277,16 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/conception.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/conception.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-alt.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -327,6 +337,26 @@
 		"plM": 3758088159,
 		"prP": 1
 		},
+	"\/img\/uidesign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/uidesign.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/webdesign.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/webdesign.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -347,10 +377,10 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/mobile-nav.php": {
+	"\/mobile-overlay.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/mobile-nav.php",
+		"oAP": "\/mobile-overlay.php",
 		"oF": 0
 		},
 	"\/mstile-150x150.png": {
