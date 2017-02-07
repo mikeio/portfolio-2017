@@ -43,11 +43,11 @@
 
           <div class="my-expertise" id="expertise">
             <ul class="icons">
-              <li><img src="img/conception.svg"><br><span>Conception</span></li>
-              <li><img src="img/webdesign.svg"><br><span>Web Design</span></li>
-              <li><img src="img/uidesign.svg"><br><span>UI Design</span></li>
-              <li><img src="img/ux.svg"><br><span>UX Design</span></li>
-              <li><img src="img/development.svg"><br><span>Development</span></li>
+              <li class="wow fadeInUp" data-wow-delay="0.0s"><img src="img/conception.svg"><br><span>Conception</span></li>
+              <li class="wow fadeInUp" data-wow-delay="0.1s"><img src="img/webdesign.svg"><br><span>Web Design</span></li>
+              <li class="wow fadeInUp" data-wow-delay="0.2s"><img src="img/uidesign.svg"><br><span>UI Design</span></li>
+              <li class="wow fadeInUp" data-wow-delay="0.3s"><img src="img/ux.svg"><br><span>UX Design</span></li>
+              <li class="wow fadeInUp" data-wow-delay="0.4s"><img src="img/development.svg"><br><span>Development</span></li>
             </ul>
           </div>
 
