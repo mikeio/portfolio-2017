@@ -1,4 +1,4 @@
-<div class="mobile-nav">
+<div class="mobile-overlay">
 
       <div class="row">
         <div class="large-12 columns">
