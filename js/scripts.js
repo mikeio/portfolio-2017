@@ -1,8 +1,8 @@
 // Toggle Overlay
 $(document).ready(function() {
-  $('.burger, .mobile-nav a').on('click', function() {
+  $('.burger, .mobile-overlay a').on('click', function() {
       $('.burger').toggleClass('nav-open');
-      $('.mobile-nav').toggleClass('open');
+      $('.mobile-overlay').toggleClass('open');
       $('body').toggleClass('fixed');
       $(".logo").fadeToggle(350);
   });
