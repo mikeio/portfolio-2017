@@ -44,7 +44,7 @@
 /* 0px+ */
 @media screen {
   /* DEBUGGING START */
-  .div, .section, .li {
+  .div, .section, .ul {
     border: 1px solid red; }
   /* DEBUGGING END */
   .wow {
@@ -66,7 +66,7 @@
     margin-bottom: 0.5rem; }
   h2 {
     font-family: 'Arvo', serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 400;
     color: #1e1f20;
     line-height: 1.4;
@@ -133,7 +133,7 @@
     transform: translate(-50%, 0);
     width: 100%;
     overflow-y: scroll; }
-  .mobile-nav {
+  .mobile-overlay {
     position: fixed;
     background: #1e1f20;
     top: 0;
@@ -142,32 +142,31 @@
     height: 100vh;
     opacity: 0;
     visibility: hidden;
-    transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
     z-index: 4;
-    display: flex; }
-    .mobile-nav .row {
-      margin: auto; }
-    .mobile-nav h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mobile-overlay h4 {
       color: #ffffff;
       text-align: center; }
-    .mobile-nav nav {
+    .mobile-overlay nav {
       position: relative;
       text-align: center;
       margin-top: 40px; }
-      .mobile-nav nav ul.nav {
+      .mobile-overlay nav ul.nav {
         list-style: none;
         padding: 0;
         margin: 0 auto;
         display: inline-block;
         position: relative;
         height: 100%; }
-        .mobile-nav nav ul.nav li {
+        .mobile-overlay nav ul.nav li {
           display: block;
           position: relative;
           opacity: 1;
           margin-bottom: 30px; }
-          .mobile-nav nav ul.nav li a {
+          .mobile-overlay nav ul.nav li a {
             font-family: 'Proxima Nova', sans-serif;
             font-weight: 700;
             text-transform: uppercase;
@@ -176,24 +175,25 @@
             color: #878a8c;
             z-index: 2;
             position: relative;
-            line-height: 1.4; }
-            .mobile-nav nav ul.nav li a:hover, .mobile-nav nav ul.nav li a:focus, .mobile-nav nav ul.nav li a:active {
+            line-height: 1.4;
+            transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+            .mobile-overlay nav ul.nav li a:hover, .mobile-overlay nav ul.nav li a:focus, .mobile-overlay nav ul.nav li a:active {
               color: #ffffff; }
-    .mobile-nav ul.social-icons {
+    .mobile-overlay ul.social-icons {
       margin: 0;
       font-size: 22px;
       display: block;
       text-align: center; }
-      .mobile-nav ul.social-icons li {
+      .mobile-overlay ul.social-icons li {
         display: inline;
         padding: 0px 15px;
         opacity: 1; }
-        .mobile-nav ul.social-icons li a {
+        .mobile-overlay ul.social-icons li a {
           color: #484a4b;
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-          .mobile-nav ul.social-icons li a:hover {
+          .mobile-overlay ul.social-icons li a:hover {
             color: #ffffff; }
-  .mobile-nav.open {
+  .mobile-overlay.open {
     opacity: 1;
     visibility: visible;
     height: 100vh; }
@@ -206,15 +206,47 @@
       margin-left: auto;
       position: relative;
       z-index: 4; }
-      header .nav-header .row {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%; }
       header .nav-header .logo {
         width: 56px;
         height: 44px; }
+      header .nav-header .btn {
+        font-weight: 700;
+        font-size: 13px;
+        display: inline-flex;
+        float: right; }
+      header .nav-header ul {
+        list-style-type: none;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        height: auto; }
+        header .nav-header ul li {
+          display: inline-block;
+          height: 50px;
+          line-height: 50px;
+          /* Logo */
+          /* Hamburger */
+          /* Links */ }
+          header .nav-header ul li:nth-of-type(1) {
+            position: absolute;
+            left: 30px;
+            top: 10px; }
+          header .nav-header ul li:nth-of-type(6) {
+            position: absolute;
+            right: 30px;
+            top: 28px; }
+          header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4), header .nav-header ul li:nth-of-type(5) {
+            display: none; }
+          header .nav-header ul li a {
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 15px;
+            letter-spacing: .24em;
+            color: #ffffff;
+            transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+            header .nav-header ul li a:hover {
+              color: #878a8c; }
       header .nav-header .burger {
         cursor: pointer; }
         header .nav-header .burger span {
@@ -225,8 +257,8 @@
           -webkit-border-radius: 10px;
           border-radius: 10px;
           margin-bottom: 4px;
-          -webkit-transition: all .3s;
-          transition: all .3s; }
+          -webkit-transition: all .35s;
+          transition: all .35s; }
           header .nav-header .burger span:nth-child(1) {
             width: 16px; }
         header .nav-header .burger:hover span:nth-child(1) {
@@ -246,39 +278,6 @@
           -webkit-transform: rotate(-45deg) translate(5px, -5px);
           -ms-transform: rotate(-45deg) translate(5px, -5px);
           transform: rotate(-45deg) translate(5px, -5px); }
-      header .nav-header ul {
-        list-style-type: none;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        height: 50px; }
-        header .nav-header ul li {
-          display: inline-block;
-          height: 50px;
-          line-height: 50px;
-          /* Logo */
-          /* Hamburger */
-          /* Links */ }
-          header .nav-header ul li:nth-of-type(1) {
-            position: absolute;
-            left: 30px;
-            top: -1px; }
-          header .nav-header ul li:nth-of-type(6) {
-            position: absolute;
-            right: 30px;
-            top: 16px; }
-          header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4), header .nav-header ul li:nth-of-type(5) {
-            display: none; }
-          header .nav-header ul li a {
-            font-family: 'Proxima Nova', sans-serif;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 15px;
-            letter-spacing: .24em;
-            color: #ffffff;
-            transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-            header .nav-header ul li a:hover {
-              color: #878a8c; }
     header .intro {
       text-align: center;
       color: #ffffff;
@@ -299,7 +298,7 @@
     background-color: #f5f5f5;
     text-align: center;
     padding-bottom: 60px; }
-    .about-me img:first-child {
+    .about-me .books {
       display: block;
       margin: 0 auto -70px;
       width: 100%;
@@ -319,6 +318,35 @@
       max-width: 400px;
       opacity: 0.05;
       margin: 40px 0px -30px; }
+    .about-me .my-expertise {
+      margin-top: 40px; }
+      .about-me .my-expertise span {
+        color: #1e1f20;
+        margin: 0;
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: .12em;
+        z-index: 2;
+        position: relative;
+        line-height: 1.6; }
+      .about-me .my-expertise h2 {
+        display: inline-block; }
+      .about-me .my-expertise h4 {
+        margin-bottom: 30px; }
+      .about-me .my-expertise ul {
+        list-style-type: none;
+        display: table;
+        width: 100%;
+        max-width: 960px;
+        margin: -20px auto -20px auto; }
+      .about-me .my-expertise li {
+        display: inline-block;
+        padding: 15px; }
+        .about-me .my-expertise li img {
+          width: 75px;
+          margin-bottom: 7px; }
   .featured-projects {
     padding: 60px 0px;
     background-color: #ffffff;
@@ -493,7 +521,7 @@
     max-width: 900px;
     margin-left: auto;
     margin-right: auto; }
-  .mobile-nav.open {
+  .mobile-overlay.open {
     display: none; }
   header .nav-header {
     height: 125px; }
@@ -501,21 +529,27 @@
       width: 65px;
       height: 50px;
       display: block !important; }
-    header .nav-header .btn {
-      font-weight: 700;
-      font-size: 13px;
-      display: inline-flex;
-      float: right; }
-    header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4), header .nav-header ul li:nth-of-type(5) {
-      display: inline-block; }
-    header .nav-header ul li:nth-of-type(3) {
-      padding: 0px 80px; }
-    header .nav-header ul li:nth-of-type(5) {
-      position: absolute;
-      right: 30px;
-      top: 2px; }
-    header .nav-header ul li:nth-of-type(6) {
-      display: none; }
+    header .nav-header ul li {
+      height: 125px;
+      line-height: 125px;
+      /* Logo */
+      /* .btn */
+      /* Hamburger */ }
+      header .nav-header ul li:nth-of-type(1) {
+        top: 40px;
+        height: auto; }
+      header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4) {
+        display: inline-block; }
+      header .nav-header ul li:nth-of-type(3) {
+        padding: 0px 80px; }
+      header .nav-header ul li:nth-of-type(5) {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 40px;
+        height: auto; }
+      header .nav-header ul li:nth-of-type(6) {
+        display: none; }
   header .intro {
     margin: 80px 0px 185px;
     padding: 40px 0px 35px;
@@ -532,7 +566,7 @@
       margin-bottom: 1em; }
   .about-me {
     padding-bottom: 130px; }
-    .about-me img:first-child {
+    .about-me .books {
       max-width: 905px;
       margin-bottom: -110px; }
     .about-me h1 {
@@ -541,6 +575,20 @@
     .about-me .playfair {
       max-width: 570px;
       margin: 40px 0px -30px; }
+    .about-me .my-expertise {
+      margin-top: 60px; }
+      .about-me .my-expertise span {
+        font-size: 15px; }
+      .about-me .my-expertise h4 {
+        margin-bottom: 60px; }
+      .about-me .my-expertise ul {
+        margin: 0 auto; }
+        .about-me .my-expertise ul li {
+          display: table-cell;
+          padding: 0; }
+          .about-me .my-expertise ul li img {
+            width: 90px;
+            margin-bottom: 15px; }
   .featured-projects {
     padding: 120px 0px 130px; }
     .featured-projects h4 {
