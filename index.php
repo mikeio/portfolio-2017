@@ -38,8 +38,8 @@
           <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]" class="books">
           <img src="img/playfair-type.svg" class="playfair">
           <h4>Various Aspects</h4>
-          <h1>An eye for innovation and a drive to create beautiful & simple solutions.</h1>
-          <p>I’m a highly-motivated and dedicated professional with almost a decade of commercial design experience. This experience together with freelance work I've done, has allowed me to acquire a wide range of skills as a designer. Building products from the start, working side by side with developers and learning how users interact with my designs is what I love the most about my job. I believe good design is a simple and achievable experience that differs with each and every project I work on.</p>
+          <h1>A designer focused on providing simple, intelligent solutions.</h1>
+          <p>I'm an ex print designer turned web professional with a passion for strong, simple design. I have over 10 years of experience working in both a corporate and freelance capacity, mainly focusing on designing and building websites and web applications which are simple to use and look great.</p>
         </div>
       </div>
 
