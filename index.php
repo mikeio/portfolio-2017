@@ -40,17 +40,6 @@
           <h4>Various Aspects</h4>
           <h1>An eye for innovation and a drive to create beautiful & simple solutions.</h1>
           <p>I’m a highly-motivated and dedicated professional with almost a decade of commercial design experience. This experience together with freelance work I've done, has allowed me to acquire a wide range of skills as a designer. Building products from the start, working side by side with developers and learning how users interact with my designs is what I love the most about my job. I believe good design is a simple and achievable experience that differs with each and every project I work on.</p>
-
-          <div class="my-expertise" id="expertise">
-            <ul class="icons">
-              <li class="wow fadeInUp" data-wow-delay="0.0s"><img src="img/conception.svg"><br><span>Conception</span></li>
-              <li class="wow fadeInUp" data-wow-delay="0.1s"><img src="img/webdesign.svg"><br><span>Web Design</span></li>
-              <li class="wow fadeInUp" data-wow-delay="0.2s"><img src="img/uidesign.svg"><br><span>UI Design</span></li>
-              <li class="wow fadeInUp" data-wow-delay="0.3s"><img src="img/ux.svg"><br><span>UX Design</span></li>
-              <li class="wow fadeInUp" data-wow-delay="0.4s"><img src="img/development.svg"><br><span>Development</span></li>
-            </ul>
-          </div>
-
         </div>
       </div>
 
