@@ -1,4 +1,4 @@
-<div class="mobile-overlay">
+<div class="mobile-overlay" style="display: none;">
 
       <div class="row">
         <div class="large-12 columns">

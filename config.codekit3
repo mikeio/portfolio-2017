@@ -287,6 +287,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/development.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/development.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-alt.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -342,6 +352,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/uidesign.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/ux.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/ux.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -463,7 +483,7 @@
 		"uL": 1
 		},
 	"\/scss\/app.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,

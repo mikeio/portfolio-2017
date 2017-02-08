@@ -2,9 +2,9 @@
 $(document).ready(function() {
   $('.burger, .mobile-overlay a').on('click', function() {
       $('.burger').toggleClass('nav-open');
-      $('.mobile-overlay').toggleClass('open');
+      $(".mobile-overlay").fadeToggle(250);
       $('body').toggleClass('fixed');
-      $(".logo").fadeToggle(350);
+      $(".logo").fadeToggle(250);
   });
 });
 
