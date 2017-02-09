@@ -38,7 +38,7 @@
           <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]" class="books">
           <img src="img/playfair-type.svg" class="playfair">
           <h4>Various Aspects</h4>
-          <h1>A designer focused on providing simple, intelligent solutions.</h1>
+          <h1>A passion for providing simple, intelligent solutions.</h1>
           <p>I'm an ex print designer turned web professional with a passion for strong, simple design. I have over 10 years of experience working in both a corporate and freelance capacity, mainly focusing on designing and building websites and web applications which are simple to use and look great.</p>
         </div>
       </div>

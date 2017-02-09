@@ -6,15 +6,15 @@
           <h4>Navigation</h4>
           <nav>
             <ul class="nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/#about">About Me</a></li>
-              <li><a href="/#featured">Featured Projects</a></li>
-              <li><a href="/#resume">My Resume</a></li>
-              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".5s"><a href="/">Home</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".6s"><a href="/#about">About Me</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".7s"><a href="/#featured">Featured Projects</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".8s"><a href="/#resume">My Resume</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".9s"><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
             </ul>
           </nav>
 
-          <ul class="social-icons">
+          <ul class="social-icons wow fadeIn" data-wow-delay="1.5s">
             <li>
               <a href="https://www.facebook.com/mike.peters.94">
                   <i class="fa fa-facebook"></i>

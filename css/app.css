@@ -398,8 +398,8 @@
       z-index: 1; }
     .featured-projects .project-list:hover > img,
     .featured-projects .project-list.hover > img {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1); }
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05); }
     .featured-projects .project-list:hover h1,
     .featured-projects .project-list.hover h1,
     .featured-projects .project-list:hover h4,

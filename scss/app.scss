@@ -486,8 +486,8 @@ $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 		
 		.project-list:hover > img,
 		.project-list.hover > img {
-			-webkit-transform: scale(1.1);
-			transform: scale(1.1);
+			-webkit-transform: scale(1.05);
+			transform: scale(1.05);
 		}
 		
 		.project-list:hover h1,
