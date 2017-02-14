@@ -1,18 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Playfair+Display:900i");
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("../fonts/proximanovat-thin-webfont.woff2") format("woff2"), url("../fonts/proximanovat-thin-webfont.woff") format("woff");
-  font-weight: 100;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
   src: url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
@@ -27,18 +15,6 @@
   font-family: 'Proxima Nova';
   src: url("../fonts/proximanova-bold-webfont.woff2") format("woff2"), url("../fonts/proximanova-bold-webfont.woff") format("woff");
   font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-extrabld-webfont.woff2") format("woff2"), url("../fonts/proximanova-extrabld-webfont.woff") format("woff");
-  font-weight: 800;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-black-webfont.woff2") format("woff2"), url("../fonts/proximanova-black-webfont.woff") format("woff");
-  font-weight: 900;
   font-style: normal; }
 
 .div, .section, .ul {
@@ -505,7 +481,7 @@ footer {
           color: #1e1f20; }
   footer .copyright {
     background-color: #f5f5f5;
-    padding: 20px;
+    padding: 25px;
     font-family: 'Proxima Nova', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
