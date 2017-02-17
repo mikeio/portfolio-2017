@@ -79,8 +79,8 @@ h4 {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  -webkit-transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .btn::before, .btn::after {
     content: '';
     position: absolute;
@@ -93,10 +93,13 @@ h4 {
             transform: skew(-50deg);
     -webkit-transform-origin: top left;
             transform-origin: top left;
-    -webkit-transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-  .btn:hover::before, .btn:hover::after {
-    width: 131%; }
+    -webkit-transition: width 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: width 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .btn:hover {
+    -webkit-transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), background-color 0s linear 0.3s;
+    transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), background-color 0s linear 0.3s; }
+    .btn:hover::before, .btn:hover::after {
+      width: 131%; }
 
 .btn-light {
   color: #1e1f20;
@@ -104,7 +107,8 @@ h4 {
   .btn-light::before, .btn-light::after {
     background: #1e1f20; }
   .btn-light:hover {
-    color: #ffffff !important; }
+    color: #ffffff !important;
+    background-color: #1e1f20; }
 
 .btn-dark {
   color: #ffffff;
@@ -113,7 +117,8 @@ h4 {
     background: #ffffff; }
   .btn-dark:hover {
     color: #1e1f20 !important;
-    border-color: #ffffff; }
+    border-color: #ffffff;
+    background-color: #ffffff; }
 
 .fixed {
   position: fixed;
