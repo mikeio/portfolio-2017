@@ -451,25 +451,7 @@
 		"oA": 0,
 		"oAP": "\/video\/quote.jpg",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/video\/quote.mp4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/quote.mp4",
-		"oF": 0
-		},
-	"\/video\/quote.ogv": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/quote.ogv",
-		"oF": 0
-		},
-	"\/video\/quote.webm": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/quote.webm",
-		"oF": 0
+		"opt": 1
 		}
 	},
 "hooks": [

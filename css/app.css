@@ -55,7 +55,7 @@ h4 {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: .24em;
-  color: #787b7d;
+  color: #83868a;
   z-index: 2;
   position: relative;
   line-height: 1.6; }
@@ -105,7 +105,7 @@ h4 {
 
 .btn-dark {
   color: #ffffff;
-  border-color: #28292a; }
+  border-color: #333536; }
   .btn-dark::before, .btn-dark::after {
     background: #ffffff; }
   .btn-dark:hover {
@@ -158,7 +158,7 @@ h4 {
           text-transform: uppercase;
           font-size: 1.125rem;
           letter-spacing: .24em;
-          color: #787b7d;
+          color: #83868a;
           z-index: 2;
           position: relative;
           line-height: 1.4;
@@ -175,7 +175,7 @@ h4 {
       padding: 0px 15px;
       opacity: 1; }
       .mobile-overlay ul.social-icons li a {
-        color: #3a3b3c;
+        color: #454649;
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         .mobile-overlay ul.social-icons li a:hover {
           color: #ffffff; }
@@ -229,7 +229,7 @@ header {
           color: #ffffff;
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           header .nav-header ul li a:hover {
-            color: #787b7d; }
+            color: #83868a; }
     header .nav-header .burger {
       cursor: pointer; }
       header .nav-header .burger span {
@@ -302,7 +302,7 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .about-me p {
-    color: #767676;
+    color: #767575;
     margin-bottom: 0;
     letter-spacing: 0.2px;
     max-width: 750px;
@@ -396,7 +396,7 @@ header {
   .my-resume h1 {
     color: #ffffff; }
   .my-resume h4 {
-    color: #787b7d;
+    color: #83868a;
     margin-bottom: 20px; }
   .my-resume .top-arrow {
     width: 141px;
@@ -412,7 +412,7 @@ header {
     .my-resume .top-arrow a {
       font-size: 1.5em;
       line-height: 1;
-      color: #b9bbbc;
+      color: #c5c6c8;
       transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
       position: absolute;
       bottom: 0;
@@ -423,7 +423,7 @@ header {
       height: 100%;
       line-height: 1.9; }
       .my-resume .top-arrow a:hover {
-        color: #787b7d; }
+        color: #83868a; }
 
 footer {
   text-align: center;
@@ -451,7 +451,7 @@ footer {
           color: #262727;
           transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
           footer .nav-footer ul li a:hover {
-            color: #787b7d; }
+            color: #83868a; }
   footer ul.social-icons {
     margin: 0px;
     font-size: 14px;
@@ -460,7 +460,7 @@ footer {
       display: inline;
       padding: 0px 5px; }
       footer ul.social-icons li a {
-        color: #acaeaf;
+        color: #b7b9bc;
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         footer ul.social-icons li a:hover {
           color: #191a1a; }
@@ -472,7 +472,7 @@ footer {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .24em;
-    color: #85888a; }
+    color: #909396; }
 
 /* 640px+ */
 /* 768px+ */
