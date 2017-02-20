@@ -390,7 +390,7 @@ header {
 
 .my-resume {
   background-color: #191a1a;
-  padding: 60px 0px;
+  padding: 60px 0px 70px;
   text-align: center;
   position: relative; }
   .my-resume h1 {
@@ -554,7 +554,7 @@ footer {
       .featured-projects .project-list h1 {
         font-size: 28px; }
   .my-resume {
-    padding: 80px 0px; }
+    padding: 80px 0px 90px; }
     .my-resume h4 {
       margin-bottom: 30px; }
   footer .container {
