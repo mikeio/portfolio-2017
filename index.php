@@ -104,7 +104,7 @@
 
       <div class="row" id="show-more">
 
-        <div class="large-6 columns">
+        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.3s">
           <figure class="project-list">
             <img src="https://unsplash.it/1000/600/?random">
             <figcaption>
@@ -115,7 +115,7 @@
           </figure>
         </div>
 
-        <div class="large-6 columns">
+        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.4s">
           <figure class="project-list">
             <img src="https://unsplash.it/1001/601/?random">
             <figcaption>
@@ -126,7 +126,7 @@
           </figure>
         </div>
 
-        <div class="large-6 columns">
+        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.5s">
           <figure class="project-list">
             <img src="https://unsplash.it/1002/602/?random">
             <figcaption>
@@ -137,7 +137,7 @@
           </figure>
         </div>
 
-        <div class="large-6 columns">
+        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.6s">
           <figure class="project-list">
             <img src="https://unsplash.it/1003/603/?random">
             <figcaption>

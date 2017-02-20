@@ -1,4 +1,4 @@
-// Toggle Overlay
+// Toggle Menu
 $(document).ready(function() {
   $('.burger, .mobile-overlay a').on('click', function() {
       $('.burger').toggleClass('nav-open');
@@ -27,7 +27,7 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 1200);
         return false;
       }
     }

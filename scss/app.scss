@@ -2,10 +2,10 @@
 
 // Variables
 
-$black:				#1e1f20;
+$black:				#191a1a;
 $white:				#ffffff;
 $whitesmoke:		#f5f5f5;
-$gray:				#878a8c;
+$gray:				#787b7d;
 $custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
 
@@ -352,6 +352,10 @@ header {
 		color: $white;
 		margin-top: 40px;
 		margin-bottom: 135px;
+
+		max-width: 650px;
+		margin-left: auto;
+		margin-right: auto;
 		
 		video,
 		.vidbg-container {
@@ -392,11 +396,18 @@ header {
 		margin-bottom: 16px;
 		z-index: 2;
 		position: relative;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	p {
 		color: darken($whitesmoke, 50%);
 		margin-bottom: 0;
+		letter-spacing: 0.2px;
+		max-width: 750px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.playfair {
@@ -473,7 +484,6 @@ header {
 	}
 	
 	.project-list h4 {
-		font-weight: 600;
 		-webkit-transform: translateY(100%);
 		transform: translateY(100%);
 	}
@@ -611,7 +621,7 @@ footer {
 			padding: 0px 5px;
 
 			a {
-				color: lighten($gray, 10%);
+				color: lighten($gray, 20%);
 				transition: all .2s $custom-transition;
 
 				&:hover {
@@ -745,6 +755,11 @@ footer {
 			max-width: 725px;
 		}
 
+		p {
+			max-width: 850px;
+			letter-spacing: 0px;
+		}
+
 		.playfair {
 			max-width: 570px;
 			margin: 40px 0px -30px;
@@ -764,6 +779,10 @@ footer {
 
 		.project-list {
 			margin-top: 30px;
+
+			h1 {
+				font-size: 28px;
+			}
 		}
 	}
 
