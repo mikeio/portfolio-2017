@@ -74,7 +74,9 @@ h4 {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	transition: color .3s $custom-transition, border-color .3s $custom-transition;
+	box-shadow: 0px;
+	transform: translateY(0px);
+	transition: color .3s $custom-transition, border-color .3s $custom-transition, box-shadow .3s $custom-transition, transform .3s $custom-transition;
  
 	&::before,
 	&::after {
@@ -91,7 +93,9 @@ h4 {
 	}
  
 	&:hover {
-		transition: color .3s $custom-transition, border-color .3s $custom-transition, background-color 0s linear .3s;
+		transition: color .3s $custom-transition, box-shadow .3s $custom-transition, border-color .3s $custom-transition, transform .3s $custom-transition, background-color 0s linear .3s;
+		box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
+		transform: translateY(-2px);
 
 		&::before,
 		&::after {
