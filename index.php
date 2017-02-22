@@ -58,7 +58,7 @@
 
           <div class="large-6 columns wow fadeInLeft">
             <figure class="project-list">
-              <img src="https://unsplash.it/1000/600/?random">
+              <img src="https://unsplash.it/560/340/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
@@ -69,7 +69,7 @@
   
           <div class="large-6 columns wow fadeInRight">
             <figure class="project-list">
-              <img src="https://unsplash.it/1001/601/?random">
+              <img src="https://unsplash.it/560/341/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
@@ -80,7 +80,7 @@
   
           <div class="large-6 columns wow fadeInLeft">
             <figure class="project-list">
-              <img src="https://unsplash.it/1002/602/?random">
+              <img src="https://unsplash.it/560/342/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
@@ -91,7 +91,7 @@
   
           <div class="large-6 columns wow fadeInRight">
             <figure class="project-list">
-              <img src="https://unsplash.it/1003/603/?random">
+              <img src="https://unsplash.it/560/343/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
@@ -104,9 +104,9 @@
 
       <div class="row" id="show-more">
 
-        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.3s">
+        <div class="large-6 columns">
           <figure class="project-list">
-            <img src="https://unsplash.it/1000/600/?random">
+            <img src="https://unsplash.it/560/340/?random">
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
@@ -115,9 +115,9 @@
           </figure>
         </div>
 
-        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.4s">
+        <div class="large-6 columns">
           <figure class="project-list">
-            <img src="https://unsplash.it/1001/601/?random">
+            <img src="https://unsplash.it/560/341/?random">
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
@@ -126,9 +126,9 @@
           </figure>
         </div>
 
-        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.5s">
+        <div class="large-6 columns">
           <figure class="project-list">
-            <img src="https://unsplash.it/1002/602/?random">
+            <img src="https://unsplash.it/560/342/?random">
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
@@ -137,9 +137,9 @@
           </figure>
         </div>
 
-        <div class="large-6 columns wow fadeInUp" data-wow-delay="0.6s">
+        <div class="large-6 columns">
           <figure class="project-list">
-            <img src="https://unsplash.it/1003/603/?random">
+            <img src="https://unsplash.it/560/343/?random">
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>

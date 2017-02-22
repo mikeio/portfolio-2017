@@ -2,11 +2,12 @@
 
 // Variables
 
-$black:				#191a1a;
-$white:				#ffffff;
-$whitesmoke:		#f5f5f5;
-$gray:				#83868a;
-$custom-transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$black:					#191a1a;
+$white:					#ffffff;
+$whitesmoke:			#f5f5f5;
+$gray:					#83868a;
+$default-transition: 	cubic-bezier(0.455, 0.03, 0.515, 0.955);
+$material-shadow: 		0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
 
 
 // Debug
@@ -76,7 +77,10 @@ h4 {
 	z-index: 1;
 	box-shadow: 0px;
 	transform: translateY(0px);
-	transition: color .3s $custom-transition, border-color .3s $custom-transition, box-shadow .3s $custom-transition, transform .3s $custom-transition;
+	transition: color .3s $default-transition, 
+				border-color .3s $default-transition,
+				box-shadow .3s $default-transition,
+				transform .3s $default-transition;
  
 	&::before,
 	&::after {
@@ -89,13 +93,17 @@ h4 {
 		top: 0;
 		transform: skew(-50deg);
 		transform-origin: top left;
-		transition: width .3s $custom-transition;
+		transition: width .3s $default-transition;
 	}
  
 	&:hover {
-		transition: color .3s $custom-transition, box-shadow .3s $custom-transition, border-color .3s $custom-transition, transform .3s $custom-transition, background-color 0s linear .3s;
-		box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
+		box-shadow: $material-shadow;
 		transform: translateY(-2px);
+		transition: color .3s $default-transition,
+					box-shadow .3s $default-transition,
+					border-color .3s $default-transition,
+					transform .3s $default-transition,
+					background-color 0s $default-transition .3s;
 
 		&::before,
 		&::after {
@@ -191,7 +199,7 @@ h4 {
 					z-index: 2;
 					position: relative;
 					line-height: 1.4;
-					transition: all .2s $custom-transition;
+					transition: all .25s $default-transition;
 
 					&:hover,
 					&:focus,
@@ -216,7 +224,7 @@ h4 {
 			
 			a {
 				color: darken($gray, 25%);
-				transition: all .2s $custom-transition;
+				transition: all .25s $default-transition;
 				&:hover {
 					color: $white;
 				}
@@ -289,7 +297,7 @@ header {
 					font-size: 15px;
 					letter-spacing: .24em;
 					color: $white;
-					transition: all .2s $custom-transition;
+					transition: all .25s $default-transition;
 					
 					&:hover {
 						color: $gray;
@@ -426,6 +434,11 @@ header {
 	background-color: $white;
 	text-align: center;
 
+	.wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+
 	h4 {
 		margin-bottom: 0.625rem;
 	}
@@ -435,7 +448,6 @@ header {
 	}
 
 	.project-list {
-		font-family: 'Source Sans Pro', sans-serif;
 		position: relative;
 		overflow: hidden;
 		width: 100%;
@@ -444,78 +456,87 @@ header {
 		margin: 20px auto 0px;
 		z-index: 1;
 		border-radius: 5px;
-	}
-	
-	.project-list * {
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-		transition: all .4s $custom-transition;
-	}
-	
-	.project-list img {
-		vertical-align: top;
-		max-width: 100%;
-		backface-visibility: hidden;
-	}
-	
-	.project-list figcaption {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
-		align-items: center;
-		bottom: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		background-color: rgba(0, 0, 0, 0.8);
-	}
-	
-	.project-list h1,
-	.project-list h4,
-	.project-list figcaption {
-		margin: 0;
-		opacity: 0;
-	}
-	
-	.project-list h1 {
-		-webkit-transform: translateY(-100%);
-		transform: translateY(-100%);
-		color: $white;
-		font-size: 26px;
-		margin-bottom: 0.2em;
-	}
-	
-	.project-list h4 {
-		-webkit-transform: translateY(100%);
-		transform: translateY(100%);
-	}
-	
-	.project-list a {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
-	}
-	
-	.project-list:hover > img,
-	.project-list.hover > img {
-		-webkit-transform: scale(1.05);
-		transform: scale(1.05);
-	}
-	
-	.project-list:hover h1,
-	.project-list.hover h1,
-	.project-list:hover h4,
-	.project-list.hover h4,
-	.project-list:hover figcaption,
-	.project-list.hover figcaption {
-		-webkit-transform: translateY(0);
 		transform: translateY(0);
-		opacity: 1;
+		will-change: transform, box-shadow;
+		transition: transform .3s $default-transition 0s,
+					box-shadow .3s $default-transition 0s;
+
+		&:hover {
+			box-shadow: $material-shadow;
+			transform: translateY(-4px);
+
+			h1 {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			} 
+
+			h4 {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+				transition-delay: .1s;
+			}
+
+			figcaption {
+				opacity: 1;
+			}
+		}
+
+		img {
+			vertical-align: top;
+			max-width: 100%;
+			backface-visibility: hidden;
+		}
+
+		figcaption {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			align-items: center;
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background-color: rgba(0, 0, 0, 0.8);
+			margin: 0;
+			opacity: 0;
+			will-change: opacity;
+			transition: opacity .3s $default-transition 0s,
+		}
+
+		h1 {
+			-webkit-transform: translateY(100%);
+			transform: translateY(100%);
+			opacity: 0;
+			color: $white;
+			font-size: 26px;
+			margin-bottom: 0.2em;
+			will-change: transform, opacity;
+			transition: transform .3s $default-transition .1s,
+						opacity .3s $default-transition 0s;
+		}
+
+		h4 {
+			margin: 0;
+			-webkit-transform: translateY(100%);
+			transform: translateY(100%);
+			opacity: 0;
+			will-change: transform, opacity;
+			transition: transform .3s $default-transition 0s,
+						opacity .3s $default-transition 0s;
+		}
+
+		a {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+		}
 	}
 
 	#show-more {
@@ -554,7 +575,7 @@ header {
  			font-size: 1.5em;
  			line-height: 1;
  			color: lighten($gray, 25);
-			transition: all .2s $custom-transition;
+			transition: all .25s $default-transition;
 			position: absolute;
 			bottom: 0;
 			left: 50%;
@@ -605,7 +626,7 @@ footer {
 
 				a {
 					color: lighten($black, 5%);
-					transition: all .2s $custom-transition;
+					transition: all .25s $default-transition;
 
 					&:hover {
 						color: $gray;
@@ -626,7 +647,7 @@ footer {
 
 			a {
 				color: lighten($gray, 20%);
-				transition: all .2s $custom-transition;
+				transition: all .25s $default-transition;
 
 				&:hover {
 					color: $black;
