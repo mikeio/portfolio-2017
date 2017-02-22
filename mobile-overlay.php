@@ -14,7 +14,7 @@
             </ul>
           </nav>
 
-          <ul class="social-icons wow">
+          <ul class="social-icons">
             <li class="wow fadeInDown" data-wow-delay="1s">
               <a href="https://www.facebook.com/mike.peters.94">
                   <i class="fa fa-facebook"></i>
