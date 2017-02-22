@@ -62,6 +62,7 @@
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
+                <i class="material-icons">launch</i>
               </figcaption>
               <a href="#"></a>
             </figure>
