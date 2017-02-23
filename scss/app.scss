@@ -16,6 +16,11 @@ $material-shadow: 		0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0
 // Global Styles
 .wow { visibility: hidden; }
 
+.wow-disabled {
+	animation-name: none !important;
+    visibility: visible !important;
+}
+
 .row {
    	padding-right: 0.625rem;
    	padding-left: 0.625rem;
@@ -434,11 +439,6 @@ header {
 	background-color: $white;
 	text-align: center;
 
-	.wow-disabled {
-		animation-name: none !important;
-    	visibility: visible !important;
-	}
-
 	h4 {
 		margin-bottom: 0.625rem;
 	}
@@ -468,13 +468,11 @@ header {
 			h1 {
 				-webkit-transform: translateY(0);
 				transform: translateY(0);
-				opacity: 1;
 			} 
 
 			h4 {
 				-webkit-transform: translateY(0);
 				transform: translateY(0);
-				opacity: 1;
 				transition-delay: .1s;
 			}
 
@@ -485,8 +483,7 @@ header {
 			.material-icons {
 				-webkit-transform: translateY(0);
 				transform: translateY(0);
-				opacity: 1;
-				transition-delay: .2s;
+				transition-delay: .1s;
 			}
 		}
 
@@ -517,38 +514,33 @@ header {
 		h1 {
 			-webkit-transform: translateY(100%);
 			transform: translateY(100%);
-			opacity: 0;
 			color: $white;
 			font-size: 26px;
 			margin-bottom: 0.2em;
 			will-change: transform, opacity;
-			transition: transform .3s $default-transition .1s,
-						opacity .3s $default-transition 0s;
+			transition: transform .3s $default-transition .1s;
 		}
 
 		h4 {
 			margin: 0;
 			-webkit-transform: translateY(100%);
 			transform: translateY(100%);
-			opacity: 0;
 			will-change: transform, opacity;
-			transition: transform .3s $default-transition 0s,
-						opacity .3s $default-transition 0s;
+			transition: transform .3s $default-transition 0s;
 		}
 
 		.material-icons {
 			color: $white;
-			opacity: 0;
 			font-size: 28px;
     		width: 28px;
     		height: 28px;
 			position: absolute;
-			top: 30px;
-			right: 30px;
+			top: 27px;
+			right: 24px;
 			will-change: transform;
 			transition: all .3s $default-transition 0s;
 			-webkit-transform: translateY(75%);
-				transform: translateY(75%);
+					transform: translateY(75%);
 		}
 
 		a {

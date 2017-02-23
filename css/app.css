@@ -24,6 +24,10 @@
 .wow {
   visibility: hidden; }
 
+.wow-disabled {
+  animation-name: none !important;
+  visibility: visible !important; }
+
 .row {
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
@@ -307,7 +311,7 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .about-me p {
-    color: #767676;
+    color: #767575;
     margin-bottom: 0;
     letter-spacing: 0.2px;
     max-width: 750px;
@@ -322,9 +326,6 @@ header {
   padding: 60px 0px;
   background-color: #ffffff;
   text-align: center; }
-  .featured-projects .wow-disabled {
-    animation-name: none !important;
-    visibility: visible !important; }
   .featured-projects h4 {
     margin-bottom: 0.625rem; }
   .featured-projects .btn {
@@ -346,20 +347,17 @@ header {
       transform: translateY(-4px); }
       .featured-projects .project-list:hover h1 {
         -webkit-transform: translateY(0);
-        transform: translateY(0);
-        opacity: 1; }
+        transform: translateY(0); }
       .featured-projects .project-list:hover h4 {
         -webkit-transform: translateY(0);
         transform: translateY(0);
-        opacity: 1;
         transition-delay: .1s; }
       .featured-projects .project-list:hover figcaption {
         opacity: 1; }
       .featured-projects .project-list:hover .material-icons {
         -webkit-transform: translateY(0);
         transform: translateY(0);
-        opacity: 1;
-        transition-delay: .2s; }
+        transition-delay: .1s; }
     .featured-projects .project-list img {
       vertical-align: top;
       max-width: 100%;
@@ -383,28 +381,25 @@ header {
     .featured-projects .project-list h1 {
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      opacity: 0;
       color: #ffffff;
       font-size: 26px;
       margin-bottom: 0.2em;
       will-change: transform, opacity;
-      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s, opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s; }
     .featured-projects .project-list h4 {
       margin: 0;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      opacity: 0;
       will-change: transform, opacity;
-      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list .material-icons {
       color: #ffffff;
-      opacity: 0;
       font-size: 28px;
       width: 28px;
       height: 28px;
       position: absolute;
-      top: 30px;
-      right: 30px;
+      top: 27px;
+      right: 24px;
       will-change: transform;
       transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
       -webkit-transform: translateY(75%);

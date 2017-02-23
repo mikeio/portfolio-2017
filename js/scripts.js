@@ -55,7 +55,7 @@ wow.init();
 // Stop animations on mobile
 (function($) {
     var $window = $(window),
-        $html = $('.desktop');
+        $html = $('.project-list, .large-12.columns.wow.fadeInUp');
 
     function resize() {
         if ($window.width() < 1024) {

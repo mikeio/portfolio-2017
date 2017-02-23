@@ -48,7 +48,7 @@
     <section class="featured-projects" id="featured">
 
       <div class="row">
-        <div class="large-12 columns wow fadeInUp desktop">
+        <div class="large-12 columns wow fadeInUp">
           <h1>Featured Projects</h1>
           <h4>What's In The Works</h4>
         </div>
@@ -57,7 +57,7 @@
         <div class="row">
 
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft desktop">
+            <figure class="project-list wow fadeInLeft">
               <img src="https://unsplash.it/560/340/?random">
               <figcaption>
                 <h1>Project Title</h1>
@@ -69,7 +69,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight desktop">
+            <figure class="project-list wow fadeInRight">
               <img src="https://unsplash.it/560/341/?random">
               <figcaption>
                 <h1>Project Title</h1>
@@ -81,7 +81,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft desktop">
+            <figure class="project-list wow fadeInLeft">
               <img src="https://unsplash.it/560/342/?random">
               <figcaption>
                 <h1>Project Title</h1>
@@ -93,7 +93,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight desktop">
+            <figure class="project-list wow fadeInRight">
               <img src="https://unsplash.it/560/343/?random">
               <figcaption>
                 <h1>Project Title</h1>
