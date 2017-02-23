@@ -48,7 +48,7 @@
     <section class="featured-projects" id="featured">
 
       <div class="row">
-        <div class="large-12 columns wow fadeInUp">
+        <div class="large-12 columns wow fadeInUp desktop">
           <h1>Featured Projects</h1>
           <h4>What's In The Works</h4>
         </div>
@@ -56,8 +56,8 @@
 
         <div class="row">
 
-          <div class="large-6 columns wow fadeInLeft">
-            <figure class="project-list">
+          <div class="large-6 columns">
+            <figure class="project-list wow fadeInLeft desktop">
               <img src="https://unsplash.it/560/340/?random">
               <figcaption>
                 <h1>Project Title</h1>
@@ -68,34 +68,37 @@
             </figure>
           </div>
   
-          <div class="large-6 columns wow fadeInRight">
-            <figure class="project-list">
+          <div class="large-6 columns">
+            <figure class="project-list wow fadeInRight desktop">
               <img src="https://unsplash.it/560/341/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
+                <i class="material-icons">launch</i>
               </figcaption>
               <a href="#"></a>
             </figure>
           </div>
   
-          <div class="large-6 columns wow fadeInLeft">
-            <figure class="project-list">
+          <div class="large-6 columns">
+            <figure class="project-list wow fadeInLeft desktop">
               <img src="https://unsplash.it/560/342/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
+                <i class="material-icons">launch</i>
               </figcaption>
               <a href="#"></a>
             </figure>
           </div>
   
-          <div class="large-6 columns wow fadeInRight">
-            <figure class="project-list">
+          <div class="large-6 columns">
+            <figure class="project-list wow fadeInRight desktop">
               <img src="https://unsplash.it/560/343/?random">
               <figcaption>
                 <h1>Project Title</h1>
                 <h4>Subtitle</h4>
+                <i class="material-icons">launch</i>
               </figcaption>
               <a href="#"></a>
             </figure>
@@ -111,6 +114,7 @@
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
+              <i class="material-icons">launch</i>
             </figcaption>
             <a href="#"></a>
           </figure>
@@ -122,6 +126,7 @@
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
+              <i class="material-icons">launch</i>
             </figcaption>
             <a href="#"></a>
           </figure>
@@ -133,6 +138,7 @@
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
+              <i class="material-icons">launch</i>
             </figcaption>
             <a href="#"></a>
           </figure>
@@ -144,6 +150,7 @@
             <figcaption>
               <h1>Project Title</h1>
               <h4>Subtitle</h4>
+              <i class="material-icons">launch</i>
             </figcaption>
             <a href="#"></a>
           </figure>

@@ -434,10 +434,10 @@ header {
 	background-color: $white;
 	text-align: center;
 
-	.wow {
-        animation-name: none !important;
-        visibility: visible !important;
-    }
+	.wow-disabled {
+		animation-name: none !important;
+    	visibility: visible !important;
+	}
 
 	h4 {
 		margin-bottom: 0.625rem;
@@ -486,7 +486,7 @@ header {
 				-webkit-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
-				transition-delay: .1s;
+				transition-delay: .2s;
 			}
 		}
 
@@ -538,6 +538,7 @@ header {
 
 		.material-icons {
 			color: $white;
+			opacity: 0;
 			font-size: 28px;
     		width: 28px;
     		height: 28px;
@@ -545,9 +546,9 @@ header {
 			top: 30px;
 			right: 30px;
 			will-change: transform;
-			transition: transform .3s $default-transition 0s;
-			-webkit-transform: translateY(-100%);
-				transform: translateY(-100%);
+			transition: all .3s $default-transition 0s;
+			-webkit-transform: translateY(75%);
+				transform: translateY(75%);
 		}
 
 		a {
@@ -596,16 +597,17 @@ header {
  		
  		a {
  			font-size: 1.5em;
- 			line-height: 1;
+ 			line-height: 1.6;
  			color: lighten($gray, 25);
 			transition: all .25s $default-transition;
- 			display: block;
+ 			display: inline-block;
+ 			width: 40%;
    			will-change: transform;
- 			transform: translateY(12px);
+ 			transform: translateY(6px);
  			
  			&:hover {
  				color: $gray;
- 				transform: translateY(8px);
+ 				transform: translateY(4px);
  			}
  		}
 	}

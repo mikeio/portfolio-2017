@@ -50,3 +50,22 @@ var wow = new WOW(
   }
 );
 wow.init();
+
+
+// Stop animations on mobile
+(function($) {
+    var $window = $(window),
+        $html = $('.desktop');
+
+    function resize() {
+        if ($window.width() < 1024) {
+            return $html.addClass('wow-disabled');
+        }
+
+        $html.removeClass('wow-disabled');
+    }
+
+    $window
+        .resize(resize)
+        .trigger('resize');
+})(jQuery);
