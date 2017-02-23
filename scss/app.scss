@@ -82,6 +82,7 @@ h4 {
 	z-index: 1;
 	box-shadow: 0px;
 	transform: translateY(0px);
+	will-change: transform;
 	transition: color .3s $default-transition, 
 				border-color .3s $default-transition,
 				box-shadow .3s $default-transition,
