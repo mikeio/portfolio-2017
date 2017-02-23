@@ -457,7 +457,7 @@ header {
 		z-index: 1;
 		border-radius: 5px;
 		transform: translateY(0);
-		will-change: transform, box-shadow;
+		will-change: transform;
 		transition: transform .3s $default-transition 0s,
 					box-shadow .3s $default-transition 0s;
 
@@ -517,7 +517,7 @@ header {
 			color: $white;
 			font-size: 26px;
 			margin-bottom: 0.2em;
-			will-change: transform, opacity;
+			will-change: transform;
 			transition: transform .3s $default-transition .1s;
 		}
 
@@ -525,7 +525,7 @@ header {
 			margin: 0;
 			-webkit-transform: translateY(100%);
 			transform: translateY(100%);
-			will-change: transform, opacity;
+			will-change: transform;
 			transition: transform .3s $default-transition 0s;
 		}
 

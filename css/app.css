@@ -340,7 +340,7 @@ header {
     z-index: 1;
     border-radius: 5px;
     transform: translateY(0);
-    will-change: transform, box-shadow;
+    will-change: transform;
     transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list:hover {
       box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
@@ -384,13 +384,13 @@ header {
       color: #ffffff;
       font-size: 26px;
       margin-bottom: 0.2em;
-      will-change: transform, opacity;
+      will-change: transform;
       transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s; }
     .featured-projects .project-list h4 {
       margin: 0;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
-      will-change: transform, opacity;
+      will-change: transform;
       transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list .material-icons {
       color: #ffffff;
