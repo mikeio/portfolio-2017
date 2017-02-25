@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Arvo|Playfair+Display:900i");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @font-face {
   font-family: 'Proxima Nova';
   src: url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff");
@@ -83,9 +82,7 @@ h4 {
   overflow: hidden;
   z-index: 1;
   box-shadow: 0px;
-  transform: translateY(0px);
-  will-change: transform;
-  transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .btn::before, .btn::after {
     content: '';
     position: absolute;
@@ -99,8 +96,7 @@ h4 {
     transition: width 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
   .btn:hover {
     box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
-    transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), background-color 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s; }
+    transition: color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), border-color 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955), background-color 0s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s; }
     .btn:hover::before, .btn:hover::after {
       width: 131%; }
 
@@ -247,29 +243,21 @@ header {
         height: 3px;
         background: #ffffff;
         display: block;
-        -webkit-border-radius: 10px;
         border-radius: 10px;
         margin-bottom: 4px;
-        -webkit-transition: all .25s;
         transition: all .25s; }
         header .nav-header .burger span:nth-child(1) {
           width: 16px; }
       header .nav-header .burger:hover span:nth-child(1) {
         width: 25px; }
     header .nav-header .nav-open span {
-      -webkit-transform-origin: 50% 50%;
-      -ms-transform-origin: 50% 50%;
       transform-origin: 50% 50%; }
       header .nav-header .nav-open span:nth-child(1) {
         width: 25px;
-        -webkit-transform: rotate(45deg) translate(5px, 5px);
-        -ms-transform: rotate(45deg) translate(5px, 5px);
         transform: rotate(45deg) translate(5px, 5px); }
       header .nav-header .nav-open span:nth-child(2) {
         opacity: 0; }
       header .nav-header .nav-open span:nth-child(3) {
-        -webkit-transform: rotate(-45deg) translate(5px, -5px);
-        -ms-transform: rotate(-45deg) translate(5px, -5px);
         transform: rotate(-45deg) translate(5px, -5px); }
   header .intro {
     text-align: center;
@@ -301,8 +289,6 @@ header {
     width: 100%;
     max-width: 320px;
     position: relative;
-    -webkit-transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%); }
   .about-me h1 {
     margin-bottom: 16px;
@@ -312,7 +298,7 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .about-me p {
-    color: #767575;
+    color: #767676;
     margin-bottom: 0;
     letter-spacing: 0.2px;
     max-width: 750px;
@@ -340,25 +326,15 @@ header {
     margin: 20px auto 0px;
     z-index: 1;
     border-radius: 5px;
-    transform: translateY(0);
-    will-change: transform;
-    transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s, box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+    transition: box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list:hover {
-      box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
-      transform: translateY(-4px); }
+      box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15); }
       .featured-projects .project-list:hover h1 {
-        -webkit-transform: translateY(0);
         transform: translateY(0); }
       .featured-projects .project-list:hover h4 {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        transition-delay: .1s; }
+        transform: translateY(0); }
       .featured-projects .project-list:hover figcaption {
         opacity: 1; }
-      .featured-projects .project-list:hover .material-icons {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        transition-delay: .1s; }
     .featured-projects .project-list img {
       vertical-align: top;
       max-width: 100%;
@@ -380,31 +356,17 @@ header {
       will-change: opacity;
       transition: opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list h1 {
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
+      transform: translateY(75%);
       color: #ffffff;
       font-size: 26px;
       margin-bottom: 0.2em;
       will-change: transform;
-      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s; }
+      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list h4 {
       margin: 0;
-      -webkit-transform: translateY(100%);
       transform: translateY(100%);
       will-change: transform;
       transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
-    .featured-projects .project-list .material-icons {
-      color: #ffffff;
-      font-size: 28px;
-      width: 28px;
-      height: 28px;
-      position: absolute;
-      top: 27px;
-      right: 24px;
-      will-change: transform;
-      transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
-      -webkit-transform: translateY(75%);
-      transform: translateY(75%); }
     .featured-projects .project-list a {
       position: absolute;
       top: 0;
@@ -542,7 +504,7 @@ footer {
       header .nav-header ul li:nth-of-type(6) {
         display: none; }
   header .intro {
-    margin: 80px 0px 185px;
+    margin: 80px 0px 225px;
     padding: 40px 0px 35px;
     max-width: 840px;
     margin-left: auto;
