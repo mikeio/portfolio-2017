@@ -255,19 +255,19 @@
 		},
 	"\/img\/books-mobile@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 96026,
 		"oA": 0,
 		"oAP": "\/img\/books-mobile@2x.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/img\/books@2x.png": {
 		"ft": 32768,
-		"iS": 130109,
+		"iS": 86490,
 		"oA": 0,
 		"oAP": "\/img\/books@2x.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/img\/logo-alt.svg": {
 		"ft": 2097152,
