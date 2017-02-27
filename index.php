@@ -35,7 +35,7 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <img data-interchange="[img/books.png, small], [img/books.png, medium], [img/books@2x.png, large]" class="books">
+          <img data-interchange="[img/books-mobile@2x.png, small], [img/books-mobile@2x.png, medium], [img/books@2x.png, large]" class="books">
           <img src="img/playfair-type.svg" class="playfair">
           <h4>Various Aspects</h4>
           <h1>Designing experiences for web, mobile and everything in-between.</h1>
