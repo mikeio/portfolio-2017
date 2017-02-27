@@ -253,20 +253,12 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
-	"\/img\/arrow_top.png": {
+	"\/img\/books-mobile@2x.png": {
 		"ft": 32768,
-		"iS": 3379,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/img\/arrow_top.png",
+		"oAP": "\/img\/books-mobile@2x.png",
 		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/books.png": {
-		"ft": 32768,
-		"iS": 118457,
-		"oA": 0,
-		"oAP": "\/img\/books.png",
-		"oF": 1,
 		"opt": 1
 		},
 	"\/img\/books@2x.png": {
