@@ -636,6 +636,24 @@ footer {
 	}
 }
 
+/* IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .intro {
+     	&::before {
+     		display: none;
+     	}
+     }
+}
+
+/* IE Edge 12+ */
+@supports (-ms-accelerator:true) {
+   .intro {
+     	&::before {
+     		display: none;
+     	}
+     }
+}
+
 /* 640px+ */
 @media screen and (min-width: 40em) {
 }

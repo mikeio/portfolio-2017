@@ -460,6 +460,16 @@ footer {
     letter-spacing: .24em;
     color: #909396; }
 
+/* IE10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .intro::before {
+    display: none; } }
+
+/* IE Edge 12+ */
+@supports (-ms-accelerator: true) {
+  .intro::before {
+    display: none; } }
+
 /* 640px+ */
 /* 768px+ */
 /* 1024px+ */
