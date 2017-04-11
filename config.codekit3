@@ -7,7 +7,7 @@
 		"uuidString": "298CABDE-327F-4370-8008-2FEA1827EC77"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25479",
 "files": {
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -263,7 +263,7 @@
 		},
 	"\/img\/books@2x.png": {
 		"ft": 32768,
-		"iS": 86490,
+		"iS": 130109,
 		"oA": 0,
 		"oAP": "\/img\/books@2x.png",
 		"oF": 0,
@@ -1092,10 +1092,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-await-in-loop": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -1635,10 +1631,6 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
-			},
-		"prefer-destructuring": {
-			"active": 0,
-			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
