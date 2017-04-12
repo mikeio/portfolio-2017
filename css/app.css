@@ -181,7 +181,7 @@ h4 {
     text-align: center; }
     .mobile-overlay ul.social-icons li {
       display: inline;
-      padding: 0px 15px;
+      padding: 0px 12px;
       opacity: 1; }
       .mobile-overlay ul.social-icons li a {
         color: #454649;
@@ -543,11 +543,11 @@ footer {
       margin-bottom: -110px; }
     .about-me h1 {
       margin: 0 auto 22px;
-      max-width: 725px; }
+      max-width: 800px; }
     .about-me h4 {
       margin-bottom: 1rem; }
     .about-me p {
-      max-width: 850px;
+      max-width: 760px;
       letter-spacing: 0px; }
     .about-me .playfair {
       max-width: 570px;
