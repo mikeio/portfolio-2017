@@ -279,8 +279,7 @@ header {
       header .intro h1 span {
         font-family: 'Playfair Display', serif;
         font-weight: 900;
-        font-style: italic;
-        white-space: nowrap; }
+        font-style: italic; }
 
 .about-me {
   background-color: #f5f5f5;

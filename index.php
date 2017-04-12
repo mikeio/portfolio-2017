@@ -21,7 +21,7 @@
         <div class="large-12 columns">
 
           <div class="intro">
-            <h4>Hello! My name is Mike&nbsp;Peters</h4>
+            <h4>Hi! My name is Mike&nbsp;Peters</h4>
             <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
           </div>
 
@@ -39,7 +39,7 @@
           <img src="img/playfair-type.svg" class="playfair wow fadeInUp large-only">
           <h4 class="wow fadeInUp large-only">Various Aspects</h4>
           <h1 class="wow fadeInUp large-only">Designing & building products for web, mobile and everything in-between.</h1>
-          <p class="wow fadeInUp large-only">With almost a decade of experience, I design beautiful and functional user experiences while also writing clean and efficient front-end code. I believe that good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
+          <p class="wow fadeInUp large-only">With almost a decade of experience, I design beautiful and functional user experiences while also writing clean and efficient front-end code. I believe good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
         </div>
       </div>
 
