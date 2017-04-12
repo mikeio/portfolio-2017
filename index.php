@@ -22,7 +22,7 @@
 
           <div class="intro">
             <h4>Hello! My name is Mike&nbsp;Peters</h4>
-            <h1>I’m a <span>digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
+            <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
           </div>
 
         </div>
@@ -38,8 +38,8 @@
           <img data-interchange="[img/books-mobile@2x.png, small], [img/books-mobile@2x.png, medium], [img/books@2x.png, large]" class="books">
           <img src="img/playfair-type.svg" class="playfair wow fadeInUp large-only">
           <h4 class="wow fadeInUp large-only">Various Aspects</h4>
-          <h1 class="wow fadeInUp large-only">Designing experiences for web, mobile and everything in-between.</h1>
-          <p class="wow fadeInUp large-only">I'm a digital designer with a passion for strong, simple design. With over 10 years of experience working in both a corporate and freelance capacity, I mainly focus on designing and building websites and web applications. I love designing quality products and transforming ideas into first class experiences that are simple to use and look great.</p>
+          <h1 class="wow fadeInUp large-only">Designing & building products for web, mobile and everything in-between.</h1>
+          <p class="wow fadeInUp large-only">With almost a decade of experience, I design beautiful and functional user experiences while also writing clean and efficient front-end code. I believe that good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
         </div>
       </div>
 
@@ -50,7 +50,7 @@
       <div class="row">
         <div class="large-12 columns wow fadeInUp large-only">
           <h1>Featured Projects</h1>
-          <h4>Some of my favorites</h4>
+          <h4>Recent Work</h4>
         </div>
       </div>
 
