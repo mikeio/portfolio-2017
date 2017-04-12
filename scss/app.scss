@@ -379,6 +379,7 @@ header {
 				font-family: 'Playfair Display', serif;
 				font-weight: 900;
 				font-style: italic;
+				white-space: nowrap;
 			} 
 		}
 	}
@@ -418,7 +419,6 @@ header {
 
 	.playfair {
 		max-width: 400px;
-		opacity: 0.05;
 		margin: 40px 0px -30px;
 	}
 }
@@ -429,7 +429,7 @@ header {
 	text-align: center;
 
 	h4 {
-		margin-bottom: 0.625rem;
+		margin-bottom: 0.825rem;
 	}
 
 	.btn {
@@ -450,16 +450,12 @@ header {
 		&:hover {
 			box-shadow: $material-shadow;
 
-			h1 {
-				transform: translateY(0);
-			} 
-
-			h4 {
-				transform: translateY(0);
-			}
-
 			figcaption {
 				opacity: 1;
+
+				span {
+					transform: translateY(0);
+				}
 			}
 		}
 
@@ -480,36 +476,36 @@ header {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			background-color: rgba(0, 0, 0, 0.7);
+			background-color: rgba(0, 0, 0, 0.8);
 			margin: 0;
 			opacity: 0;
 			will-change: opacity;
-			transition: opacity .3s $default-transition 0s,
-		}
+			transition: opacity .3s $default-transition 0s;
 
-		h1 {
-			transform: translateY(75%);
-			color: $white;
-			font-size: 26px;
-			margin-bottom: 0.2em;
-			will-change: transform;
-			transition: transform .3s $default-transition 0s;
-		}
+			span {
+				transform: translateY(35%);
+				will-change: transform;
+				transition: transform .3s $default-transition 0s;
+			}
 
-		h4 {
-			margin: 0;
-			transform: translateY(100%);
-			will-change: transform;
-			transition: transform .3s $default-transition 0s;
-		}
-
-		a {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			z-index: 1;
+			h1 {
+				color: $white;
+				font-size: 26px;
+				margin-bottom: 0.2em;
+			}
+	
+			h4 {
+				margin: 0;
+			}
+	
+			a {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 1;
+			}
 		}
 	}
 

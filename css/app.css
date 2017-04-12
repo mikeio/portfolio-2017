@@ -279,7 +279,8 @@ header {
       header .intro h1 span {
         font-family: 'Playfair Display', serif;
         font-weight: 900;
-        font-style: italic; }
+        font-style: italic;
+        white-space: nowrap; }
 
 .about-me {
   background-color: #f5f5f5;
@@ -308,7 +309,6 @@ header {
     margin-right: auto; }
   .about-me .playfair {
     max-width: 400px;
-    opacity: 0.05;
     margin: 40px 0px -30px; }
 
 .featured-projects {
@@ -316,7 +316,7 @@ header {
   background-color: #ffffff;
   text-align: center; }
   .featured-projects h4 {
-    margin-bottom: 0.625rem; }
+    margin-bottom: 0.825rem; }
   .featured-projects .btn {
     margin-top: 30px; }
   .featured-projects .project-list {
@@ -331,12 +331,10 @@ header {
     transition: box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
     .featured-projects .project-list:hover {
       box-shadow: 0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15); }
-      .featured-projects .project-list:hover h1 {
-        transform: translateY(0); }
-      .featured-projects .project-list:hover h4 {
-        transform: translateY(0); }
       .featured-projects .project-list:hover figcaption {
         opacity: 1; }
+        .featured-projects .project-list:hover figcaption span {
+          transform: translateY(0); }
     .featured-projects .project-list img {
       vertical-align: top;
       max-width: 100%;
@@ -352,30 +350,28 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(0, 0, 0, 0.8);
       margin: 0;
       opacity: 0;
       will-change: opacity;
       transition: opacity 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
-    .featured-projects .project-list h1 {
-      transform: translateY(75%);
-      color: #ffffff;
-      font-size: 26px;
-      margin-bottom: 0.2em;
-      will-change: transform;
-      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
-    .featured-projects .project-list h4 {
-      margin: 0;
-      transform: translateY(100%);
-      will-change: transform;
-      transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
-    .featured-projects .project-list a {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 1; }
+      .featured-projects .project-list figcaption span {
+        transform: translateY(35%);
+        will-change: transform;
+        transition: transform 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+      .featured-projects .project-list figcaption h1 {
+        color: #ffffff;
+        font-size: 26px;
+        margin-bottom: 0.2em; }
+      .featured-projects .project-list figcaption h4 {
+        margin: 0; }
+      .featured-projects .project-list figcaption a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1; }
   .featured-projects #show-more {
     display: none; }
 

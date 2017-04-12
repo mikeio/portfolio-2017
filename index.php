@@ -36,10 +36,10 @@
       <div class="row">
         <div class="large-12 columns">
           <img data-interchange="[img/books-mobile@2x.png, small], [img/books-mobile@2x.png, medium], [img/books@2x.png, large]" class="books">
-          <img src="img/playfair-type.svg" class="playfair">
-          <h4>Various Aspects</h4>
-          <h1>Designing experiences for web, mobile and everything in-between.</h1>
-          <p>I'm a digital designer with a passion for strong, simple design. With over 10 years of experience working in both a corporate and freelance capacity, I mainly focus on designing and building websites and web applications. I love designing quality products and transforming ideas into first class experiences that are simple to use and look great.</p>
+          <img src="img/playfair-type.svg" class="playfair wow fadeInUp large-only">
+          <h4 class="wow fadeInUp large-only">Various Aspects</h4>
+          <h1 class="wow fadeInUp large-only">Designing experiences for web, mobile and everything in-between.</h1>
+          <p class="wow fadeInUp large-only">I'm a digital designer with a passion for strong, simple design. With over 10 years of experience working in both a corporate and freelance capacity, I mainly focus on designing and building websites and web applications. I love designing quality products and transforming ideas into first class experiences that are simple to use and look great.</p>
         </div>
       </div>
 
@@ -48,111 +48,127 @@
     <section class="featured-projects" id="featured">
 
       <div class="row">
-        <div class="large-12 columns wow fadeInUp">
+        <div class="large-12 columns wow fadeInUp large-only">
           <h1>Featured Projects</h1>
-          <h4>What's In The Works</h4>
+          <h4>Some of my favorites</h4>
         </div>
       </div>
 
         <div class="row">
 
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft">
-              <img src="https://unsplash.it/560/340/?random">
+            <figure class="project-list wow fadeInLeft large-only">
+              <img src="https://unsplash.it/560/360/?random">
               <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
               </figcaption>
-              <a href="#"></a>
             </figure>
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight">
-              <img src="https://unsplash.it/560/341/?random">
+            <figure class="project-list wow fadeInRight large-only">
+              <img src="https://unsplash.it/560/361/?random">
               <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
               </figcaption>
-              <a href="#"></a>
             </figure>
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft">
-              <img src="https://unsplash.it/560/342/?random">
+            <figure class="project-list wow fadeInLeft large-only">
+              <img src="https://unsplash.it/560/363/?random">
               <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
               </figcaption>
-              <a href="#"></a>
             </figure>
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight">
-              <img src="https://unsplash.it/560/343/?random">
+            <figure class="project-list wow fadeInRight large-only">
+              <img src="https://unsplash.it/560/362/?random">
               <figcaption>
-                <h1>Project Title</h1>
-                <h4>Subtitle</h4>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
               </figcaption>
-              <a href="#"></a>
             </figure>
           </div>
   
         </div>
 
-      <div class="row" id="show-more">
+        <div class="row" id="show-more">
 
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/560/340/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/560/364/?random">
+              <figcaption>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/560/341/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/560/365/?random">
+              <figcaption>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/560/342/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/560/367/?random">
+              <figcaption>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
+              </figcaption>
+            </figure>
+          </div>
 
-        <div class="large-6 columns">
-          <figure class="project-list">
-            <img src="https://unsplash.it/560/343/?random">
-            <figcaption>
-              <h1>Project Title</h1>
-              <h4>Subtitle</h4>
-            </figcaption>
-            <a href="#"></a>
-          </figure>
-        </div>
+          <div class="large-6 columns">
+            <figure class="project-list">
+              <img src="https://unsplash.it/560/366/?random">
+              <figcaption>
+                <span>
+                  <h1>Project Title</h1>
+                  <h4>Subtitle</h4>
+                </span>
+                <a href="/"></a>
+              </figcaption>
+            </figure>
+          </div>
         
       </div>
 
       <div class="row">
         <div class="large-12 columns">
-          <a class="btn btn-light" id="view-all">View More</a>
+          <a class="btn btn-light wow fadeInUp large-only" data-wow-offset="150" id="view-all">View More</a>
         </div>
       </div>
 
