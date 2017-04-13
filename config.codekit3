@@ -253,6 +253,16 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
+	"\/img\/about-me.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/about-me.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/books-mobile@2x.png": {
 		"ft": 32768,
 		"iS": 96026,
@@ -288,16 +298,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 1
-		},
-	"\/img\/playfair-type.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/playfair-type.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/quote@2x.gif": {
 		"ft": 4194304,
@@ -384,6 +384,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/scripts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scripts.php",
+		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc": {
 		"ft": 8192,
