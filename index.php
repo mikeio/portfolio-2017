@@ -35,11 +35,13 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <img data-interchange="[img/books-mobile@2x.png, small], [img/books-mobile@2x.png, medium], [img/books@2x.png, large]" class="books">
-          <img src="img/playfair-type.svg" class="playfair wow fadeInUp large-only">
-          <h4 class="wow fadeInUp large-only">Various Aspects</h4>
-          <h1 class="wow fadeInUp large-only">Designing & building products for web, mobile and everything in-between.</h1>
-          <p class="wow fadeInUp large-only">With almost a decade of experience, I design beautiful and functional user experiences while also writing clean and efficient front-end code. I believe good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
+          <img data-interchange="[img/books-mobile@2x.png, small], [img/books-mobile@2x.png, medium], [img/books@2x.png, large]" class="books" alt="">
+          <span>
+            <img src="img/about-me.svg" class="type wow fadeInUp wow-lrg">
+            <h4 class="wow fadeInUp wow-lrg">Various Aspects</h4>
+            <h1 class="wow fadeInUp wow-lrg">Designing & building products for web, mobile and everything in-between.</h1>
+            <p class="wow fadeInUp wow-lrg">I am a dedicated and highly-motivated web professional with almost a decade of experience. I enjoy designing beautiful and functional user experiences while also writing clean and efficient front-end code. I believe good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
+          </span>
         </div>
       </div>
 
@@ -48,7 +50,7 @@
     <section class="featured-projects" id="featured">
 
       <div class="row">
-        <div class="large-12 columns wow fadeInUp large-only">
+        <div class="large-12 columns wow fadeInUp wow-lrg">
           <h1>Featured Projects</h1>
           <h4>Recent Work</h4>
         </div>
@@ -57,7 +59,7 @@
         <div class="row">
 
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft large-only">
+            <figure class="project-list wow fadeInLeft wow-lrg">
               <img src="https://unsplash.it/560/360/?random">
               <figcaption>
                 <span>
@@ -70,7 +72,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight large-only">
+            <figure class="project-list wow fadeInRight wow-lrg">
               <img src="https://unsplash.it/560/361/?random">
               <figcaption>
                 <span>
@@ -83,7 +85,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInLeft large-only">
+            <figure class="project-list wow fadeInLeft wow-lrg">
               <img src="https://unsplash.it/560/363/?random">
               <figcaption>
                 <span>
@@ -96,7 +98,7 @@
           </div>
   
           <div class="large-6 columns">
-            <figure class="project-list wow fadeInRight large-only">
+            <figure class="project-list wow fadeInRight wow-lrg">
               <img src="https://unsplash.it/560/362/?random">
               <figcaption>
                 <span>
@@ -168,7 +170,7 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <a class="btn btn-light wow fadeInUp large-only" data-wow-offset="150" id="view-all">View More</a>
+          <a class="btn btn-light wow fadeInUp wow-lrg" id="view-all">View More</a>
         </div>
       </div>
 
