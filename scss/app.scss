@@ -8,7 +8,8 @@ $whitesmoke:			#f5f5f5;
 $gray:					#83868a;
 $default-transition: 	cubic-bezier(0.455, 0.03, 0.515, 0.955);
 $bounce-transition: 	cubic-bezier(0.175, 0.885, 0.32, 1.275);
-$material-shadow: 		0 22px 55px 0 rgba(0, 0, 0, 0.3), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
+$mdc-elevation--alt: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
+$mdc-elevation--z24:	0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
 
 
 // Debug
@@ -85,7 +86,7 @@ h4 {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
-	box-shadow: 0px;
+	box-shadow: 0;
 	transition: color .3s $default-transition, 
 				border-color .3s $default-transition,
 				box-shadow .3s $default-transition;
@@ -96,7 +97,7 @@ h4 {
 		position: absolute;
 		z-index: -1;
 		height: 110%;
-		width: 0%;
+		width: 0;
 		left: 0;
 		top: 0;
 		transform: skew(-50deg);
@@ -105,7 +106,7 @@ h4 {
 	}
  
 	&:hover {
-		box-shadow: $material-shadow;
+		box-shadow: $mdc-elevation--alt;
 		transition: color .3s $default-transition,
 					box-shadow .3s $default-transition,
 					border-color .3s $default-transition,
@@ -225,7 +226,7 @@ h4 {
 		
 		li { 
 			display: inline;
-			padding: 0px 12px;
+			padding: 0 12px;
 			opacity: 1;
 			
 			a {
@@ -360,7 +361,7 @@ header {
 	.intro {
 		text-align: center;
 		color: $white;
-		padding: 40px 0px 135px;
+		padding: 40px 0 135px;
 		position: relative;
 		max-width: 650px;
 		margin-left: auto;
@@ -407,23 +408,32 @@ header {
 		margin-right: auto;
 	}
 
+	h4 {
+		margin-bottom: 0.75rem;
+	}
+
 	p {
 		color: darken($whitesmoke, 50%);
 		margin-bottom: 0;
 		letter-spacing: 0.2px;
-		max-width: 750px;
+		max-width: 850px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.playfair {
+	.type {
 		max-width: 400px;
-		margin: 40px 0px -30px;
+		margin: 0 0 -30px;
+	}
+
+	span {
+		margin-top: 30px;
+		display: block;
 	}
 }
 
 .featured-projects {
-	padding: 60px 0px;
+	padding: 60px 0;
 	background-color: $white;
 	text-align: center;
 
@@ -441,27 +451,18 @@ header {
 		width: 100%;
 		max-width: 560px;
 		text-align: center;
-		margin: 20px auto 0px;
+		margin: 20px auto 0;
 		z-index: 1;
 		border-radius: 5px;
 		transition: box-shadow .3s $default-transition 0s;
-
-		&:hover {
-			box-shadow: $material-shadow;
-
-			figcaption {
-				opacity: 1;
-
-				span {
-					transform: translateY(0);
-				}
-			}
-		}
 
 		img {
 			vertical-align: top;
 			max-width: 100%;
 			backface-visibility: hidden;
+			transform: scale(1);
+			transition: transform .3s $default-transition 0s;
+			transform-origin: center bottom;
 		}
 
 		figcaption {
@@ -482,7 +483,7 @@ header {
 			transition: opacity .3s $default-transition 0s;
 
 			span {
-				transform: translateY(35%);
+				transform: translateY(15%);
 				will-change: transform;
 				transition: transform .3s $default-transition 0s;
 			}
@@ -515,7 +516,7 @@ header {
 
 .my-resume {
 	background-color: $black;
-	padding: 60px 0px 70px;
+	padding: 60px 0 70px;
 	text-align: center;
 	position: relative;
 
@@ -565,7 +566,7 @@ footer {
 	background-color: $white;
 
 	.container {
-		padding: 60px 0px 50px;
+		padding: 60px 0 50px;
 	}
 
 	.nav-footer {
@@ -605,13 +606,13 @@ footer {
 	}
 
 	ul.social-icons {
-		margin: 0px;
+		margin: 0;
 		font-size: 14px;
 		display: inline-block;
 
 		li { 
 			display: inline;
-			padding: 0px 5px;
+			padding: 0 5px;
 
 			a {
 				color: lighten($gray, 20%);
@@ -709,7 +710,7 @@ footer {
 					}
 
 					&:nth-of-type(3) {
-						padding: 0px 80px;
+						padding: 0 80px;
 					}
 
 					/* .btn */
@@ -730,7 +731,7 @@ footer {
 		}
 
 		.intro {
-			padding: 120px 0px 260px;
+			padding: 120px 0 260px;
 			max-width: 840px;
 			margin-left: auto;
 			margin-right: auto;
@@ -778,22 +779,25 @@ footer {
 		}
 
 		h4 {
-			margin-bottom: 1rem;
+			margin-bottom: 1.25rem;
 		}
 
 		p {
-			max-width: 760px;
-			letter-spacing: 0px;
+			letter-spacing: 0;
 		}
 
-		.playfair {
+		.type {
 			max-width: 570px;
-			margin: 40px 0px -38px;
+			margin: 0 0 -38px;
+		}
+
+		span {
+			margin-top: 40px;
 		}
 	}
 
 	.featured-projects {
-		padding: 120px 0px 130px;
+		padding: 120px 0 130px;
 
 		h4 {
 			margin-bottom: 1.5rem;
@@ -806,6 +810,22 @@ footer {
 		.project-list {
 			margin-top: 30px;
 
+			&:hover {
+				box-shadow: $mdc-elevation--z24;
+	
+				img {
+					transform: scale(1.03);
+				}
+	
+				figcaption {
+					opacity: 1;
+	
+					span {
+						transform: translateY(0);
+					}
+				}
+			}
+
 			h1 {
 				font-size: 28px;
 			}
@@ -813,7 +833,7 @@ footer {
 	}
 
 	.my-resume {
-		padding: 80px 0px 90px;
+		padding: 80px 0 90px;
 
 		h4 {
 			margin-bottom: 30px;
@@ -823,19 +843,19 @@ footer {
 	footer {
 		
 		.container {
-			padding: 120px 0px 100px;
+			padding: 120px 0 100px;
 		}
 
 		.copyright {
 			font-size: 14px;
-			padding: 30px 0px;
+			padding: 30px 0;
 		}
 
 		ul.social-icons {
 			font-size: 15px;
 
 			li { 
-				padding: 0px 12px;
+				padding: 0 12px;
 			}
 		}
 
@@ -879,7 +899,7 @@ footer {
 					}
 
 					&:nth-of-type(4) {
-						padding: 0px 80px;
+						padding: 0 80px;
 					}
 
 					&:nth-of-type(6) {
