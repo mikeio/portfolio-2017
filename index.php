@@ -58,7 +58,7 @@
 
         <div class="row">
 
-          <div class="large-6 columns">
+          <div class="medium-6 columns">
             <figure class="project-list wow fadeInLeft wow-lrg">
               <img src="https://unsplash.it/560/360/?random">
               <figcaption>
@@ -71,7 +71,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="medium-6 columns">
             <figure class="project-list wow fadeInRight wow-lrg">
               <img src="https://unsplash.it/560/361/?random">
               <figcaption>
@@ -84,7 +84,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="medium-6 columns">
             <figure class="project-list wow fadeInLeft wow-lrg">
               <img src="https://unsplash.it/560/363/?random">
               <figcaption>
@@ -97,7 +97,7 @@
             </figure>
           </div>
   
-          <div class="large-6 columns">
+          <div class="medium-6 columns">
             <figure class="project-list wow fadeInRight wow-lrg">
               <img src="https://unsplash.it/560/362/?random">
               <figcaption>
@@ -180,15 +180,7 @@
 
     <?php include 'footer.php';?>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/jquery-ui.js"></script>
-
-    <!-- Custom Scripts -->
-    <script src="js/wow.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <?php include 'scripts.php';?>
 
   </body>
 </html>
