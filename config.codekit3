@@ -279,6 +279,46 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/honda01.png": {
+		"ft": 32768,
+		"iS": 39066,
+		"oA": 0,
+		"oAP": "\/img\/honda01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/honda02.jpg": {
+		"ft": 16384,
+		"iS": 66434,
+		"oA": 0,
+		"oAP": "\/img\/honda02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/honda03.jpg": {
+		"ft": 16384,
+		"iS": 38519,
+		"oA": 0,
+		"oAP": "\/img\/honda03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/honda04.jpg": {
+		"ft": 16384,
+		"iS": 53914,
+		"oA": 0,
+		"oAP": "\/img\/honda04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/honda05.jpg": {
+		"ft": 16384,
+		"iS": 55572,
+		"oA": 0,
+		"oAP": "\/img\/honda05.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo-alt.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -440,6 +480,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/single.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single.php",
+		"oF": 0
 		}
 	},
 "hooks": [
