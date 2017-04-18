@@ -2,9 +2,9 @@
 
       <div class="row">
         <div class="large-12 columns">
-          <h1 class="wow fadeInUp wow-lrg" data-wow-offset="150">Want to learn more?</h1>
-          <h4 class="wow fadeInUp wow-lrg" data-wow-offset="150">View My Resume</h4>
-          <a class="btn btn-dark wow fadeInUp wow-lrg" data-wow-offset="150" href="#">Download PDF</a>
+          <h1>Want to learn more?</h1>
+          <h4>View My Resume</h4>
+          <a class="btn btn-dark" href="#">Download PDF</a>
         </div>
       </div>
 
