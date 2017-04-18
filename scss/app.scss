@@ -13,7 +13,7 @@ $mdc-elevation--z24:	0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba
 
 
 // Debug
-.div, .section, .ul { border: 1px solid red; }	
+// row, section, ul, li, p, img, h1, h4 { border: 1px solid red; }	
 
 // Global Styles
 .wow { visibility: hidden; }
@@ -26,6 +26,10 @@ $mdc-elevation--z24:	0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba
 ::selection {
 	background: $gray;
 	color: $white;
+}
+
+body {
+	background-color: $whitesmoke;
 }
 
 .row {
@@ -156,6 +160,24 @@ h4 {
 	transform: translate(-50%, 0);
 	width: 100%;
 	overflow-y: scroll;
+}
+
+.img-divide {
+	position: relative;
+
+	img {
+		position: relative;
+	}
+
+	&::before {
+		background-color: $black;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50%;
+	}
 }
 
 .mobile-overlay {
@@ -361,7 +383,7 @@ header {
 	.intro {
 		text-align: center;
 		color: $white;
-		padding: 40px 0 135px;
+		padding: 40px 0 60px;
 		position: relative;
 		max-width: 650px;
 		margin-left: auto;
@@ -383,7 +405,80 @@ header {
 			} 
 		}
 	}
+
+	.project-title {
+		text-align: center;
+		color: $white;
+		padding: 40px 0 60px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+
+		h1 {
+			font-size: 2.5em;
+			color: $white;
+		}
+
+		h4 {
+			margin-bottom: 0;
+		}
+	}
 }
+
+.project-info {
+	text-align: center;
+	position: relative;
+	background-color: $whitesmoke;
+	padding-bottom: 60px;
+
+	h1 {
+		margin-bottom: 0;
+	}
+
+	h4 {
+		margin-bottom: 0.25rem;;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 5px 0 20px;
+
+		li {
+			display: inline-block;
+			padding: 0 20px;
+			margin-bottom: 20px;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	p {
+		color: darken($whitesmoke, 50%);
+		margin-bottom: 0;
+		letter-spacing: 0.2px;
+		max-width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.project-full {
+	text-align: center;
+	background-color: $white;
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	img {
+		width: 100%;
+	}
+}
+
 
 .about-me {
 	background-color: $whitesmoke;
@@ -392,11 +487,10 @@ header {
 
 	.books {
 		display: block;
-		margin: 0 auto -70px;
+		margin: 0 auto 40px;
 		width: 100%;
 		max-width: 320px;
 		position: relative;
-		transform: translate(0%, -50%);
 	}
 
 	h1 {
@@ -427,7 +521,6 @@ header {
 	}
 
 	span {
-		margin-top: 30px;
 		display: block;
 	}
 }
@@ -657,10 +750,29 @@ footer {
 
 /* 640px+ */
 @media screen and (min-width: 40em) {
+	.project-info {
+		ul {
+			margin-top: 0;
+			margin-bottom: 30px;
+
+			li {
+				padding: 0 30px;
+				margin-bottom: 0;
+			}
+		}
+	}
 }
 
 /* 768px+ */
 @media screen and (min-width: 48em) {
+	.project-info {
+		ul {
+			
+			li {
+				padding: 0 40px;
+			}
+		}
+	}
 }
 
 /* 1024px+ */
@@ -731,7 +843,7 @@ footer {
 		}
 
 		.intro {
-			padding: 120px 0 260px;
+			padding: 120px 0 160px;
 			max-width: 840px;
 			margin-left: auto;
 			margin-right: auto;
@@ -763,6 +875,19 @@ footer {
 				margin-bottom: 1em;
 			}
 		}
+
+		.project-title {
+			padding: 80px 0 120px;
+	
+			h1 {
+				font-size: 3em;
+				margin-bottom: 0.625rem;
+			}
+	
+			h4 {
+				font-size: 1.125em;
+			}
+		}
 	}
 
 	.about-me {
@@ -770,7 +895,7 @@ footer {
 
 		.books {
 			max-width: 905px;
-			margin-bottom: -110px;
+			margin-bottom: 80px;
 		}
 
 		h1 {
@@ -790,11 +915,21 @@ footer {
 			max-width: 570px;
 			margin: 0 0 -38px;
 		}
+	}
 
-		span {
-			margin-top: 40px;
+	.project-info {
+		padding-bottom: 130px;
+
+		ul {
+			margin-bottom: 40px;
+			
+			li {
+				padding: 0 60px;
+			}
 		}
 	}
+
+
 
 	.featured-projects {
 		padding: 120px 0 130px;
