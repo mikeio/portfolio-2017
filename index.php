@@ -71,7 +71,7 @@
                   <h1>Project Title</h1>
                   <h4>Subtitle</h4>
                 </span>
-                <a href="/"></a>
+                <a href="/single.php"></a>
               </figcaption>
             </figure>
           </div>

@@ -383,7 +383,7 @@ header {
 	.intro {
 		text-align: center;
 		color: $white;
-		padding: 40px 0 60px;
+		padding: 40px 0 50px;
 		position: relative;
 		max-width: 650px;
 		margin-left: auto;
@@ -409,10 +409,14 @@ header {
 	.project-title {
 		text-align: center;
 		color: $white;
-		padding: 40px 0 60px;
+		padding: 30px 0 40px;
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
+
+		&::before {
+			display: none;
+		}
 
 		h1 {
 			font-size: 2.5em;
@@ -765,6 +769,12 @@ footer {
 
 /* 768px+ */
 @media screen and (min-width: 48em) {
+	header {
+		.project-title {
+			padding: 40px 0 50px;
+		}
+	}
+
 	.project-info {
 		ul {
 			
@@ -877,7 +887,7 @@ footer {
 		}
 
 		.project-title {
-			padding: 80px 0 120px;
+			padding: 60px 0 80px;
 	
 			h1 {
 				font-size: 3em;
