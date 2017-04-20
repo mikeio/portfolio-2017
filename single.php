@@ -13,7 +13,7 @@
 
     <?php include 'mobile-overlay.php';?>
 
-    <header id="top">
+    <header id="start">
 
       <?php include 'nav-header.php';?>
 
@@ -21,8 +21,8 @@
         <div class="large-12 columns">
 
           <div class="project-title">
-            <h1>Honda Dealers</h1>
-            <h4>Hi! My name is Mike&nbsp;Peters</h4>
+            <h1>Gulf Coast Honda Dealers</h1>
+            <h4>Serving the greater Tampa, Bradenton, Clearwater and Lakeland areas.</h4>
           </div>
 
         </div>
@@ -40,9 +40,9 @@
       <div class="row">
         <div class="large-12 columns">
           <ul>
-            <li><h4>Subtitle</h4><h1>Title</h1></li>
-            <li><h4>Subtitle</h4><h1>Title</h1></li>
-            <li><h4>Subtitle</h4><h1>Title</h1></li>
+            <li><h4>Type</h4><h1>Website</h1></li>
+            <li><h4>Category</h4><h1>Design</h1></li>
+            <li><h4>Year</h4><h1>2016</h1></li>
           </ul>
           <p>I am a dedicated and highly-motivated web professional with almost a decade of experience. I enjoy designing beautiful and functional user experiences while also writing clean and efficient front-end code. I believe good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
         </div>

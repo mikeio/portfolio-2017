@@ -13,7 +13,7 @@
 
     <?php include 'mobile-overlay.php';?>
 
-    <header id="top">
+    <header id="start">
 
       <?php include 'nav-header.php';?>
 

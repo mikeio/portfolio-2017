@@ -137,7 +137,7 @@ h4 {
     background-color: #191a1a;
     content: '';
     position: absolute;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 100%;
     height: 50%; }
@@ -213,7 +213,8 @@ header {
     z-index: 4; }
     header .nav-header .logo {
       width: 56px;
-      height: 44px; }
+      height: 44px;
+      transition: 0; }
     header .nav-header .btn {
       font-weight: 700;
       font-size: 13px;
@@ -278,7 +279,7 @@ header {
   header .intro {
     text-align: center;
     color: #ffffff;
-    padding: 40px 0 50px;
+    padding: 40px 0 45px;
     position: relative;
     max-width: 650px;
     margin-left: auto;
@@ -306,7 +307,9 @@ header {
       font-size: 2.5em;
       color: #ffffff; }
     header .project-title h4 {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      max-width: 650px;
+      margin: 0 auto; }
 
 .project-info {
   text-align: center;
@@ -314,18 +317,17 @@ header {
   background-color: #f5f5f5;
   padding-bottom: 60px; }
   .project-info h1 {
+    font-size: 1.625em;
     margin-bottom: 0; }
   .project-info h4 {
     margin-bottom: 0.25rem; }
   .project-info ul {
     list-style-type: none;
-    margin: 5px 0 20px; }
+    margin: 0 0 20px; }
     .project-info ul li {
       display: inline-block;
-      padding: 0 20px;
-      margin-bottom: 20px; }
-      .project-info ul li:last-of-type {
-        margin-bottom: 0; }
+      min-width: 160px;
+      padding: 10px 0; }
   .project-info p {
     color: #767676;
     margin-bottom: 0;
@@ -534,19 +536,21 @@ footer {
 
 /* 640px+ */
 @media screen and (min-width: 40em) {
+  .project-info h1 {
+    font-size: 1.750em; }
   .project-info ul {
-    margin-top: 0;
     margin-bottom: 30px; }
     .project-info ul li {
-      padding: 0 30px;
-      margin-bottom: 0; } }
+      padding: 0; } }
 
 /* 768px+ */
 @media screen and (min-width: 48em) {
   header .project-title {
     padding: 40px 0 50px; }
+  .project-info h1 {
+    font-size: 1.875em; }
   .project-info ul li {
-    padding: 0 40px; } }
+    min-width: 200px; } }
 
 /* 1024px+ */
 @media screen and (min-width: 64em) {
@@ -636,10 +640,12 @@ footer {
       margin: 0 0 -38px; }
   .project-info {
     padding-bottom: 130px; }
+    .project-info h1 {
+      font-size: 2em; }
     .project-info ul {
       margin-bottom: 40px; }
       .project-info ul li {
-        padding: 0 60px; }
+        min-width: 225px; }
   .featured-projects {
     padding: 120px 0 130px; }
     .featured-projects h4 {
