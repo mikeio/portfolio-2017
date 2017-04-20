@@ -9,7 +9,7 @@
       </div>
 
       <div class="top-arrow">
-        <a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        <a href="#start"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
       </div>
 
     </section>
