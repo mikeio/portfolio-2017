@@ -293,7 +293,7 @@
 		"oA": 0,
 		"oAP": "\/img\/honda02.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/honda03.jpg": {
 		"ft": 16384,
@@ -301,7 +301,7 @@
 		"oA": 0,
 		"oAP": "\/img\/honda03.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/honda04.jpg": {
 		"ft": 16384,
@@ -309,7 +309,7 @@
 		"oA": 0,
 		"oAP": "\/img\/honda04.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/honda05.jpg": {
 		"ft": 16384,
