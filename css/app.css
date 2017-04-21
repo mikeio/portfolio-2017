@@ -132,7 +132,9 @@ h4 {
 .img-divide {
   position: relative; }
   .img-divide img {
-    position: relative; }
+    position: relative;
+    max-width: 1150px;
+    width: 100%; }
   .img-divide::before {
     background-color: #191a1a;
     content: '';
@@ -338,11 +340,16 @@ header {
 
 .project-full {
   text-align: center;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding: 60px 0; }
   .project-full ul {
     list-style-type: none;
     padding: 0;
     margin: 0; }
+    .project-full ul li {
+      margin-bottom: 30px; }
+      .project-full ul li:last-of-type {
+        margin-bottom: 0; }
   .project-full img {
     width: 100%; }
 
@@ -639,13 +646,19 @@ footer {
       max-width: 570px;
       margin: 0 0 -38px; }
   .project-info {
-    padding-bottom: 130px; }
+    padding-bottom: 120px; }
     .project-info h1 {
       font-size: 2em; }
     .project-info ul {
       margin-bottom: 40px; }
       .project-info ul li {
         min-width: 225px; }
+  .project-full {
+    padding: 120px 0 130px; }
+    .project-full ul li {
+      margin-bottom: 80px; }
+      .project-full ul li:last-of-type {
+        margin-bottom: 0; }
   .featured-projects {
     padding: 120px 0 130px; }
     .featured-projects h4 {
