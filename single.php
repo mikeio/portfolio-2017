@@ -51,12 +51,18 @@
     </section>
 
     <section class="project-full">
-      <ul>
-        <li><img src="img/honda02.jpg"></li>
-        <li><img src="img/honda03.jpg"></li>
-        <li><img src="img/honda04.jpg"></li>
-        <li><img src="img/honda05.jpg"></li>
-      </ul>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <ul>
+            <li><img src="img/honda02.jpg"></li>
+            <li><img src="img/honda03.jpg"></li>
+            <li><img src="img/honda04.jpg"></li>
+            <li><img src="img/honda05.jpg"></li>
+          </ul>
+        </div>
+      </div>
+      
     </section>
 
     <?php include 'cta.php';?>
