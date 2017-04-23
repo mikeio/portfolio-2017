@@ -24,6 +24,9 @@
   animation-name: none !important;
   visibility: visible !important; }
 
+.fluidbox__overlay {
+  background-color: white !important; }
+
 ::selection {
   background: #83868a;
   color: #ffffff; }
@@ -340,16 +343,16 @@ header {
 
 .project-full {
   text-align: center;
-  background-color: #ffffff;
-  padding: 60px 0; }
+  background-color: #ffffff; }
   .project-full ul {
     list-style-type: none;
     padding: 0;
     margin: 0; }
-    .project-full ul li {
-      margin-bottom: 30px; }
-      .project-full ul li:last-of-type {
-        margin-bottom: 0; }
+    .project-full ul li:nth-child(even) {
+      background-color: #f5f5f5; }
+    .project-full ul li img {
+      max-width: 1150px;
+      margin: 0 auto; }
   .project-full img {
     width: 100%; }
 
@@ -653,12 +656,6 @@ footer {
       margin-bottom: 40px; }
       .project-info ul li {
         min-width: 225px; }
-  .project-full {
-    padding: 120px 0 130px; }
-    .project-full ul li {
-      margin-bottom: 80px; }
-      .project-full ul li:last-of-type {
-        margin-bottom: 0; }
   .featured-projects {
     padding: 120px 0 130px; }
     .featured-projects h4 {

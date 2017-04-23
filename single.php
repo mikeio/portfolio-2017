@@ -52,16 +52,11 @@
 
     <section class="project-full">
 
-      <div class="row">
-        <div class="large-12 columns">
           <ul>
-            <li><img src="img/honda02.jpg"></li>
-            <li><img src="img/honda03.jpg"></li>
-            <li><img src="img/honda04.jpg"></li>
-            <li><img src="img/honda05.jpg"></li>
+            <li><a href="img/honda02@2x.jpg"><img src="img/honda02.jpg" alt="lorem ipsum"></a></li>
+            <li><a href="img/honda03@2x.jpg"><img src="img/honda03.jpg" alt="lorem ipsum"></a></li>
+            <li><a href="img/honda04@2x.jpg"><img src="img/honda04.jpg" alt="lorem ipsum"></a></li>
           </ul>
-        </div>
-      </div>
       
     </section>
 
