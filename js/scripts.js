@@ -69,3 +69,9 @@ wow.init();
         .resize(resize)
         .trigger('resize');
 })(jQuery);
+
+
+// Fluidbox 
+$(function () {
+    $('a').fluidbox();
+})
