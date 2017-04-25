@@ -34,7 +34,7 @@
     <section class="project-info">
     
       <div class="img-divide">
-        <img src="img/honda01.png">
+        <a href="img/honda01.png"><img src="img/honda01.png" alt="lorem ipsum"></a>
       </div>
 
       <div class="row">
@@ -52,11 +52,11 @@
 
     <section class="project-full">
 
-          <ul>
-            <li><a href="img/honda02@2x.jpg"><img src="img/honda02.jpg" alt="lorem ipsum"></a></li>
-            <li><a href="img/honda03@2x.jpg"><img src="img/honda03.jpg" alt="lorem ipsum"></a></li>
-            <li><a href="img/honda04@2x.jpg"><img src="img/honda04.jpg" alt="lorem ipsum"></a></li>
-          </ul>
+      <ul>
+        <li><img src="img/honda02.png" alt="lorem ipsum"></a></li>
+        <li><img src="img/honda03.png" alt="lorem ipsum"></a></li>
+        <li><img src="img/honda04.png" alt="lorem ipsum"></a></li>
+      </ul>
       
     </section>
 

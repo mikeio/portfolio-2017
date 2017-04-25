@@ -65,11 +65,11 @@
 
           <div class="medium-6 columns">
             <figure class="project-list wow fadeInLeft wow-lrg">
-              <img src="https://unsplash.it/560/360/?random">
+              <img src="img/honda_thumb.jpg">
               <figcaption>
                 <span>
-                  <h1>Project Title</h1>
-                  <h4>Subtitle</h4>
+                  <h1>Gulf Coast Honda Dealers</h1>
+                  <h4>View Project</h4>
                 </span>
                 <a href="/single.php"></a>
               </figcaption>

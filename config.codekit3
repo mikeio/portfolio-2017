@@ -253,117 +253,11 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
-	"\/img\/about-me.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/about-me.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/books-mobile@2x.png": {
-		"ft": 32768,
-		"iS": 96026,
-		"oA": 0,
-		"oAP": "\/img\/books-mobile@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/books@2x.png": {
-		"ft": 32768,
-		"iS": 130109,
-		"oA": 0,
-		"oAP": "\/img\/books@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/honda01.png": {
-		"ft": 32768,
-		"iS": 39066,
-		"oA": 0,
-		"oAP": "\/img\/honda01.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/honda02.jpg": {
-		"ft": 16384,
-		"iS": 90201,
-		"oA": 0,
-		"oAP": "\/img\/honda02.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/honda02@2x.jpg": {
-		"ft": 16384,
-		"iS": 268857,
-		"oA": 0,
-		"oAP": "\/img\/honda02@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/honda03.jpg": {
-		"ft": 16384,
-		"iS": 53914,
-		"oA": 0,
-		"oAP": "\/img\/honda03.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/honda03@2x.jpg": {
-		"ft": 16384,
-		"iS": 600552,
-		"oA": 0,
-		"oAP": "\/img\/honda03@2x.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/honda04.jpg": {
-		"ft": 16384,
-		"iS": 38519,
-		"oA": 0,
-		"oAP": "\/img\/honda04.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/logo-alt.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo-alt.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 1
-		},
-	"\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 1
-		},
-	"\/img\/quote@2x.gif": {
-		"ft": 4194304,
-		"iS": 978448,
-		"oA": 0,
-		"oAP": "\/img\/quote@2x.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/img\/top-arrow.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/top-arrow.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 1
+	"\/img": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/img",
+		"oF": 0
 		},
 	"\/index.php": {
 		"ft": 8192,
@@ -472,7 +366,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_fonts.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2414,7 +2308,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/js",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/js, \/img",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
