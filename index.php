@@ -107,7 +107,7 @@
   
           <div class="row" id="show-more">
   
-            <div class="large-6 columns">
+            <div class="medium-6 columns">
               <figure class="project-list">
                 <img src="https://unsplash.it/560/364/?random">
                 <figcaption>
@@ -116,7 +116,7 @@
               </figure>
             </div>
   
-            <div class="large-6 columns">
+            <div class="medium-6 columns">
               <figure class="project-list">
                 <img src="https://unsplash.it/560/365/?random">
                 <figcaption>
@@ -125,7 +125,7 @@
               </figure>
             </div>
   
-            <div class="large-6 columns">
+            <div class="medium-6 columns">
               <figure class="project-list">
                 <img src="https://unsplash.it/560/367/?random">
                 <figcaption>
@@ -134,7 +134,7 @@
               </figure>
             </div>
   
-            <div class="large-6 columns">
+            <div class="medium-6 columns">
               <figure class="project-list">
                 <img src="https://unsplash.it/560/366/?random">
                 <figcaption>
