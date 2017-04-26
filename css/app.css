@@ -216,46 +216,46 @@ h4 {
 
 header {
   background-color: #191a1a; }
-  header .nav-header {
+  header .nav_header {
     height: 75px;
     max-width: 75rem;
     margin-right: auto;
     margin-left: auto;
     position: relative;
     z-index: 4; }
-    header .nav-header .logo {
+    header .nav_header .logo {
       width: 56px;
       height: 44px;
       transition: 0; }
-    header .nav-header .btn {
+    header .nav_header .btn {
       font-weight: 700;
       font-size: 13px;
       display: inline-flex;
       float: right; }
-    header .nav-header ul {
+    header .nav_header ul {
       list-style-type: none;
       display: block;
       margin: 0 auto;
       text-align: center;
       height: auto; }
-      header .nav-header ul li {
+      header .nav_header ul li {
         display: inline-block;
         height: 50px;
         line-height: 50px;
         /* Logo */
         /* Hamburger */
         /* Links */ }
-        header .nav-header ul li:nth-of-type(1) {
+        header .nav_header ul li:nth-of-type(1) {
           position: absolute;
           left: 30px;
           top: 10px; }
-        header .nav-header ul li:nth-of-type(6) {
+        header .nav_header ul li:nth-of-type(6) {
           position: absolute;
           right: 30px;
           top: 28px; }
-        header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4), header .nav-header ul li:nth-of-type(5) {
+        header .nav_header ul li:nth-of-type(2), header .nav_header ul li:nth-of-type(3), header .nav_header ul li:nth-of-type(4), header .nav_header ul li:nth-of-type(5) {
           display: none; }
-        header .nav-header ul li a {
+        header .nav_header ul li a {
           font-family: 'Proxima Nova', sans-serif;
           font-weight: 600;
           text-transform: uppercase;
@@ -263,11 +263,11 @@ header {
           letter-spacing: .24em;
           color: #ffffff;
           transition: all 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-          header .nav-header ul li a:hover {
+          header .nav_header ul li a:hover {
             color: #83868a; }
-    header .nav-header .burger {
+    header .nav_header .burger {
       cursor: pointer; }
-      header .nav-header .burger span {
+      header .nav_header .burger span {
         width: 25px;
         height: 3px;
         background: #ffffff;
@@ -275,18 +275,18 @@ header {
         border-radius: 10px;
         margin-bottom: 4px;
         transition: all .25s; }
-        header .nav-header .burger span:nth-child(1) {
+        header .nav_header .burger span:nth-child(1) {
           width: 16px; }
-      header .nav-header .burger:hover span:nth-child(1) {
+      header .nav_header .burger:hover span:nth-child(1) {
         width: 25px; }
-    header .nav-header .nav-open span {
+    header .nav_header .nav-open span {
       transform-origin: 50% 50%; }
-      header .nav-header .nav-open span:nth-child(1) {
+      header .nav_header .nav-open span:nth-child(1) {
         width: 25px;
         transform: rotate(45deg) translate(5px, 5px); }
-      header .nav-header .nav-open span:nth-child(2) {
+      header .nav_header .nav-open span:nth-child(2) {
         opacity: 0; }
-      header .nav-header .nav-open span:nth-child(3) {
+      header .nav_header .nav-open span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px); }
   header .intro {
     text-align: center;
@@ -566,32 +566,32 @@ footer {
     font-size: 1.188em;
     margin-left: auto;
     margin-right: auto; }
-  header .nav-header {
+  header .nav_header {
     height: 125px; }
-    header .nav-header .logo {
+    header .nav_header .logo {
       width: 65px;
       height: 50px;
       display: block !important; }
-    header .nav-header ul li {
+    header .nav_header ul li {
       height: 125px;
       line-height: 125px;
       /* Logo */
       /* .btn */
       /* Hamburger */ }
-      header .nav-header ul li:nth-of-type(1) {
+      header .nav_header ul li:nth-of-type(1) {
         top: 40px;
         height: auto; }
-      header .nav-header ul li:nth-of-type(2), header .nav-header ul li:nth-of-type(3), header .nav-header ul li:nth-of-type(4) {
+      header .nav_header ul li:nth-of-type(2), header .nav_header ul li:nth-of-type(3), header .nav_header ul li:nth-of-type(4) {
         display: inline-block; }
-      header .nav-header ul li:nth-of-type(3) {
+      header .nav_header ul li:nth-of-type(3) {
         padding: 0 80px; }
-      header .nav-header ul li:nth-of-type(5) {
+      header .nav_header ul li:nth-of-type(5) {
         display: block;
         position: absolute;
         right: 30px;
         top: 38px;
         height: auto; }
-      header .nav-header ul li:nth-of-type(6) {
+      header .nav_header ul li:nth-of-type(6) {
         display: none; }
   header .intro {
     padding: 100px 0 140px;

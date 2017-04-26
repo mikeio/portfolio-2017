@@ -309,10 +309,10 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/nav-header.php": {
+	"\/nav_header.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/nav-header.php",
+		"oAP": "\/nav_header.php",
 		"oF": 0
 		},
 	"\/nav_mobile.php": {

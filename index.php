@@ -17,7 +17,7 @@
 
       <header id="start">
 
-        <?php include 'nav-header.php';?>
+        <?php include 'nav_header.php';?>
 
         <div class="row">
           <div class="large-12 columns">
@@ -36,7 +36,7 @@
       <section class="about-me" id="about">
 
         <div class="img-divide">
-          <img data-interchange="[img/books_ns@2x.png, small], [img/books_ns@2x.png, medium], [img/books@2x.png, large]" class="books" alt="">
+          <img data-interchange="[img/books_small@2x.png, small], [img/books_small@2x.png, medium], [img/books@2x.png, large]" class="books" alt="">
         </div>
 
         <div class="row">

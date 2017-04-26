@@ -1,4 +1,4 @@
-<div class="nav-header">
+<div class="nav_header">
         <div class="row">
           <div class="large-12 columns">
             <ul>
