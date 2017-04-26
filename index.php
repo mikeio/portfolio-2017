@@ -36,7 +36,9 @@
       <section class="about-me" id="about">
 
         <div class="img-divide">
-          <img src="img/books@2x.png" class="books" alt="">
+          <span class="stack_container">
+            <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]">
+          </span>
         </div>
 
         <div class="row">
@@ -67,7 +69,7 @@
   
             <div class="medium-6 columns">
               <figure class="project-list wow fadeInLeft wow-lrg">
-                <img src="img/honda_thumb.jpg">
+                <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
                 <figcaption>
                   <a href="honda" class="animsition-link"></a>
                 </figcaption>
