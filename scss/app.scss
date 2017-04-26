@@ -24,14 +24,15 @@ $mdc-elevation--z24:	0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba
 }
 
 .animsition-loading_alt {
-	width: 76px;
-  	height: 40px;
+	width: 64px;
+  	height: 64px;
   	position: fixed;
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	background-image: url('../img/loading.gif');
-  	opacity: 0.3;
+  	background-image: url('../img/loading.svg');
+  	background-size: 100% auto;
+  	opacity: 0.15;
 }
 
 ::selection {
@@ -40,7 +41,7 @@ $mdc-elevation--z24:	0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba
 }
 
 body {
-	background-color: $whitesmoke;
+	background-color: $white;
 }
 
 .row {
