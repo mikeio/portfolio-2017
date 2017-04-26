@@ -24,7 +24,7 @@
   
             <div class="project-title">
               <h1>Gulf Coast Honda Dealers</h1>
-              <h4>Serving the greater Tampa, Bradenton, Clearwater and Lakeland areas.</h4>
+              <h4>Find your local Honda dealership</h4>
             </div>
   
           </div>

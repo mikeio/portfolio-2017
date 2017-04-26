@@ -68,7 +68,7 @@
           <div class="row">
   
             <div class="medium-6 columns">
-              <figure class="project-list wow fadeInLeft wow-lrg">
+              <figure class="project-list wow fadeInLeft">
                 <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
                 <figcaption>
                   <a href="honda" class="animsition-link"></a>
@@ -77,7 +77,7 @@
             </div>
     
             <div class="medium-6 columns">
-              <figure class="project-list wow fadeInRight wow-lrg">
+              <figure class="project-list wow fadeInRight">
                 <img src="https://unsplash.it/560/361/?random">
                 <figcaption>
                   <a href="/"></a>
@@ -86,7 +86,7 @@
             </div>
     
             <div class="medium-6 columns">
-              <figure class="project-list wow fadeInLeft wow-lrg">
+              <figure class="project-list wow fadeInLeft">
                 <img src="https://unsplash.it/560/363/?random">
                 <figcaption>
                   <a href="/"></a>
@@ -95,7 +95,7 @@
             </div>
     
             <div class="medium-6 columns">
-              <figure class="project-list wow fadeInRight wow-lrg">
+              <figure class="project-list wow fadeInRight">
                 <img src="https://unsplash.it/560/362/?random">
                 <figcaption>
                   <a href="/"></a>

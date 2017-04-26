@@ -55,7 +55,7 @@ wow.init();
 // Stop animations on mobile
 (function($) {
     var $window = $(window),
-        $html = $('.wow-lrg');
+        $html = $('.project-list');
 
     function resize() {
         if ($window.width() < 1024) {
