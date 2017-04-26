@@ -30,7 +30,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  margin: -38px 0 0 -20px;
+  transform: translate(-50%, -50%);
   background-image: url("../img/loading.gif");
   opacity: 0.3; }
 
@@ -338,6 +338,8 @@ header {
       display: inline-block;
       min-width: 160px;
       padding: 10px 0; }
+      .project-info ul li:last-of-type {
+        display: none; }
   .project-info p {
     color: #767676;
     margin-bottom: 0;
@@ -535,6 +537,11 @@ footer {
 @supports (-ms-accelerator: true) {
   .intro::before {
     display: none; } }
+
+/* 545px+ */
+@media screen and (min-width: 545px) {
+  .project-info ul li:last-of-type {
+    display: inline-block; } }
 
 /* 640px+ */
 @media screen and (min-width: 40em) {
