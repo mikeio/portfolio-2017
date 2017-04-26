@@ -36,7 +36,7 @@
       <section class="about-me" id="about">
 
         <div class="img-divide">
-          <img data-interchange="[img/books_small@2x.png, small], [img/books_small@2x.png, medium], [img/books@2x.png, large]" class="books" alt="">
+          <img src="img/books@2x.png" class="books" alt="">
         </div>
 
         <div class="row">

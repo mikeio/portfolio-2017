@@ -414,8 +414,7 @@ header {
     text-align: center;
     margin: 20px auto 0;
     z-index: 1;
-    border-radius: 5px;
-    transition: box-shadow 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s; }
+    border-radius: 5px; }
     .featured-projects .project-list:hover figcaption {
       opacity: 1; }
     .featured-projects .project-list figcaption {
