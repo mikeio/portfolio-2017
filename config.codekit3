@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 2821,
@@ -46,6 +52,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/animsition.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/animsition-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -253,6 +269,12 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
+	"\/honda.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/honda.php",
+		"oF": 0
+		},
 	"\/img": {
 		"ft": 65536,
 		"oA": 1,
@@ -279,12 +301,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/mobile-overlay.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/mobile-overlay.php",
-		"oF": 0
-		},
 	"\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 1447,
@@ -297,6 +313,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/nav-header.php",
+		"oF": 0
+		},
+	"\/nav_mobile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nav_mobile.php",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -382,12 +404,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/single.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/single.php",
-		"oF": 0
 		}
 	},
 "hooks": [

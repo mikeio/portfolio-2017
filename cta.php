@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      <div class="top-arrow">
+      <div class="chevron_up">
         <a href="#start"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
       </div>
 

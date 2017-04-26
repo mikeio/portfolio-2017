@@ -1,4 +1,4 @@
-<div class="mobile-overlay" style="display: none;">
+<div class="nav_mobile" style="display: none;">
 
       <div class="row">
         <div class="large-12 columns">
@@ -6,10 +6,10 @@
           <h4>Navigation</h4>
           <nav>
             <ul class="nav">
-              <li class="wow fadeInDown" data-wow-delay=".5s"><a href="/">Home</a></li>
-              <li class="wow fadeInDown" data-wow-delay=".6s"><a href="/#about">About Me</a></li>
-              <li class="wow fadeInDown" data-wow-delay=".7s"><a href="/#featured">Featured Projects</a></li>
-              <li class="wow fadeInDown" data-wow-delay=".8s"><a href="/#resume">My Resume</a></li>
+              <li class="wow fadeInDown " data-wow-delay=".5s"><a href="/" class="animsition-link">Home</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".6s"><a href="/#about" class="animsition-link">About Me</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".7s"><a href="/#featured" class="animsition-link">Featured Projects</a></li>
+              <li class="wow fadeInDown" data-wow-delay=".8s"><a href="/#resume" class="animsition-link">My Resume</a></li>
               <li class="wow fadeInDown" data-wow-delay=".9s"><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
             </ul>
           </nav>
