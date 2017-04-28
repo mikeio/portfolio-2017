@@ -17,8 +17,8 @@
           <div class="large-12 columns">
   
             <div class="project-title">
-              <h1>Gulf Coast Honda Dealers</h1>
-              <h4>Find your local Honda dealership</h4>
+              <h1>Mercedes-Benz of Manhattan</h1>
+              <h4>2016 Winter Sales Event</h4>
             </div>
   
           </div>
@@ -30,13 +30,13 @@
       <section class="project-info">
     
         <div class="img-divide">
-          <img data-interchange="[img/honda01.png, small], [img/honda01@2x.png, retina]">
+          <img data-interchange="[img/mbusa01.png, small], [img/mbusa01@2x.png, retina]">
         </div>
 
         <div class="row">
           <div class="large-12 columns">
             <ul>
-              <li><h4>Type</h4><h1>Website</h1></li>
+              <li><h4>Type</h4><h1>E-mail</h1></li>
               <li><h4>Category</h4><h1>Design</h1></li>
               <li><h4>Year</h4><h1>2016</h1></li>
             </ul>
@@ -49,10 +49,9 @@
       <section class="project-full">
 
         <ul>
-          <li><img data-interchange="[img/honda02.png, small], [img/honda02@2x.png, retina]"></li>
-          <li><img data-interchange="[img/honda03.png, small], [img/honda03@2x.png, retina]"></li>
-          <li><img data-interchange="[img/honda04.png, small], [img/honda04@2x.png, retina]"></li>
-          <li><img data-interchange="[img/honda05.png, small], [img/honda05@2x.png, retina]"></li>
+          <li><img data-interchange="[img/mbusa02.png, small], [img/mbusa02@2x.png, retina]"></li>
+          <li><img data-interchange="[img/mbusa03.png, small], [img/mbusa3@2x.png, retina]"></li>
+          <li><img data-interchange="[img/mbusa04.png, small], [img/mbusa04@2x.png, retina]"></li>
         </ul>
 
       </section>

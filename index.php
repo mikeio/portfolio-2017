@@ -1,14 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Online Portfolio of Mike Peters</title>
 
-    <?php include 'head.php';?>
-    
-  </head>
+  <?php include 'head.php';?>
+
   <body>
 
     <div class="animsition">
@@ -78,9 +72,9 @@
     
             <div class="medium-6 columns">
               <figure class="project-list wow fadeInRight">
-                <img src="https://unsplash.it/560/361/?random">
+                <img data-interchange="[img/mbusa_thumb.jpg, small], [img/mbusa_thumb@2x.jpg, retina]">
                 <figcaption>
-                  <a href="/"></a>
+                  <a href="mbusa"></a>
                 </figcaption>
               </figure>
             </div>
