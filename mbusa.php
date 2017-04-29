@@ -50,7 +50,7 @@
 
         <ul>
           <li><img data-interchange="[img/mbusa02.png, small], [img/mbusa02@2x.png, retina]"></li>
-          <li><img data-interchange="[img/mbusa03.png, small], [img/mbusa3@2x.png, retina]"></li>
+          <li><img data-interchange="[img/mbusa03.png, small], [img/mbusa03@2x.png, retina]"></li>
           <li><img data-interchange="[img/mbusa04.png, small], [img/mbusa04@2x.png, retina]"></li>
         </ul>
 
