@@ -77,9 +77,8 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: rgba(0, 0, 0, 0.35) url("../img/cd-icon-zoom.svg") no-repeat center center;
+        background: rgba(255, 255, 255, 0.15);
         /* size of the icon */
-        background-size: 48px;
         opacity: 0;
         z-index: 4;
         -webkit-transition: opacity 0.2s;
@@ -138,7 +137,7 @@
       -moz-transition: opacity 0.2s 0s, visibility 0s 0.2s;
       transition: opacity 0.2s 0s, visibility 0s 0.2s; }
     .no-touch .cd-slider-navigation li a:hover {
-      opacity: .7; }
+      opacity: .6; }
   .cd-slider-navigation li:first-of-type a {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -277,15 +276,6 @@
   list-style-type: none;
 }
 
-.cd-slider {
-  border-radius: 5px;
-  transition: border-radius 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
-}
-
-.cd-slider-active .cd-slider {
-  border-radius: 0;
-}
-
 .cd-single-item {
   margin-top: 20px;
 }
@@ -326,6 +316,11 @@ ul.cd-slider-navigation {
 
   .cd-open {
     z-index: 4;
+  }
+
+  .cd-prev,
+  .cd-next {
+    opacity: 0.15;
   }
 
   ul.cd-slider-navigation {
