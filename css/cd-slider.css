@@ -270,10 +270,14 @@
 
 
   @media only screen and (min-width: 1024px) {
-  .container {
-    display: flex;
-  }
-
+    .featured-projects .container {
+      display: flex;
+    }
+    .featured-projects ul {
+      margin: 0;
+      list-style-type: none;
+    }
+    
   .cd-slider-wrapper {
     width: 100%;
   }

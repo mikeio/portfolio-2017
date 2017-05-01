@@ -80,9 +80,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/cd-slider-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/css\/font-awesome.min.css": {
