@@ -9,10 +9,18 @@
 
     <!--Custom Styles-->
     <link rel="stylesheet" href="css/app.css">
+
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <!-- animsition.css -->
     <link rel="stylesheet" href="css/animsition.css">
+
+    <!-- cd-slider -->
+    <link rel="stylesheet" href="css/cd-slider.css">
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script> 
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">

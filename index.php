@@ -145,6 +145,85 @@
           </div>
         </div>
 
+        <div class="row">
+          <div class="large-12 columns">
+
+            <div class="container">
+
+              <div class="cd-single-item single-left">
+                <div class="cd-slider-wrapper">
+                  <ul class="cd-slider">
+                    <li class="selected"><img src="img/img-1.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-2.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-3.jpg" alt="Product Image 2"></li>
+                  </ul> 
+            
+                  <ul class="cd-slider-navigation">
+                    <li><a href="#0" class="cd-prev inactive">Next</a></li>
+                    <li><a href="#0" class="cd-next">Prev</a></li>
+                  </ul> 
+            
+                  <a href="#0" class="cd-close">Close</a>
+                </div> 
+              </div> 
+            
+              <div class="cd-single-item single-right">
+                <div class="cd-slider-wrapper cd-right">
+                  <ul class="cd-slider">
+                    <li class="selected"><img src="img/img-2.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-3.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-1.jpg" alt="Product Image 2"></li>
+                  </ul> 
+            
+                  <ul class="cd-slider-navigation">
+                    <li><a href="#0" class="cd-prev inactive">Next</a></li>
+                    <li><a href="#0" class="cd-next">Prev</a></li>
+                  </ul> 
+            
+                  <a href="#0" class="cd-close">Close</a>
+                </div> 
+              </div> 
+
+             </div>
+
+             <div class="container">
+
+              <div class="cd-single-item single-left">
+                <div class="cd-slider-wrapper">
+                  <ul class="cd-slider">
+                    <li class="selected"><img src="img/img-1.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-2.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-3.jpg" alt="Product Image 2"></li>
+                  </ul> 
+            
+                  <ul class="cd-slider-navigation">
+                    <li><a href="#0" class="cd-prev inactive">Next</a></li>
+                    <li><a href="#0" class="cd-next">Prev</a></li>
+                  </ul> 
+            
+                  <a href="#0" class="cd-close">Close</a>
+                </div> 
+              </div> 
+            
+              <div class="cd-single-item single-right">
+                <div class="cd-slider-wrapper cd-right">
+                  <ul class="cd-slider">
+                    <li class="selected"><img src="img/img-2.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-3.jpg" alt="Product Image 1"></li>
+                    <li><img src="img/img-1.jpg" alt="Product Image 2"></li>
+                  </ul> 
+            
+                  <ul class="cd-slider-navigation">
+                    <li><a href="#0" class="cd-prev inactive">Next</a></li>
+                    <li><a href="#0" class="cd-next">Prev</a></li>
+                  </ul> 
+            
+                  <a href="#0" class="cd-close">Close</a>
+                </div> 
+              </div> 
+
+             </div>
+
       </section>
 
       <?php include 'cta.php';?>
