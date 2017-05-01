@@ -1,4 +1,4 @@
-// Toggle Menu
+// Mobile overlay
 $(document).ready(function() {
   $('.burger, .nav_mobile a').on('click', function() {
       $('.burger').toggleClass('nav-open');
@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
 });
 
-// Toggle Projects
+// Toggle projects
 $(document).ready(function(){
     $("#view-all").click(function(){
         $("#show-more").slideToggle(1000);
@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
 });
 
-// Smooth Scroll
+// Smooth scroll
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -52,7 +52,7 @@ var wow = new WOW(
 wow.init();
 
 
-// Stop animations on mobile
+// Disable Wow.js
 (function($) {
     var $window = $(window),
         $html = $('.project-list');
@@ -70,29 +70,8 @@ wow.init();
         .trigger('resize');
 })(jQuery);
 
-
-// Transitions
-$(document).ready(function() {
-  $(".animsition").animsition({
-    inClass: 'fade-in',
-    outClass: 'fade-out',
-    inDuration: 1500,
-    outDuration: 800,
-    linkElement: '.animsition-link',
-    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-    loading: true,
-    loadingParentElement: 'body', //animsition wrapper element
-    loadingClass: 'animsition-loading_alt',
-    loadingInner: '', // e.g '<img src="loading.svg" />'
-    timeout: false,
-    timeoutCountdown: 5000,
-    onLoadEvent: true,
-    browser: [ 'animation-duration', '-webkit-animation-duration'],
-    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
-  });
-});
+//Preloader
+$(window).on('load', function() { 
+  $('#status').fadeOut(); // 
+  $('#preloader').delay(350).fadeOut('slow'); 
+})
