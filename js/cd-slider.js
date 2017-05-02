@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 			//enlarge slider images 
 			if( !container.hasClass('cd-slider-active') && $(event.target).is('.cd-slider')) {
 				itemInfoWrapper.removeClass('cd-slider-active');
-				container.addClass('cd-slider-active cd-open').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+				container.addClass('cd-slider-active cd-above cd-info-active').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 					$('body,html').animate({'scrollTop':container.offset().top}, 200);
 				});
 			}
@@ -24,8 +24,9 @@ jQuery(document).ready(function($){
 		container.find('.cd-close').on('click', function(){
 			//shrink slider images 
 			container.removeClass('cd-slider-active');
+			container.removeClass('cd-info-active');
  			setTimeout(function(){
- 				$(container).removeClass("cd-open");
+ 				$(container).removeClass("cd-above");
  			}, 500);
 		});
 

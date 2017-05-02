@@ -174,13 +174,13 @@
     float: left;
     margin: 0 5px; }
     .cd-slider-pagination li.selected a {
-      background: #83868a; }
+      background: #191a1a; }
   .cd-slider-pagination a {
     display: block;
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    border: 1px solid #83868a;
+    border: 1px solid #191a1a;
     /* fix a bug in IE9/10 - transparent anchor not clickable */
     background-color: rgba(0, 0, 0, 0);
     /* image replacement */
@@ -276,25 +276,42 @@
   list-style-type: none;
 }
 
+.cd-info {
+  text-align: left;
+  padding: 15px 20px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-top: 0;
+}
+
+.cd-info h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.cd-info h1 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
 .cd-single-item {
   margin-top: 20px;
 }
 
-ul.cd-slider-navigation {
-  visibility: hidden;
+.single-left,
+.single-right {
+  margin-right: 0px;
 }
 
-.touch .cd-slider-pagination {
-    visibility: visible;
+.cd-slider-navigation li {
+  top: 39%;
 }
 
-.single-left {
-    margin-right: 0px;
-  }
-
-  .single-right {
-    margin-left: 0px;
-  }
+a.cd-next,
+a.cd-prev {
+  opacity: .15;
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -314,14 +331,6 @@ ul.cd-slider-navigation {
     float: right;
   }
 
-  .cd-open {
-    z-index: 4;
-  }
-
-  ul.cd-slider-navigation {
-    visibility: visible;
-  }
-
   .single-left {
     margin-right: 10px;
   }
@@ -330,9 +339,55 @@ ul.cd-slider-navigation {
     margin-left: 10px;
   }
 
+  .cd-above {
+    z-index: 4;
+  }
+
+  .cd-info {
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+  }
+
+  .cd-slider-active .cd-info {
+    opacity: 1;
+    height: auto;
+    padding: 25px 30px;
+    border: 1px solid #eee;
+    border-top: 0;
+  }
+
+  ul.cd-slider-navigation {
+    visibility: visible;
+  }
+
+  .cd-slider-active .cd-slider-pagination li {
+    opacity: .25;
+  }
+
+  .cd-slider-active .cd-slider-pagination li.selected {
+    opacity: 0.5;
+  }
+
+  .cd-slider-navigation li {
+    top: 43%;
+  }
+
+  .cd-slider-active .cd-slider-wrapper .cd-close {
+    opacity: .35;
+  }
+
+  .no-touch .cd-slider-active .cd-slider-wrapper .cd-close:hover {
+    transform: scale(1.1);
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
+
   .cd-single-item {
     margin-top: 30px;
   }
@@ -343,4 +398,5 @@ ul.cd-slider-navigation {
   .single-right {
     margin-left: 15px;
   }
+
 }

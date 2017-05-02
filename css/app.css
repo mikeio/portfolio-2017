@@ -423,7 +423,7 @@ header {
 
 .featured-projects {
   padding: 60px 0;
-  background-color: #ffffff;
+  background: linear-gradient(#ffffff, #f5f5f5);
   text-align: center; }
   .featured-projects h4 {
     margin-bottom: 0.825rem; }
