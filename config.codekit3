@@ -263,6 +263,12 @@
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
+	"\/head.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/head.php",
+		"oF": 0
+		},
 	"\/honda.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -273,6 +279,12 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/img",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/js": {
@@ -342,6 +354,12 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/scripts.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scripts.php",
+		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc": {
 		"ft": 8192,
