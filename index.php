@@ -73,7 +73,7 @@
                 <ul class="cd-slider-navigation">
                   <li><a href="#0" class="cd-prev inactive">Next</a></li>
                   <li><a href="#0" class="cd-next">Prev</a></li>
-                </ul> 
+                </ul>
                 <a href="#0" class="cd-close">Close</a>
               </div>
             </div> 
