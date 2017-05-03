@@ -50,18 +50,22 @@
 
     <section class="featured-projects" id="featured">
 
-      <div class="row">
-        <div class="large-12 columns">
-          <h1>Featured Projects</h1>
-          <h4>Recent Work</h4>
+      <div class="project-header">
+
+        <div class="row">
+          <div class="large-12 columns">
+            <h1>Featured Projects</h1>
+            <h4>Recent Work</h4>
+          </div>
         </div>
+
       </div>
 
 
-      <div class="project-container initial">
+      <div class="project-container">
         
         <div class="row aligner">
-          <div class="large-6 columns wow fadeInLeft" data-wow-offset="260">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
             <div class="project-thumbnail" id="one">
               <img data-interchange="[https://unsplash.it/1150/863/?random, small], [img/honda01@2x.jpg, retina]">
@@ -93,7 +97,7 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="260">
+          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
 
             <div class="project-thumbnail project-thumbnail_right" id="two">
               <img data-interchange="[https://unsplash.it/1151/864/?random, small], [img/honda01@2x.jpg, retina]">
@@ -125,7 +129,7 @@
       <div class="project-container">
         
         <div class="row aligner">
-          <div class="large-6 columns wow fadeInLeft" data-wow-offset="260">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
             <div class="project-thumbnail" id="three">
               <img data-interchange="[https://unsplash.it/1152/864/?random, small], [img/honda01@2x.jpg, retina]">
@@ -157,7 +161,7 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="260">
+          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
 
             <div class="project-thumbnail project-thumbnail_right" id="four">
               <img data-interchange="[https://unsplash.it/1153/866/?random, small], [img/honda01@2x.jpg, retina]">
@@ -308,7 +312,7 @@
                   <a href="/"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
-                
+
               </div>
               
             </div>
@@ -318,10 +322,14 @@
 
       </div>
 
-      <div class="row">
-        <div class="large-12 columns">
-          <a class="btn btn-light" id="view-all">View More</a>
+      <div class="project-footer">
+
+        <div class="row">
+          <div class="large-12 columns">
+            <a class="btn btn-light" id="view-all">View More</a>
+          </div>
         </div>
+
       </div>
 
     </section>

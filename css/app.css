@@ -17,9 +17,6 @@
   font-weight: 700;
   font-style: normal; }
 
-div, span, section {
-  border: 1px solid red; }
-
 .wow {
   visibility: hidden; }
 
@@ -57,8 +54,6 @@ body {
   background-color: #ffffff; }
 
 .row {
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
   max-width: 80em; }
 
 p {
@@ -368,11 +363,20 @@ header {
     display: block; }
 
 .featured-projects {
-  padding: 60px 0;
+  padding: 0;
   background: #ffffff;
   text-align: center; }
+  .featured-projects .project-header {
+    padding-top: 60px;
+    margin-bottom: -30px; }
+  .featured-projects .project-footer {
+    padding-bottom: 60px;
+    margin-top: -20px;
+    background-color: #f5f5f5; }
+  .featured-projects .closed {
+    display: none; }
   .featured-projects .btn {
-    margin-top: 40px; }
+    margin: 0; }
   .featured-projects #show-more {
     display: none; }
   .featured-projects .aligner {
@@ -380,8 +384,6 @@ header {
   .featured-projects .project-container {
     background-color: #ffffff;
     padding: 60px 0; }
-  .featured-projects .initial {
-    padding-top: 30px; }
   .featured-projects .project-container_alt {
     background-color: #f5f5f5; }
   .featured-projects .project-thumbnail {
@@ -653,44 +655,44 @@ footer {
     .about-me .type {
       max-width: 570px;
       margin: 0 0 -38px; }
-  .featured-projects {
-    padding: 120px 0 130px; }
-    .featured-projects .btn {
-      margin-top: 80px; }
-    .featured-projects .aligner {
-      display: flex;
-      align-items: center; }
-    .featured-projects .project-container {
-      padding: 120px 30px; }
-    .featured-projects .initial {
-      padding-top: 65px; }
-    .featured-projects .project-thumbnail {
-      margin: 0;
-      max-width: 100%; }
-      .featured-projects .project-thumbnail::after {
-        background-position: center right;
-        transform: translateX(60%);
-        background-size: auto 80%; }
-    .featured-projects .project-thumbnail_right::after {
-      background-position: center left;
-      transform: translateX(-60%); }
-    .featured-projects .project-info {
-      margin-left: 40px;
-      padding: 0; }
-      .featured-projects .project-info .fab {
-        display: none; }
-      .featured-projects .project-info .btn {
-        margin-top: 0;
-        display: inline-flex; }
-      .featured-projects .project-info h4 {
-        font-size: 16px; }
-      .featured-projects .project-info h1 {
-        font-size: 30px; }
-      .featured-projects .project-info p {
-        margin-bottom: 40px; }
-    .featured-projects .project-info_left {
-      margin-left: 0;
-      margin-right: 40px; }
+  .featured-projects .project-header {
+    padding-top: 120px;
+    margin-bottom: -60px; }
+  .featured-projects .project-footer {
+    padding-bottom: 120px;
+    margin-top: -40px; }
+  .featured-projects .aligner {
+    display: flex;
+    align-items: center; }
+  .featured-projects .project-container {
+    padding: 120px 40px; }
+  .featured-projects .project-thumbnail {
+    margin: 0;
+    max-width: 100%; }
+    .featured-projects .project-thumbnail::after {
+      background-position: center right;
+      transform: translateX(60%);
+      background-size: auto 80%; }
+  .featured-projects .project-thumbnail_right::after {
+    background-position: center left;
+    transform: translateX(-60%); }
+  .featured-projects .project-info {
+    margin-left: 40px;
+    padding: 0; }
+    .featured-projects .project-info .fab {
+      display: none; }
+    .featured-projects .project-info .btn {
+      margin-top: 0;
+      display: inline-flex; }
+    .featured-projects .project-info h4 {
+      font-size: 16px; }
+    .featured-projects .project-info h1 {
+      font-size: 30px; }
+    .featured-projects .project-info p {
+      margin-bottom: 40px; }
+  .featured-projects .project-info_left {
+    margin-left: 0;
+    margin-right: 40px; }
   .my-resume {
     padding: 80px 0 90px; }
     .my-resume h4 {
@@ -738,10 +740,9 @@ footer {
           position: absolute;
           right: 30px; } }
 
-/* 1200px+ */
-@media screen and (min-width: 75em) {
+/* 1280px+ */
+/* 1400px+ */
+@media screen and (min-width: 87.5em) {
   .featured-projects .project-container {
     padding-left: 0;
     padding-right: 0; } }
-
-/* 1400px+ */

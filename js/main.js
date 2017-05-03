@@ -18,6 +18,9 @@ $(document).ready(function(){
       $('#view-all').text(function(i, text){
         return text === "View More" ? "View Less" : "View More";
       })
+      setTimeout(function(){
+        $(".project-footer").addClass("closed");
+      }, 500);
     });
 });
 
@@ -57,7 +60,7 @@ wow.init();
 // Disable Wow.js
 (function($) {
     var $window = $(window),
-        $html = $('.large-pull-6.large-6.columns.wow.fadeInLeft, .large-push-6.large-6.columns.wow.fadeInRight, .large-6.columns.wow.fadeIn');
+        $html = $('.large-6.columns.wow.fadeInLeft, .large-6.columns.wow.fadeInRight, .large-6.columns.wow.fadeIn');
 
     function resize() {
         if ($window.width() < 1024) {

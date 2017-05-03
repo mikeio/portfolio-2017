@@ -14,10 +14,11 @@ $mdc-fab-elevation:			0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba
 $mdc-fab-elevation--alt:	0px 3px 5px -1px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.07), 0px 1px 18px 0px rgba(0, 0, 0, 0.06);
 
 // Debug
-div, span, section { border: 1px solid red; }	
+// div, span, section { border: 1px solid red; }	
 
-// Global Styles
-.wow { visibility: hidden; }
+.wow { 
+	visibility: hidden;
+}
 
 .static {
 	animation-name: none !important;
@@ -60,8 +61,6 @@ body {
 }
 
 .row {
-   	padding-right: 0.625rem;
-   	padding-left: 0.625rem;
    	max-width: 80em;
 }
 
@@ -500,12 +499,27 @@ header {
 }
 
 .featured-projects {
-	padding: 60px 0;
+	padding: 0;
 	background: $white;
 	text-align: center;
 
+	.project-header {
+		padding-top: 60px;
+		margin-bottom: -30px;
+	}
+
+	.project-footer {
+		padding-bottom: 60px;
+		margin-top: -20px;
+		background-color: $whitesmoke;
+	}
+
+	.closed {
+		display: none;
+	}
+
 	.btn {
-		margin-top: 40px;
+		margin: 0;
 	}
 
 	#show-more {
@@ -519,10 +533,6 @@ header {
 	.project-container {
 			background-color: $white;
 			padding: 60px 0;
-	}
-
-	.initial {
-		padding-top: 30px;
 	}
 
 	.project-container_alt {
@@ -929,10 +939,15 @@ footer {
 	}
 
 	.featured-projects {
-		padding: 120px 0 130px;
 
-		.btn {
-			margin-top: 80px;
+		.project-header {
+			padding-top: 120px;
+			margin-bottom: -60px;
+		}
+
+		.project-footer {
+			padding-bottom: 120px;
+			margin-top: -40px;
 		}
 
 		.aligner {
@@ -941,11 +956,7 @@ footer {
 		}
 
 		.project-container {
-			padding: 120px 30px;
-		}
-
-		.initial {
-			padding-top: 65px;
+			padding: 120px 40px;
 		}
 
 		.project-thumbnail {
@@ -1078,8 +1089,12 @@ footer {
 	}
 }
 
-/* 1200px+ */
-@media screen and (min-width: 75em) {
+/* 1280px+ */
+@media screen and (min-width: 80em) {
+}
+
+/* 1400px+ */
+@media screen and (min-width: 87.5em) {
 	.featured-projects {
 
 		.project-container {
@@ -1087,8 +1102,4 @@ footer {
 			padding-right: 0;
 		}
 	}
-}
-
-/* 1400px+ */
-@media screen and (min-width: 87.5em) {
 }
