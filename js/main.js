@@ -51,7 +51,6 @@ var wow = new WOW(
 );
 wow.init();
 
-
 // Disable Wow.js
 (function($) {
     var $window = $(window),
