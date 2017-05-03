@@ -15,9 +15,6 @@ $(document).ready(function(){
       $('html,body').animate({
         scrollTop: $("#show-more").offset().top},
         'slow');
-      $('#view-all').text(function(i, text){
-        return text === "View More" ? "View Less" : "View More";
-      })
       setTimeout(function(){
         $(".project-footer").addClass("closed");
       }, 500);
