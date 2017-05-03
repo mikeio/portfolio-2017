@@ -57,14 +57,14 @@ wow.init();
 // Disable Wow.js
 (function($) {
     var $window = $(window),
-        $html = $('.project-list');
+        $html = $('.large-pull-6.large-6.columns.wow.fadeInLeft, .large-push-6.large-6.columns.wow.fadeInRight, .large-6.columns.wow.fadeIn');
 
     function resize() {
         if ($window.width() < 1024) {
-            return $html.addClass('wow-disabled');
+            return $html.addClass('static');
         }
 
-        $html.removeClass('wow-disabled');
+        $html.removeClass('static');
     }
 
     $window

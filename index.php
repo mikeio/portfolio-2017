@@ -61,7 +61,7 @@
       <div class="project-container initial">
         
         <div class="row aligner">
-          <div class="large-6 columns">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="260">
 
             <div class="project-thumbnail" id="one">
               <img data-interchange="[https://unsplash.it/1150/863/?random, small], [img/honda01@2x.jpg, retina]">
@@ -69,7 +69,7 @@
 
           </div>
 
-          <div class="large-6 columns">
+          <div class="large-6 columns wow fadeInRight">
 
             <div class="project-info">
               <h4>Website</h4>
@@ -77,6 +77,12 @@
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
               <a class="btn btn-light">Learn More</a>
+
+              <div class="fab">
+                <a href="/"></a>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+
             </div>
             
           </div>
@@ -87,7 +93,7 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns">
+          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="260">
 
             <div class="project-thumbnail project-thumbnail_right" id="two">
               <img data-interchange="[https://unsplash.it/1151/864/?random, small], [img/honda01@2x.jpg, retina]">
@@ -95,7 +101,7 @@
 
           </div>
 
-          <div class="large-pull-6 large-6 columns">
+          <div class="large-pull-6 large-6 columns wow fadeInLeft">
 
             <div class="project-info project-info_left">
               <h4>Website</h4>
@@ -103,6 +109,12 @@
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
               <a class="btn btn-light">Learn More</a>
+
+              <div class="fab">
+                <a href="/"></a>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+
             </div>
             
           </div>
@@ -113,7 +125,7 @@
       <div class="project-container">
         
         <div class="row aligner">
-          <div class="large-6 columns">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="260">
 
             <div class="project-thumbnail" id="three">
               <img data-interchange="[https://unsplash.it/1152/864/?random, small], [img/honda01@2x.jpg, retina]">
@@ -121,7 +133,7 @@
 
           </div>
 
-          <div class="large-6 columns">
+          <div class="large-6 columns wow fadeInRight">
 
             <div class="project-info">
               <h4>Website</h4>
@@ -129,6 +141,12 @@
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
               <a class="btn btn-light">Learn More</a>
+
+              <div class="fab">
+                <a href="/"></a>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+
             </div>
             
           </div>
@@ -139,7 +157,7 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns">
+          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="260">
 
             <div class="project-thumbnail project-thumbnail_right" id="four">
               <img data-interchange="[https://unsplash.it/1153/866/?random, small], [img/honda01@2x.jpg, retina]">
@@ -147,7 +165,7 @@
 
           </div>
 
-          <div class="large-pull-6 large-6 columns">
+          <div class="large-pull-6 large-6 columns wow fadeInLeft">
 
             <div class="project-info project-info_left">
               <h4>Website</h4>
@@ -155,6 +173,12 @@
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
               <a class="btn btn-light">Learn More</a>
+
+              <div class="fab">
+                <a href="/"></a>
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+
             </div>
             
           </div>
@@ -164,109 +188,133 @@
 
       <div id="show-more">
 
-      <div class="project-container">
+        <div class="project-container">
         
-        <div class="row aligner">
-          <div class="large-6 columns">
+          <div class="row aligner">
+            <div class="large-6 columns wow fadeIn" data-wow-delay=".2s">
 
-            <div class="project-thumbnail" id="five">
-              <img data-interchange="[https://unsplash.it/1154/867/?random, small], [img/honda01@2x.jpg, retina]">
+              <div class="project-thumbnail" id="five">
+                <img data-interchange="[https://unsplash.it/1154/867/?random, small], [img/honda01@2x.jpg, retina]">
+              </div>
+
             </div>
 
-          </div>
+            <div class="large-6 columns">
 
-          <div class="large-6 columns">
+              <div class="project-info">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">Learn More</a>
 
-            <div class="project-info">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
-            </div>
+                <div class="fab">
+                  <a href="/"></a>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+
+              </div>
             
+            </div>
           </div>
+
         </div>
 
-      </div>
-
-      <div class="project-container project-container_alt">
-        
-        <div class="row aligner">
-          <div class="large-push-6 large-6 columns">
-
-            <div class="project-thumbnail project-thumbnail_right" id="six">
-              <img data-interchange="[https://unsplash.it/1155/868/?random, small], [img/honda01@2x.jpg, retina]">
+        <div class="project-container project-container_alt">
+          
+          <div class="row aligner">
+            <div class="large-push-6 large-6 columns">
+  
+              <div class="project-thumbnail project-thumbnail_right" id="six">
+                <img data-interchange="[https://unsplash.it/1155/868/?random, small], [img/honda01@2x.jpg, retina]">
+              </div>
+  
             </div>
+  
+            <div class="large-pull-6 large-6 columns">
+  
+              <div class="project-info project-info_left">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">Learn More</a>
 
-          </div>
+                <div class="fab">
+                  <a href="/"></a>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
 
-          <div class="large-pull-6 large-6 columns">
-
-            <div class="project-info project-info_left">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              </div>
+              
             </div>
-            
           </div>
+  
         </div>
-
-      </div>
-
-      <div class="project-container">
-        
-        <div class="row aligner">
-          <div class="large-6 columns">
-
-            <div class="project-thumbnail" id="seven">
-              <img data-interchange="[https://unsplash.it/1156/869/?random, small], [img/honda01@2x.jpg, retina]">
+  
+        <div class="project-container">
+          
+          <div class="row aligner">
+            <div class="large-6 columns">
+  
+              <div class="project-thumbnail" id="seven">
+                <img data-interchange="[https://unsplash.it/1156/869/?random, small], [img/honda01@2x.jpg, retina]">
+              </div>
+  
             </div>
+  
+            <div class="large-6 columns">
+  
+              <div class="project-info">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">Learn More</a>
 
-          </div>
+                <div class="fab">
+                  <a href="/"></a>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
 
-          <div class="large-6 columns">
-
-            <div class="project-info">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              </div>
+              
             </div>
-            
           </div>
+  
         </div>
-
-      </div>
-
-      <div class="project-container project-container_alt">
-        
-        <div class="row aligner">
-          <div class="large-push-6 large-6 columns">
-
-            <div class="project-thumbnail project-thumbnail_right" id="eight">
-              <img data-interchange="[https://unsplash.it/1157/870/?random, small], [img/honda01@2x.jpg, retina]">
+  
+        <div class="project-container project-container_alt">
+          
+          <div class="row aligner">
+            <div class="large-push-6 large-6 columns">
+  
+              <div class="project-thumbnail project-thumbnail_right" id="eight">
+                <img data-interchange="[https://unsplash.it/1157/870/?random, small], [img/honda01@2x.jpg, retina]">
+              </div>
+  
             </div>
+  
+            <div class="large-pull-6 large-6 columns">
+  
+              <div class="project-info project-info_left">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">Learn More</a>
 
-          </div>
-
-          <div class="large-pull-6 large-6 columns">
-
-            <div class="project-info project-info_left">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+                <div class="fab">
+                  <a href="/"></a>
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </div>
+                
+              </div>
+              
             </div>
-            
           </div>
+  
         </div>
-
-      </div>
 
       </div>
 
