@@ -58,13 +58,13 @@
       </div>
 
 
-      <div class="project-container">
+      <div class="project-container initial">
         
         <div class="row aligner">
           <div class="large-6 columns">
 
             <div class="project-thumbnail" id="one">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1150/863/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -76,7 +76,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -90,7 +90,7 @@
           <div class="large-push-6 large-6 columns">
 
             <div class="project-thumbnail project-thumbnail_right" id="two">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1151/864/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -102,7 +102,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -116,7 +116,7 @@
           <div class="large-6 columns">
 
             <div class="project-thumbnail" id="three">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1152/864/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -128,7 +128,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -142,7 +142,7 @@
           <div class="large-push-6 large-6 columns">
 
             <div class="project-thumbnail project-thumbnail_right" id="four">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1153/866/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -154,7 +154,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -170,7 +170,7 @@
           <div class="large-6 columns">
 
             <div class="project-thumbnail" id="five">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1154/867/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -182,7 +182,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -196,7 +196,7 @@
           <div class="large-push-6 large-6 columns">
 
             <div class="project-thumbnail project-thumbnail_right" id="six">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1155/868/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -208,7 +208,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -222,7 +222,7 @@
           <div class="large-6 columns">
 
             <div class="project-thumbnail" id="seven">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1156/869/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -234,7 +234,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>
@@ -248,7 +248,7 @@
           <div class="large-push-6 large-6 columns">
 
             <div class="project-thumbnail project-thumbnail_right" id="eight">
-              <img data-interchange="[http://placehold.it/1150x863, small], [img/honda01@2x.jpg, retina]">
+              <img data-interchange="[https://unsplash.it/1157/870/?random, small], [img/honda01@2x.jpg, retina]">
             </div>
 
           </div>
@@ -260,7 +260,7 @@
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">View More</a>
+              <a class="btn btn-light">Learn More</a>
             </div>
             
           </div>

@@ -11,9 +11,12 @@ $(document).ready(function() {
 // Toggle projects
 $(document).ready(function(){
     $("#view-all").click(function(){
-        $("#show-more").slideToggle(1000);
-        $('#view-all').text(function(i, text){
-          return text === "View More" ? "View Less" : "View More";
+      $("#show-more").slideToggle('slow');
+      $('html,body').animate({
+        scrollTop: $("#show-more").offset().top},
+        'slow');
+      $('#view-all').text(function(i, text){
+        return text === "View More" ? "View Less" : "View More";
       })
     });
 });
