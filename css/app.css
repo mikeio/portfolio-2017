@@ -54,7 +54,6 @@ body {
   background-color: #ffffff; }
 
 .row {
-  max-width: 80em;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem; }
 
@@ -437,7 +436,7 @@ header {
     margin: 0 auto; }
     .featured-projects .project-info hr {
       max-width: 50px;
-      margin: 1rem auto 1.25rem;
+      margin: 1rem auto;
       border-bottom: 2px solid #c5c6c8; }
     .featured-projects .project-info .btn {
       display: none; }
@@ -665,7 +664,7 @@ footer {
     display: flex;
     align-items: center; }
   .featured-projects .project-container {
-    padding: 120px 40px; }
+    padding: 120px 20px; }
   .featured-projects .project-thumbnail {
     margin: 0;
     max-width: 100%; }
@@ -677,10 +676,10 @@ footer {
     background-position: center left;
     transform: translateX(-60%); }
   .featured-projects .project-info {
-    margin-left: 30px;
+    margin-left: 20px;
     text-align: left; }
     .featured-projects .project-info hr {
-      margin: 1.25rem 0 1.5rem; }
+      margin: 1.25rem 0 1.25rem; }
     .featured-projects .project-info .fab {
       display: none; }
     .featured-projects .project-info .btn {
@@ -695,7 +694,7 @@ footer {
       margin-bottom: 40px; }
   .featured-projects .project-info_left {
     margin-left: 0;
-    margin-right: 30px; }
+    margin-right: 20px; }
   .my-resume {
     padding: 80px 0 90px; }
     .my-resume h4 {
@@ -746,10 +745,10 @@ footer {
 /* 1280px+ */
 @media screen and (min-width: 80em) {
   .featured-projects .project-info {
-    margin-left: 40px; }
+    margin-left: 30px; }
   .featured-projects .project-info_left {
     margin-left: 0;
-    margin-right: 40px; } }
+    margin-right: 30px; } }
 
 /* 1400px+ */
 @media screen and (min-width: 87.5em) {

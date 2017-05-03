@@ -59,7 +59,6 @@ body {
 }
 
 .row {
-   	max-width: 80em;
    	padding-right: 0.9375rem;
     padding-left: 0.9375rem;
 }
@@ -595,7 +594,7 @@ header {
 
 		hr {
     		max-width: 50px;
-    		margin: 1rem auto 1.25rem;
+    		margin: 1rem auto;
     		border-bottom: 2px solid lighten($gray, 25);
 		}
 
@@ -954,7 +953,7 @@ footer {
 		}
 
 		.project-container {
-			padding: 120px 40px;
+			padding: 120px 20px;
 		}
 
 		.project-thumbnail {
@@ -976,11 +975,11 @@ footer {
 		}	
 
 		.project-info {
-			margin-left: 30px;
+			margin-left: 20px;
 			text-align: left;
 
 			hr {
-				margin: 1.25rem 0 1.5rem;
+				margin: 1.25rem 0 1.25rem;
 			}
 
 			.fab {
@@ -1008,7 +1007,7 @@ footer {
 
 		.project-info_left {
 			margin-left: 0;
-			margin-right: 30px;
+			margin-right: 20px;
 		}
 	}
 
@@ -1097,12 +1096,12 @@ footer {
 	.featured-projects {
 
 		.project-info {
-			margin-left: 40px;
+			margin-left: 30px;
 		}
 
 		.project-info_left {
 			margin-left: 0;
-			margin-right: 40px;
+			margin-right: 30px;
 		}
 	}
 }
