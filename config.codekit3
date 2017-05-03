@@ -259,12 +259,6 @@
 		"oAP": "\/head.php",
 		"oF": 0
 		},
-	"\/honda.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/honda.php",
-		"oF": 0
-		},
 	"\/img": {
 		"ft": 65536,
 		"oA": 1,
@@ -290,12 +284,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/mbusa.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/mbusa.php",
-		"oF": 0
 		},
 	"\/mstile-150x150.png": {
 		"ft": 32768,

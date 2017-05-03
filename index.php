@@ -56,11 +56,60 @@
           <h4>Recent Work</h4>
         </div>
       </div>
-  
-      <div class="row">
-        <div class="large-12 columns">
 
-          here
+
+      <div class="project-container">
+        
+        <div class="row aligner">
+          <div class="large-6 columns">
+
+            <div class="project-thumbnail">
+              <img data-interchange="[img/honda01.jpg, small], [img/honda01@2x.jpg, retina]">
+            </div>
+
+          </div>
+
+          <div class="large-6 columns">
+
+            <div class="project-info">
+              <div class="container">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">View More</a>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+      <div class="project-container">
+        
+        <div class="row aligner">
+          <div class="large-6 columns">
+
+            <div class="project-thumbnail">
+              <img data-interchange="[img/honda01.jpg, small], [img/honda01@2x.jpg, retina]">
+            </div>
+
+          </div>
+
+          <div class="large-6 columns">
+
+            <div class="project-info">
+              <div class="container">
+                <h4>Website</h4>
+                <h1>Gulf Coast Honda Dealers</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+                <a class="btn btn-light">View More</a>
+              </div>
+            </div>
+            
+          </div>
 
         </div>
       </div>

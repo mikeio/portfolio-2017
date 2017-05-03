@@ -434,96 +434,7 @@ header {
 			} 
 		}
 	}
-
-	.project-title {
-		text-align: center;
-		color: $white;
-		padding: 30px 0 40px;
-		position: relative;
-		margin-left: auto;
-		margin-right: auto;
-
-		h1 {
-			font-size: 2.5em;
-			color: $white;
-		}
-
-		h4 {
-			margin-bottom: 0;
-			max-width: 650px;
-			margin: 0 auto;
-		}
-	}
 }
-
-.project-info {
-	text-align: center;
-	position: relative;
-	background-color: $whitesmoke;
-	padding-bottom: 60px;
-
-	h1 {
-		font-size: 1.625em;
-		margin-bottom: 0;
-	}
-
-	h4 {
-		margin-bottom: 0.25rem;;
-	}
-
-	ul {
-		list-style-type: none;
-		margin: 0 0 20px;
-
-		li {
-			display: inline-block;
-			min-width: 160px;
-			padding: 10px 0;
-
-			&:last-of-type {
-				display: none;
-			}
-		}
-	}
-
-	p {
-		color: darken($whitesmoke, 50%);
-		margin-bottom: 0;
-		letter-spacing: 0.2px;
-		max-width: 850px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-.project-full {
-	text-align: center;
-	background-color: $white;
-
-	ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-
-		li {
-			padding: 0 20px;
-
-			&:nth-child(even) {
-				background-color: $whitesmoke;
-			}
-
-			img {
-				max-width: 1150px;
-				margin: 0 auto;
-			}
-		}
-	}
-
-	img {
-		width: 100%;
-	}
-}
-
 
 .about-me {
 	background-color: $whitesmoke;
@@ -588,11 +499,11 @@ header {
 
 .featured-projects {
 	padding: 60px 0;
-	background: linear-gradient($white, $whitesmoke);
+	background: $white;
 	text-align: center;
 
 	h4 {
-		margin-bottom: 0.825rem;
+		margin-bottom: -20px;
 	}
 
 	.btn {
@@ -601,6 +512,78 @@ header {
 
 	#show-more {
 		display: none;
+	}
+
+	.aligner {
+		display: block;
+	}
+
+	.project-container {
+			background-color: $white;
+			padding: 60px 0;
+
+			&:nth-of-type(odd) {
+				background-color: $whitesmoke;
+			}
+	}
+
+	.project-thumbnail {
+		position: relative;
+		z-index: 1;
+		max-width: 560px;
+		margin: 0 auto;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: .04;
+			background-image: url('../img/01.svg');
+			background-size: auto 80%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			transform: translateY(50%);
+			z-index: -1;
+		}
+	}
+
+	.project-info {
+		text-align: left;
+		height: 100%;
+		position: relative;
+		z-index: 1;
+		padding: 20px 25px;
+
+		max-width: 560px;
+		margin: 0 auto;
+
+		hr {
+    		max-width: 50px;
+    		margin: 1.25rem 0;
+    		border-bottom: 2px solid lighten($gray, 25);
+    		text-align: left;
+		}
+
+		.btn {
+			margin-top: 1em;
+		}
+
+		p {
+			color: darken($whitesmoke, 50%);
+			letter-spacing: 0.2px;
+		}
+
+		h1 {
+			font-size: 28px;
+		}
+
+		h4 {
+			font-size: 15px;
+			margin-bottom: 0.25em;
+		}
 	}
 }
 
@@ -745,55 +728,8 @@ footer {
      }
 }
 
-/* 545px+ */
-@media screen and (min-width: 545px) {
-	.project-info {
-		ul {
-			li {
-				&:last-of-type {
-					display: inline-block;
-				}
-			}
-		}
-	}
-}
-
-/* 640px+ */
-@media screen and (min-width: 40em) {
-	.project-info {
-
-		h1 {
-			font-size: 1.750em;
-		}
-
-		ul {
-			margin-bottom: 30px;
-
-			li {
-				padding: 0;
-			}
-		}
-	}
-}
-
 /* 768px+ */
 @media screen and (min-width: 48em) {
-	header {
-		.project-title {
-			padding: 40px 0 50px;
-		}
-	}
-
-	.project-info {
-		h1 {
-			font-size: 1.875em;
-		}
-		ul {
-			li {
-				min-width: 200px;
-			}
-		}
-	}
 }
 
 /* 1024px+ */
@@ -897,19 +833,6 @@ footer {
 				margin-bottom: 1em;
 			}
 		}
-
-		.project-title {
-			padding: 60px 0 80px;
-	
-			h1 {
-				font-size: 3em;
-				margin-bottom: 0.625rem;
-			}
-	
-			h4 {
-				font-size: 1.125em;
-			}
-		}
 	}
 
 	.about-me {
@@ -942,30 +865,6 @@ footer {
 		}
 	}
 
-	.project-info {
-		padding-bottom: 130px;
-
-		h1 {
-			font-size: 2em;
-		}
-
-		ul {
-			margin-bottom: 40px;
-			
-			li {
-				min-width: 225px;
-			}
-		}
-	}
-
-	.project-full {
-		ul {
-			li {
-				padding: 0;
-			}
-		}
-	}
-
 	.featured-projects {
 		padding: 120px 0 130px;
 
@@ -975,6 +874,36 @@ footer {
 
 		.btn {
 			margin-top: 60px;
+		}
+
+		.aligner {
+			display: flex;
+  			align-items: center;
+		}
+
+		.project-container {
+
+
+		}
+
+		.project-thumbnail {
+			margin: 0;
+
+			&::after {
+				transform: translateX(50%);
+				background-size: auto 80%;
+			}
+		}
+
+		.project-info {
+			margin-left: 50px;
+
+			h4 {
+				font-size: 16px;
+			}
+			h1 {
+				font-size: 30px;
+			}
 		}
 	}
 
