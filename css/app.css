@@ -17,6 +17,9 @@
   font-weight: 700;
   font-style: normal; }
 
+div, span, section {
+  border: 1px solid red; }
+
 .wow {
   visibility: hidden; }
 
@@ -230,7 +233,7 @@ header {
   background-color: #191a1a; }
   header .nav_header {
     height: 75px;
-    max-width: 80em;
+    max-width: 75em;
     margin-right: auto;
     margin-left: auto;
     position: relative;
@@ -361,7 +364,9 @@ header {
     max-width: 400px;
     margin: 0 0 -30px; }
   .about-me span {
-    display: block; }
+    display: block;
+    max-width: 650px;
+    margin: 0 auto; }
 
 .featured-projects {
   padding: 0;
@@ -654,6 +659,8 @@ footer {
     .about-me .type {
       max-width: 570px;
       margin: 0 0 -38px; }
+    .about-me span {
+      max-width: 100%; }
   .featured-projects .project-header {
     padding-top: 120px;
     margin-bottom: -60px; }

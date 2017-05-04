@@ -19,7 +19,7 @@
          <div class="large-12 columns">
              <div class="intro">
              <h4>Hi! My name is Mike&nbsp;Peters</h4>
-             <h1>I’m a <span>senior digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
+             <h1>I’m a <span>digital designer</span> and coder based in Atlanta,&nbsp;GA.</h1>
            </div>
            </div>
        </div>
