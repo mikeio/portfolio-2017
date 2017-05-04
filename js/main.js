@@ -72,8 +72,31 @@ wow.init();
         .trigger('resize');
 })(jQuery);
 
-//Preloader
+// Preloader
 $(window).on('load', function() { 
   $('#status').fadeOut(); // 
   $('#preloader').delay(350).fadeOut('slow'); 
 })
+
+// jquery-mdl
+$('#bt1').mdl({
+  type: 'modal',
+  fullscreen:false,
+  overlayClick:true
+});
+
+$('#bt2').mdl({
+  type: 'modal',
+  fullscreen:false,
+  overlayClick:true
+});
+
+
+// Toggle projects
+$(document).ready(function(){
+    $("#bt1, #bt2, .mdl-close").click(function(){
+      setTimeout(function(){
+        $("body").toggleClass("fixed");
+      }, 500);
+    });
+});
