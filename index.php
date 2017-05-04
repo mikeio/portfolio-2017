@@ -46,19 +46,6 @@
         </div>
       </div>
 
-
-
-      <a class="mdl-btn" id="bt1" data-target="#modal1" >
-modal by js
-</a>
-
-
-<a class="mdl-btn" id="bt2" data-target="#honda" >
-modal by js
-</a>
-
-
-
     </section>
 
     <section class="featured-projects" id="featured">
@@ -81,7 +68,9 @@ modal by js
           <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
             <div class="project-thumbnail" id="one">
-              <img data-interchange="[https://unsplash.it/1150/863/?random, small], [img/honda01@2x.jpg, retina]">
+              <a id="bt1" data-target="#honda">
+                <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
+              </a>
             </div>
 
           </div>
@@ -93,10 +82,10 @@ modal by js
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
 
               <div class="fab">
-                <a href="/"></a>
+                <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -347,25 +336,31 @@ modal by js
 
     </section>
 
+    <?php include 'cta.php';?>
+
+    <?php include 'footer.php';?>
+
     <section class="project-content">
 
-      <div class="mdl" id="modal1">
+      <div class="mdl" id="honda">
         <div class="mdl-container">
-            one
+            <img data-interchange="[img/honda01.jpg, small], [img/honda01@2x.jpg, retina]">
+            <img data-interchange="[img/honda02.jpg, small], [img/honda02@2x.jpg, retina]">
+            <img data-interchange="[img/honda03.jpg, small], [img/honda03@2x.jpg, retina]">
+            <img data-interchange="[img/honda04.jpg, small], [img/honda04@2x.jpg, retina]">
         </div>
       </div>
       
-      <div class="mdl" id="honda">
+      <div class="mdl" id="mbusa">
         <div class="mdl-container">
-            two
+            <img data-interchange="[img/mbusa01.jpg, small], [img/mbusa01@2x.jpg, retina]">
+            <img data-interchange="[img/mbusa02.jpg, small], [img/mbusa02@2x.jpg, retina]">
+            <img data-interchange="[img/mbusa03.jpg, small], [img/mbusa03@2x.jpg, retina]">
+            <img data-interchange="[img/mbusa04.jpg, small], [img/mbusa04@2x.jpg, retina]">
         </div>
       </div>
       
     </section>
-
-    <?php include 'cta.php';?>
-
-    <?php include 'footer.php';?>
 
     <?php include 'scripts.php';?>
 

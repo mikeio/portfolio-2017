@@ -1,9 +1,9 @@
 .mdl-close {
     position: absolute;
     top: 20px;
-    right: 30px;
-    width: 56px;
-    height: 56px;
+    right: 35px;
+    width: 48px;
+    height: 48px;
     display: block;
     background-color: rgba(0, 0, 0, 0.25);
     border-radius: 80px;
@@ -66,7 +66,7 @@
     height: auto;
     display: block;
     margin: 0 auto;
-    padding: 50px;
+    padding: 35px;
     background-color: #FFF;
     box-shadow: 0;
     overflow-y: auto;
@@ -199,4 +199,29 @@ h2.titre {
     background-size: 50% auto;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.07), 0px 1px 18px 0px rgba(0, 0, 0, 0.06);
     transition: box-shadow 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.mdl.mdl-fullscreen .mdl-container img {
+    margin-bottom: 35px;
+}
+
+.mdl.mdl-fullscreen .mdl-container img:last-of-type {
+    margin-bottom: 0;
+}
+
+.mdl-container .mdl-close:nth-of-type(1) {
+    display: none;
+}
+
+.mdl-close:nth-child(n+3) {
+    display: none;
+}
+
+@media screen and (min-width: 87.5em) {
+    .mdl.mdl-fullscreen .mdl-container img {
+        margin-bottom: 60px;
+    }
+    .mdl .mdl-container {
+        padding: 60px;
+    }
 }

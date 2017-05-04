@@ -8,10 +8,9 @@ $whitesmoke:				#f5f5f5;
 $gray:						#83868a;
 $default-transition: 		cubic-bezier(0.455, 0.03, 0.515, 0.955);
 $bounce-transition: 		cubic-bezier(0.175, 0.885, 0.32, 1.275);
-$mdc-elevation--alt: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
-$mdc-elevation--z24:		0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+$mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
 $mdc-fab-elevation:			0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-$mdc-fab-elevation--alt:	0px 3px 5px -1px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.07), 0px 1px 18px 0px rgba(0, 0, 0, 0.06);
+$mdc-fab-elevation--z12:	0px 3px 5px -1px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.07), 0px 1px 18px 0px rgba(0, 0, 0, 0.06);
 
 // Debug
 // div, span, section { border: 1px solid red; }	
@@ -136,7 +135,7 @@ h4 {
 	}
  
 	&:hover {
-		box-shadow: $mdc-elevation--alt;
+		box-shadow: $mdc-elevation--z24;
 		transition: color .3s $default-transition,
 					box-shadow .3s $default-transition,
 					border-color .3s $default-transition,
@@ -606,16 +605,16 @@ header {
 		}
 
 		.fab {
-			width: 56px;
-			height: 56px;
-			border-radius: 56px;
+			width: 48px;
+			height: 48px;
+			border-radius: 48px;
 			background-color: $white;
 			text-align: center;
 			transition: box-shadow .2s $default-transition;
 			position: absolute;
 			top: -50px;
 			right: 30px;
-			box-shadow: $mdc-fab-elevation--alt;
+			box-shadow: $mdc-fab-elevation--z12;
 
 			&:hover {
 				box-shadow: $mdc-fab-elevation;
@@ -630,8 +629,8 @@ header {
 			}
 
 			i {
-				line-height: 56px;
-				font-size: 18px;
+				line-height: 48px;
+				font-size: 17px;
 				color: $black;
 			}
 		}

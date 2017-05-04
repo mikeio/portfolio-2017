@@ -443,9 +443,9 @@ header {
     .featured-projects .project-info .btn {
       display: none; }
     .featured-projects .project-info .fab {
-      width: 56px;
-      height: 56px;
-      border-radius: 56px;
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
       background-color: #ffffff;
       text-align: center;
       transition: box-shadow 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -462,8 +462,8 @@ header {
         top: 0;
         left: 0; }
       .featured-projects .project-info .fab i {
-        line-height: 56px;
-        font-size: 18px;
+        line-height: 48px;
+        font-size: 17px;
         color: #191a1a; }
     .featured-projects .project-info p {
       color: #767676;
