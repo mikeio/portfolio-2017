@@ -14,7 +14,7 @@ $mdc-fab-elevation:			0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba
 $mdc-fab-elevation--alt:	0px 3px 5px -1px rgba(0, 0, 0, 0.1), 0px 6px 10px 0px rgba(0, 0, 0, 0.07), 0px 1px 18px 0px rgba(0, 0, 0, 0.06);
 
 // Debug
-div, span, section { border: 1px solid red; }	
+// div, span, section { border: 1px solid red; }	
 
 .wow { 
 	visibility: hidden;
@@ -183,6 +183,10 @@ h4 {
 .fixed {
 	position: fixed;
 	overflow-y: scroll;
+}
+
+.overflow-hidden {
+	overflow: hidden;
 }
 
 .img-divide {

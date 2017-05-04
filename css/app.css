@@ -17,9 +17,6 @@
   font-weight: 700;
   font-style: normal; }
 
-div, span, section {
-  border: 1px solid red; }
-
 .wow {
   visibility: hidden; }
 
@@ -150,6 +147,9 @@ h4 {
 .fixed {
   position: fixed;
   overflow-y: scroll; }
+
+.overflow-hidden {
+  overflow: hidden; }
 
 .img-divide {
   position: relative; }

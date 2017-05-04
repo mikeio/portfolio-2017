@@ -81,22 +81,28 @@ $(window).on('load', function() {
 // jquery-mdl
 $('#bt1').mdl({
   type: 'modal',
-  fullscreen:false,
-  overlayClick:true
+  fullscreen:true,
+  overlayClick:false
 });
 
 $('#bt2').mdl({
   type: 'modal',
-  fullscreen:false,
-  overlayClick:true
+  fullscreen:true,
+  overlayClick:false
 });
 
 
 // Toggle projects
 $(document).ready(function(){
-    $("#bt1, #bt2, .mdl-close").click(function(){
+    $("#bt1, #bt2").click(function(){
       setTimeout(function(){
-        $("body").toggleClass("fixed");
+        $("body").toggleClass("overflow-hidden");
       }, 500);
+    });
+});
+
+$(document).ready(function(){
+    $(".mdl-close").click(function(){
+        $("body").toggleClass("overflow-hidden");
     });
 });
