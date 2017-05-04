@@ -79,13 +79,7 @@ $(window).on('load', function() {
 })
 
 // jquery-mdl
-$('#bt1').mdl({
-  type: 'modal',
-  fullscreen:true,
-  overlayClick:false
-});
-
-$('#bt2').mdl({
+$('#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8').mdl({
   type: 'modal',
   fullscreen:true,
   overlayClick:false
