@@ -102,7 +102,9 @@
           <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
 
             <div class="project-thumbnail project-thumbnail_right" id="two">
-              <img data-interchange="[https://unsplash.it/1151/864/?random, small], [img/honda01@2x.jpg, retina]">
+              <a id="bt2" data-target="#mb">
+                <img data-interchange="[img/mb_thumb.jpg, small], [img/mb_thumb@2x.jpg, retina]">
+              </a>
             </div>
 
           </div>
@@ -110,14 +112,14 @@
           <div class="large-pull-6 large-6 columns wow fadeInLeft">
 
             <div class="project-info project-info_left">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
+              <h4>E-mail</h4>
+              <h1>Mercedes-Benz of Manhattan</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              <a class="btn btn-light" id="bt2" data-target="#mb">Learn More</a>
 
               <div class="fab">
-                <a href="/"></a>
+                <a id="bt2" data-target="#mb"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -351,12 +353,11 @@
         </div>
       </div>
       
-      <div class="mdl" id="mbusa">
+      <div class="mdl" id="mb">
         <div class="mdl-container">
-            <img data-interchange="[img/mbusa01.jpg, small], [img/mbusa01@2x.jpg, retina]">
-            <img data-interchange="[img/mbusa02.jpg, small], [img/mbusa02@2x.jpg, retina]">
-            <img data-interchange="[img/mbusa03.jpg, small], [img/mbusa03@2x.jpg, retina]">
-            <img data-interchange="[img/mbusa04.jpg, small], [img/mbusa04@2x.jpg, retina]">
+            <img data-interchange="[img/mb01.jpg, small], [img/mb01@2x.jpg, retina]">
+            <img data-interchange="[img/mb02.jpg, small], [img/mb02@2x.jpg, retina]">
+            <img data-interchange="[img/mb03.jpg, small], [img/mb03@2x.jpg, retina]">
         </div>
       </div>
       
