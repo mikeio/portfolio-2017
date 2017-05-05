@@ -184,10 +184,10 @@
               <h1>Lacher & Associates</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light" id="bt2" data-target="#lacher">Learn More</a>
+              <a class="btn btn-light" id="bt4" data-target="#lacher">Learn More</a>
 
               <div class="fab">
-                <a id="bt2" data-target="#lacher"></a>
+                <a id="bt4" data-target="#lacher"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -235,35 +235,37 @@
         </div>
 
         <div class="project-container project-container_alt">
-          
+        
           <div class="row aligner">
-            <div class="large-push-6 large-6 columns">
-  
+            <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
+
               <div class="project-thumbnail project-thumbnail_right" id="six">
-                <img data-interchange="[https://unsplash.it/1155/868/?random, small], [img/honda01@2x.jpg, retina]">
+                <a id="bt6" data-target="#cone">
+                  <img data-interchange="[img/cone_thumb.jpg, small], [img/cone_thumb@2x.jpg, retina]">
+                </a>
               </div>
-  
+
             </div>
-  
-            <div class="large-pull-6 large-6 columns">
-  
+
+            <div class="large-pull-6 large-6 columns wow fadeInLeft">
+
               <div class="project-info project-info_left">
                 <h4>Website</h4>
-                <h1>Gulf Coast Honda Dealers</h1>
+                <h1>Cone Middour</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light">Learn More</a>
+                <a class="btn btn-light" id="bt6" data-target="#cone">Learn More</a>
 
                 <div class="fab">
-                  <a href="/"></a>
+                  <a id="bt6" data-target="#cone"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
               </div>
-              
+            
             </div>
           </div>
-  
+
         </div>
   
         <div class="project-container">
@@ -390,6 +392,15 @@
             <img data-interchange="[img/kfitz02.jpg, small], [img/kfitz02@2x.jpg, retina]">
             <img data-interchange="[img/kfitz03.jpg, small], [img/kfitz03@2x.jpg, retina]">
             <img data-interchange="[img/kfitz04.jpg, small], [img/kfitz04@2x.jpg, retina]">
+        </div>
+      </div>
+
+      <div class="mdl" id="cone">
+        <div class="mdl-container">
+            <img data-interchange="[img/cone01.jpg, small], [img/cone01@2x.jpg, retina]">
+            <img data-interchange="[img/cone02.jpg, small], [img/cone02@2x.jpg, retina]">
+            <img data-interchange="[img/cone03.jpg, small], [img/cone03@2x.jpg, retina]">
+            <img data-interchange="[img/cone04.jpg, small], [img/cone04@2x.jpg, retina]">
         </div>
       </div>
       
