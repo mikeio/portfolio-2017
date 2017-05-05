@@ -205,6 +205,10 @@ h2.titre {
     display: none;
 }
 
+.mdl-container img {
+    max-width: 1150px;
+}
+
 .mdl-close:nth-child(n+3) {
     display: none;
 }
