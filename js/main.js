@@ -88,7 +88,7 @@ $('#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8').mdl({
 
 // Toggle projects
 $(document).ready(function(){
-    $("#bt1, #bt2").click(function(){
+    $("#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8").click(function(){
       setTimeout(function(){
         $("body").toggleClass("overflow-hidden");
       }, 500);

@@ -136,7 +136,9 @@
           <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
             <div class="project-thumbnail" id="three">
-              <img data-interchange="[https://unsplash.it/1152/864/?random, small], [img/honda01@2x.jpg, retina]">
+              <a id="bt3" data-target="#audi">
+                <img data-interchange="[img/audi_thumb.jpg, small], [img/audi_thumb@2x.jpg, retina]">
+              </a>
             </div>
 
           </div>
@@ -144,14 +146,14 @@
           <div class="large-6 columns wow fadeInRight">
 
             <div class="project-info">
-              <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
+              <h4>E-mail</h4>
+              <h1>2017 Audi Q3 Crossover</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              <a class="btn btn-light" id="bt3" data-target="#audi">Learn More</a>
 
               <div class="fab">
-                <a href="/"></a>
+                <a class="mdl-btn" id="bt3" data-target="#audi"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -168,7 +170,9 @@
           <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
 
             <div class="project-thumbnail project-thumbnail_right" id="four">
-              <img data-interchange="[https://unsplash.it/1153/866/?random, small], [img/honda01@2x.jpg, retina]">
+              <a id="bt4" data-target="#lacher">
+                <img data-interchange="[img/lacher_thumb.jpg, small], [img/lacher_thumb@2x.jpg, retina]">
+              </a>
             </div>
 
           </div>
@@ -177,13 +181,13 @@
 
             <div class="project-info project-info_left">
               <h4>Website</h4>
-              <h1>Gulf Coast Honda Dealers</h1>
+              <h1>Lacher & Associates</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light">Learn More</a>
+              <a class="btn btn-light" id="bt2" data-target="#lacher">Learn More</a>
 
               <div class="fab">
-                <a href="/"></a>
+                <a id="bt2" data-target="#lacher"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -199,25 +203,27 @@
         <div class="project-container">
         
           <div class="row aligner">
-            <div class="large-6 columns wow fadeIn" data-wow-delay=".2s">
+            <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
               <div class="project-thumbnail" id="five">
-                <img data-interchange="[https://unsplash.it/1154/867/?random, small], [img/honda01@2x.jpg, retina]">
+                <a id="bt5" data-target="#kfitz">
+                  <img data-interchange="[img/kfitz_thumb.jpg, small], [img/kfitz_thumb@2x.jpg, retina]">
+                </a>
               </div>
 
             </div>
 
-            <div class="large-6 columns">
+            <div class="large-6 columns wow fadeInRight">
 
               <div class="project-info">
                 <h4>Website</h4>
-                <h1>Gulf Coast Honda Dealers</h1>
+                <h1>Kristina Fitzpatrick</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light">Learn More</a>
+                <a class="btn btn-light" id="bt5" data-target="#kfitz">Learn More</a>
 
                 <div class="fab">
-                  <a href="/"></a>
+                  <a class="mdl-btn" id="bt5" data-target="#kfitz"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
@@ -358,6 +364,32 @@
             <img data-interchange="[img/mb01.jpg, small], [img/mb01@2x.jpg, retina]">
             <img data-interchange="[img/mb02.jpg, small], [img/mb02@2x.jpg, retina]">
             <img data-interchange="[img/mb03.jpg, small], [img/mb03@2x.jpg, retina]">
+        </div>
+      </div>
+
+      <div class="mdl" id="audi">
+        <div class="mdl-container">
+            <img data-interchange="[img/audi01.jpg, small], [img/audi01@2x.jpg, retina]">
+            <img data-interchange="[img/audi02.jpg, small], [img/audi02@2x.jpg, retina]">
+            <img data-interchange="[img/audi03.jpg, small], [img/audi03@2x.jpg, retina]">
+        </div>
+      </div>
+
+      <div class="mdl" id="lacher">
+        <div class="mdl-container">
+            <img data-interchange="[img/lacher01.jpg, small], [img/lacher01@2x.jpg, retina]">
+            <img data-interchange="[img/lacher02.jpg, small], [img/lacher02@2x.jpg, retina]">
+            <img data-interchange="[img/lacher03.jpg, small], [img/lacher03@2x.jpg, retina]">
+            <img data-interchange="[img/lacher04.jpg, small], [img/lacher04@2x.jpg, retina]">
+        </div>
+      </div>
+
+      <div class="mdl" id="kfitz">
+        <div class="mdl-container">
+            <img data-interchange="[img/kfitz01.jpg, small], [img/kfitz01@2x.jpg, retina]">
+            <img data-interchange="[img/kfitz02.jpg, small], [img/kfitz02@2x.jpg, retina]">
+            <img data-interchange="[img/kfitz03.jpg, small], [img/kfitz03@2x.jpg, retina]">
+            <img data-interchange="[img/kfitz04.jpg, small], [img/kfitz04@2x.jpg, retina]">
         </div>
       </div>
       
