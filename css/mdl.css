@@ -207,6 +207,7 @@ h2.titre {
 
 .mdl-container img {
     max-width: 1150px;
+    width: 100%;
 }
 
 .mdl-close:nth-child(n+3) {
