@@ -275,6 +275,12 @@
 		"oAP": "\/build\/img",
 		"oF": 0
 		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
 	"\/js": {
 		"ft": 65536,
 		"oA": 1,
