@@ -203,7 +203,7 @@
         <div class="project-container">
         
           <div class="row aligner">
-            <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
+            <div class="large-6 columns">
 
               <div class="project-thumbnail" id="five">
                 <a id="bt5" data-target="#kfitz">
@@ -213,7 +213,7 @@
 
             </div>
 
-            <div class="large-6 columns wow fadeInRight">
+            <div class="large-6 columns">
 
               <div class="project-info">
                 <h4>Website</h4>
@@ -237,7 +237,7 @@
         <div class="project-container project-container_alt">
         
           <div class="row aligner">
-            <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
+            <div class="large-push-6 large-6 columns">
 
               <div class="project-thumbnail project-thumbnail_right" id="six">
                 <a id="bt6" data-target="#cone">
@@ -247,7 +247,7 @@
 
             </div>
 
-            <div class="large-pull-6 large-6 columns wow fadeInLeft">
+            <div class="large-pull-6 large-6 columns">
 
               <div class="project-info project-info_left">
                 <h4>Website</h4>
@@ -388,10 +388,10 @@
 
       <div class="mdl" id="kfitz">
         <div class="mdl-container">
-            <img data-interchange="[img/kfitz01.jpg, small], [img/kfitz01@2x.jpg, retina]">
-            <img data-interchange="[img/kfitz02.jpg, small], [img/kfitz02@2x.jpg, retina]">
-            <img data-interchange="[img/kfitz03.jpg, small], [img/kfitz03@2x.jpg, retina]">
-            <img data-interchange="[img/kfitz04.jpg, small], [img/kfitz04@2x.jpg, retina]">
+            <img data-interchange="[img/kfitz01.png, small], [img/kfitz01@2x.png, retina]">
+            <img data-interchange="[img/kfitz02.png, small], [img/kfitz02@2x.png, retina]">
+            <img data-interchange="[img/kfitz03.png, small], [img/kfitz03@2x.png, retina]">
+            <img data-interchange="[img/kfitz04.png, small], [img/kfitz04@2x.png, retina]">
         </div>
       </div>
 
