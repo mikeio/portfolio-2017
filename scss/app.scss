@@ -536,10 +536,6 @@ header {
 			padding: 60px 0;
 	}
 
-	.project-container_alt {
-		background-color: $whitesmoke;
-	}
-
 	.project-thumbnail {
 		position: relative;
 		z-index: 1;
@@ -1011,11 +1007,6 @@ footer {
 				margin-bottom: 40px;
 			}
 		}
-
-		.project-info_left {
-			margin-left: 0;
-			margin-right: 20px;
-		}
 	}
 
 	.my-resume {
@@ -1104,11 +1095,6 @@ footer {
 
 		.project-info {
 			margin-left: 30px;
-		}
-
-		.project-info_left {
-			margin-left: 0;
-			margin-right: 30px;
 		}
 	}
 }

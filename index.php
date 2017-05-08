@@ -99,27 +99,27 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
-            <div class="project-thumbnail project-thumbnail_right" id="two">
-              <a id="bt2" data-target="#mb">
-                <img data-interchange="[img/mb_thumb.jpg, small], [img/mb_thumb@2x.jpg, retina]">
+            <div class="project-thumbnail" id="one">
+              <a id="bt1" data-target="#honda">
+                <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
               </a>
             </div>
 
           </div>
 
-          <div class="large-pull-6 large-6 columns wow fadeInLeft">
+          <div class="large-6 columns wow fadeInRight">
 
-            <div class="project-info project-info_left">
-              <h4>E-mail</h4>
-              <h1>Mercedes-Benz of Manhattan</h1>
+            <div class="project-info">
+              <h4>Website</h4>
+              <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light" id="bt2" data-target="#mb">Learn More</a>
+              <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
 
               <div class="fab">
-                <a id="bt2" data-target="#mb"></a>
+                <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -135,9 +135,9 @@
         <div class="row aligner">
           <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
-            <div class="project-thumbnail" id="three">
-              <a id="bt3" data-target="#audi">
-                <img data-interchange="[img/audi_thumb.jpg, small], [img/audi_thumb@2x.jpg, retina]">
+            <div class="project-thumbnail" id="one">
+              <a id="bt1" data-target="#honda">
+                <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
               </a>
             </div>
 
@@ -146,14 +146,14 @@
           <div class="large-6 columns wow fadeInRight">
 
             <div class="project-info">
-              <h4>E-mail</h4>
-              <h1>2017 Audi Q3 Crossover</h1>
+              <h4>Website</h4>
+              <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light" id="bt3" data-target="#audi">Learn More</a>
+              <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
 
               <div class="fab">
-                <a class="mdl-btn" id="bt3" data-target="#audi"></a>
+                <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -167,27 +167,27 @@
       <div class="project-container project-container_alt">
         
         <div class="row aligner">
-          <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
+          <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
 
-            <div class="project-thumbnail project-thumbnail_right" id="four">
-              <a id="bt4" data-target="#lacher">
-                <img data-interchange="[img/lacher_thumb.jpg, small], [img/lacher_thumb@2x.jpg, retina]">
+            <div class="project-thumbnail" id="one">
+              <a id="bt1" data-target="#honda">
+                <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
               </a>
             </div>
 
           </div>
 
-          <div class="large-pull-6 large-6 columns wow fadeInLeft">
+          <div class="large-6 columns wow fadeInRight">
 
-            <div class="project-info project-info_left">
+            <div class="project-info">
               <h4>Website</h4>
-              <h1>Lacher & Associates</h1>
+              <h1>Gulf Coast Honda Dealers</h1>
               <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-              <a class="btn btn-light" id="bt4" data-target="#lacher">Learn More</a>
+              <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
 
               <div class="fab">
-                <a id="bt4" data-target="#lacher"></a>
+                <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                 <i class="fa fa-search" aria-hidden="true"></i>
               </div>
 
@@ -203,27 +203,27 @@
         <div class="project-container">
         
           <div class="row aligner">
-            <div class="large-6 columns wow fadeInLeft" data-wow-offset="270">
-
-              <div class="project-thumbnail" id="five">
-                <a id="bt5" data-target="#kfitz">
-                  <img data-interchange="[img/kfitz_thumb.jpg, small], [img/kfitz_thumb@2x.jpg, retina]">
+            <div class="large-6 columns">
+  
+              <div class="project-thumbnail" id="one">
+                <a id="bt1" data-target="#honda">
+                  <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
                 </a>
               </div>
-
+  
             </div>
 
-            <div class="large-6 columns wow fadeInRight">
-
+            <div class="large-6 columns">
+  
               <div class="project-info">
                 <h4>Website</h4>
-                <h1>Kristina Fitzpatrick</h1>
+                <h1>Gulf Coast Honda Dealers</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light" id="bt5" data-target="#kfitz">Learn More</a>
-
+                <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
+  
                 <div class="fab">
-                  <a class="mdl-btn" id="bt5" data-target="#kfitz"></a>
+                  <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
@@ -237,27 +237,27 @@
         <div class="project-container project-container_alt">
         
           <div class="row aligner">
-            <div class="large-push-6 large-6 columns wow fadeInRight" data-wow-offset="270">
-
-              <div class="project-thumbnail project-thumbnail_right" id="six">
-                <a id="bt6" data-target="#cone">
-                  <img data-interchange="[img/cone_thumb.jpg, small], [img/cone_thumb@2x.jpg, retina]">
+            <div class="large-6 columns">
+  
+              <div class="project-thumbnail" id="one">
+                <a id="bt1" data-target="#honda">
+                  <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
                 </a>
               </div>
-
+  
             </div>
 
-            <div class="large-pull-6 large-6 columns wow fadeInLeft">
-
-              <div class="project-info project-info_left">
+            <div class="large-6 columns">
+  
+              <div class="project-info">
                 <h4>Website</h4>
-                <h1>Cone Middour</h1>
+                <h1>Gulf Coast Honda Dealers</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light" id="bt6" data-target="#cone">Learn More</a>
-
+                <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
+  
                 <div class="fab">
-                  <a id="bt6" data-target="#cone"></a>
+                  <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
@@ -269,16 +269,18 @@
         </div>
   
         <div class="project-container">
-          
+        
           <div class="row aligner">
             <div class="large-6 columns">
   
-              <div class="project-thumbnail" id="seven">
-                <img data-interchange="[https://unsplash.it/1156/869/?random, small], [img/honda01@2x.jpg, retina]">
+              <div class="project-thumbnail" id="one">
+                <a id="bt1" data-target="#honda">
+                  <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
+                </a>
               </div>
   
             </div>
-  
+
             <div class="large-6 columns">
   
               <div class="project-info">
@@ -286,50 +288,52 @@
                 <h1>Gulf Coast Honda Dealers</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light">Learn More</a>
-
+                <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
+  
                 <div class="fab">
-                  <a href="/"></a>
+                  <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
               </div>
-              
+            
             </div>
           </div>
-  
+
         </div>
-  
+
         <div class="project-container project-container_alt">
-          
+        
           <div class="row aligner">
-            <div class="large-push-6 large-6 columns">
+            <div class="large-6 columns">
   
-              <div class="project-thumbnail project-thumbnail_right" id="eight">
-                <img data-interchange="[https://unsplash.it/1157/870/?random, small], [img/honda01@2x.jpg, retina]">
+              <div class="project-thumbnail" id="one">
+                <a id="bt1" data-target="#honda">
+                  <img data-interchange="[img/honda_thumb.jpg, small], [img/honda_thumb@2x.jpg, retina]">
+                </a>
               </div>
   
             </div>
+
+            <div class="large-6 columns">
   
-            <div class="large-pull-6 large-6 columns">
-  
-              <div class="project-info project-info_left">
+              <div class="project-info">
                 <h4>Website</h4>
                 <h1>Gulf Coast Honda Dealers</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
-                <a class="btn btn-light">Learn More</a>
-
+                <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
+  
                 <div class="fab">
-                  <a href="/"></a>
+                  <a class="mdl-btn" id="bt1" data-target="#honda"></a>
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
 
               </div>
-              
+            
             </div>
           </div>
-  
+
         </div>
 
       </div>
