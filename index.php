@@ -81,7 +81,7 @@
               <h4>Website</h4>
               <h1>Gulf Coast Honda Dealers</h1>
               <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non eros vestibulum semper. Integer vel nibh vel ipsum  tincidunt lacinia non in orci. In leo mi, maximus sed rutrum at, porta in odio.</p>
+              <p>The Gulf Coast Honda Dealers is an association of eight Honda dealers serving the Bay Area.</p>
               <a class="btn btn-light" id="bt1" data-target="#honda">Learn More</a>
 
               <div class="fab">

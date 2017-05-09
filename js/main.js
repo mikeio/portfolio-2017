@@ -11,7 +11,7 @@ $(document).ready(function() {
 // Toggle projects
 $(document).ready(function(){
     $("#view-all").click(function(){
-      $("#show-more").slideToggle('slow');
+      $("#show-more").slideToggle(1200);
       $('html,body').animate({
         scrollTop: $("#show-more").offset().top},
         'slow');
