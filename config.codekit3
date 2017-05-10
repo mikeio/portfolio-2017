@@ -15,6 +15,46 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2821,
+		"oA": 0,
+		"oAP": "\/android-chrome-192x192.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 3748,
+		"oA": 0,
+		"oAP": "\/android-chrome-256x256.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1458,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/css\/animate.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -25,15 +65,203 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/font-awesome.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/foundation.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/foundation-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/foundation.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/foundation.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/mdl.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/css\/mdl-min.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0
+		},
+	"\/cta.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/cta.php",
+		"oF": 0
+		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 395,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 554,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/fontawesome-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/fontawesome-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/FontAwesome.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-black-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-black-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-black-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-black-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-bold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-bold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-bold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-extrabld-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-extrabld-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-extrabld-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-extrabld-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-light-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-light-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-light-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-light-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-regular-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-semibold-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-semibold-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanova-semibold-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanova-semibold-webfont.woff2",
+		"oF": 0
+		},
+	"\/fonts\/proximanovat-thin-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanovat-thin-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/proximanovat-thin-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/proximanovat-thin-webfont.woff2",
+		"oF": 0
+		},
+	"\/footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/footer.php",
+		"oF": 0
 		},
 	"\/head.php": {
 		"ft": 8192,
@@ -59,17 +287,104 @@
 		"oAP": "\/build\/js",
 		"oF": 0
 		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1447,
+		"oA": 0,
+		"oAP": "\/mstile-150x150.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/nav_header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/nav_header.php",
+		"oF": 0
+		},
 	"\/nav_mobile.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/nav_mobile.php",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/scripts.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/scripts.php",
 		"oF": 0
+		},
+	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/style.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/665843ba17aa39002211c262ed648c38f656a5dc\/_fonts.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/scss\/.sass-cache\/665843ba17aa39002211c262ed648c38f656a5dc\/_fonts.scssc",
+		"oF": 0
+		},
+	"\/scss\/.sass-cache\/665843ba17aa39002211c262ed648c38f656a5dc\/app.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scss\/.sass-cache\/665843ba17aa39002211c262ed648c38f656a5dc\/app.scssc",
+		"oF": 0
+		},
+	"\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/app.scss": {
 		"aP": 0,
