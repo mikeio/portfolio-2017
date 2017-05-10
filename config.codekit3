@@ -275,12 +275,6 @@
 		"oAP": "\/build\/img",
 		"oF": 0
 		},
-	"\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.php",
-		"oF": 0
-		},
 	"\/js": {
 		"ft": 65536,
 		"oA": 1,
@@ -302,18 +296,6 @@
 		"oAP": "\/mstile-150x150.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/nav_header.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/nav_header.php",
-		"oF": 0
-		},
-	"\/nav_mobile.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/nav_mobile.php",
-		"oF": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -342,12 +324,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/scripts.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/scripts.php",
-		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc": {
 		"ft": 8192,
@@ -382,19 +358,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/app.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/app.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
