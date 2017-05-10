@@ -1,4 +1,3 @@
-// Mobile overlay
 $(document).ready(function() {
   $('.burger, .nav_mobile a').on('click', function() {
       $('.burger').toggleClass('nav-open');
@@ -8,20 +7,6 @@ $(document).ready(function() {
   });
 });
 
-// Toggle projects
-$(document).ready(function(){
-    $("#view-all").click(function(){
-      $("#show-more").slideToggle(1200);
-      $('html,body').animate({
-        scrollTop: $("#show-more").offset().top},
-        'slow');
-      setTimeout(function(){
-        $(".project-footer").addClass("closed");
-      }, 500);
-    });
-});
-
-// Smooth scroll
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -37,7 +22,7 @@ $(function() {
   });
 });
 
-// Wow.js
+
 var wow = new WOW(
   {
     boxClass:     'wow',      // animated element css class (default is wow)
@@ -54,49 +39,8 @@ var wow = new WOW(
 );
 wow.init();
 
-// Disable Wow.js
-(function($) {
-    var $window = $(window),
-        $html = $('.large-6.columns.wow.fadeInLeft, .large-6.columns.wow.fadeInRight, .large-6.columns.wow.fadeIn');
 
-    function resize() {
-        if ($window.width() < 1024) {
-            return $html.addClass('static');
-        }
-
-        $html.removeClass('static');
-    }
-
-    $window
-        .resize(resize)
-        .trigger('resize');
-})(jQuery);
-
-// Preloader
 $(window).on('load', function() { 
   $('#status').fadeOut(); // 
   $('#preloader').delay(350).fadeOut('slow'); 
 })
-
-// jquery-mdl
-$('#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8').mdl({
-  type: 'modal',
-  fullscreen:true,
-  overlayClick:false
-});
-
-
-// Toggle projects
-$(document).ready(function(){
-    $("#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7, #bt8").click(function(){
-      setTimeout(function(){
-        $("body").toggleClass("overflow-hidden");
-      }, 500);
-    });
-});
-
-$(document).ready(function(){
-    $(".mdl-close").click(function(){
-        $("body").toggleClass("overflow-hidden");
-    });
-});
