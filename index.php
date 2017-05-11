@@ -9,26 +9,40 @@
       <div id="status">&nbsp;</div>
     </div>
 
-    <header id="start">
-
+    <header>
       <?php include 'nav.php';?>
-
     </header>
 
 
-    <section>
+    <section class="intro">
       <div class="row">
         <div class="large-12 columns">
-            <h4>Various Aspects</h4>
-            <h1>Designing & building products for web, mobile and everything in-between.</h1>
-            <p>I am a dedicated and highly-motivated web professional with almost a decade of experience. I enjoy designing beautiful and functional user experiences while also writing clean and efficient front-end code. I believe good design is always in service of the user and it's my job to ensure that a project achieves both its business objectives and the needs of its users above all else.</p>
-          </span>
+          <div class="container">
+            <h1 class="wow fadeInUp">Mike Peters — Senior Digital Designer and coder from Atlanta, GA. Focusing on Interactive Solutions & User Experience.</h1>
+            <p>See my work below, view my resume or get in touch.</p>
+          </div>
         </div>
       </div>
     </section>
 
+    <section class="projects" id="work">
+      <div class="row">
+        <div class="large-12 columns">
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+        </div>
+      </div>
+    </section>
 
-    <?php include 'cta.php';?>
+    <section class="overlay">
+      here
+    </section>
 
     <?php include 'footer.php';?>
 

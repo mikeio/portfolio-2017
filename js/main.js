@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  $('.burger, .nav_mobile a').on('click', function() {
-      $('.burger').toggleClass('nav-open');
-      $(".nav_mobile").fadeToggle(250);
-      $('body').toggleClass('fixed');
-      $(".logo").fadeToggle(250);
+  $('.menu').on('click', function() {
+      $('.menu').toggleClass('menu-open');
+      $('.overlay').fadeToggle();
+      setTimeout(function(){
+        $("body").toggleClass("overflow-hidden");
+      }, 500);
   });
 });
 
@@ -15,7 +16,7 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1200);
+        }, 600);
         return false;
       }
     }
@@ -28,7 +29,7 @@ var wow = new WOW(
     boxClass:     'wow',      // animated element css class (default is wow)
     animateClass: 'animated', // animation css class (default is animated)
     offset:       200,          // distance to the element when triggering the animation (default is 0)
-    mobile:       true,       // trigger animations on mobile devices (default is true)
+    mobile:       false,       // trigger animations on mobile devices (default is true)
     live:         true,       // act on asynchronously loaded content (default is true)
     callback:     function(box) {
       // the callback is fired every time an animation is started
@@ -37,10 +38,10 @@ var wow = new WOW(
     scrollContainer: null // optional scroll container selector, otherwise use window
   }
 );
-wow.init();
 
 
 $(window).on('load', function() { 
   $('#status').fadeOut(); // 
   $('#preloader').delay(350).fadeOut('slow'); 
+  wow.init();
 })
