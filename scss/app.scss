@@ -266,11 +266,14 @@ footer {
 	top: 0;
 	left: 0;
 	background-color: $white;
-	display: none;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .overflow-hidden {
 	position: fixed;
+	overflow-y: scroll;
 }
 
 

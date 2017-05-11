@@ -40,7 +40,7 @@
       </div>
     </section>
 
-    <section class="overlay">
+    <section class="overlay" style="display: none;">
       here
     </section>
 

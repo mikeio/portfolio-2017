@@ -177,10 +177,13 @@ footer {
   top: 0;
   left: 0;
   background-color: #ffffff;
-  display: none; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .overflow-hidden {
-  position: fixed; }
+  position: fixed;
+  overflow-y: scroll; }
 
 @media screen and (min-width: 48em) {
   header nav {
