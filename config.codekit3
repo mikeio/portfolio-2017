@@ -15,6 +15,16 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/css\/animate-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/animate-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/animate.css": {
 		"aP": 0,
 		"bl": 0,
@@ -123,6 +133,12 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/js",
+		"oF": 0
+		},
+	"\/mobile-menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mobile-menu.php",
 		"oF": 0
 		},
 	"\/nav.php": {

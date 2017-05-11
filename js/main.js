@@ -1,10 +1,8 @@
 $(document).ready(function() {
-  $('.menu').on('click', function() {
+  $('.menu, .mobile-menu a').on('click', function() {
       $('.menu').toggleClass('menu-open');
-      $('.overlay').fadeToggle();
-      setTimeout(function(){
+      $('.mobile-menu').fadeToggle();
         $("body").toggleClass("overflow-hidden");
-      }, 500);
   });
 });
 
@@ -15,7 +13,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 30
         }, 600);
         return false;
       }
@@ -29,7 +27,7 @@ var wow = new WOW(
     boxClass:     'wow',      // animated element css class (default is wow)
     animateClass: 'animated', // animation css class (default is animated)
     offset:       200,          // distance to the element when triggering the animation (default is 0)
-    mobile:       false,       // trigger animations on mobile devices (default is true)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
     live:         true,       // act on asynchronously loaded content (default is true)
     callback:     function(box) {
       // the callback is fired every time an animation is started
@@ -42,6 +40,9 @@ var wow = new WOW(
 
 $(window).on('load', function() { 
   $('#status').fadeOut(); // 
-  $('#preloader').delay(350).fadeOut('slow'); 
-  wow.init();
+  $('#preloader').delay(350).fadeOut('slow');
+  setTimeout(function(){
+    wow.init();
+  }, 600);
 })
+

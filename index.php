@@ -28,26 +28,23 @@
     <section class="projects" id="work">
       <div class="row">
         <div class="large-12 columns">
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
-            <a href="#"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="/cone"><img src="img/cone-thumb.jpg"></a>
+            <a href="/audi"><img src="img/audi-thumb.jpg"></a>
+            <a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a>
+            <a href="/honda"><img src="img/honda-thumb.jpg"></a>
+            <a href="/mb"><img src="img/mb-thumb.jpg"></a>
+            <a href="/lacher"><img src="img/lacher-thumb.jpg"></a>
+            <a href="/helix"><img src="https://unsplash.it/1170/780/?random"></a>
+            <a href="/none"><img src="https://unsplash.it/1170/780/?random"></a>
         </div>
       </div>
     </section>
 
-    <section class="overlay" style="display: none;">
-      here
-    </section>
-
     <?php include 'footer.php';?>
+
+    <?php include 'mobile-menu.php';?>
 
     <?php include 'scripts.php';?>
 
-  
   </body>
 </html>
