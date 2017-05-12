@@ -249,7 +249,6 @@ header {
 }
 
 .projects {
-	padding-bottom: 60px;
 
 	img {
 		width: 100%;
@@ -263,7 +262,6 @@ header {
 
 footer {
 	text-align: center;
-	background-color: $whitesmoke;
 	padding: 25px 0;
 
 	nav { display: none;}
@@ -458,7 +456,6 @@ footer {
 	}
 
 	.projects {
-		padding-bottom: 120px;
 
 		img {
 			max-width: 50%;
@@ -474,7 +471,7 @@ footer {
 		.copyright {
 			margin: 0 0 0 30px;
 			float: left;
-			line-height: 130px;
+			line-height: 110px;
 			font-size: 15px;
 		}
 
@@ -493,7 +490,7 @@ footer {
 					text-transform: uppercase;
 					letter-spacing: 0.12em;
 					margin-right: 25px;
-					line-height: 127px;
+					line-height: 110px;
 
 					a {
 						font-size: 15px;

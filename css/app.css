@@ -163,17 +163,14 @@ header nav {
   .intro .container {
     padding: 0 15px; }
 
-.projects {
-  padding-bottom: 60px; }
-  .projects img {
-    width: 100%;
-    transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    .projects img:hover {
-      opacity: 0.75; }
+.projects img {
+  width: 100%;
+  transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+  .projects img:hover {
+    opacity: 0.75; }
 
 footer {
   text-align: center;
-  background-color: #f0f1f2;
   padding: 25px 0; }
   footer nav {
     display: none; }
@@ -297,11 +294,9 @@ footer {
       font-weight: 300; }
     .intro .container {
       padding: 0 30px; }
-  .projects {
-    padding-bottom: 120px; }
-    .projects img {
-      max-width: 50%;
-      float: left; }
+  .projects img {
+    max-width: 50%;
+    float: left; }
   footer {
     padding: 0;
     text-align: left;
@@ -309,7 +304,7 @@ footer {
     footer .copyright {
       margin: 0 0 0 30px;
       float: left;
-      line-height: 130px;
+      line-height: 110px;
       font-size: 15px; }
     footer nav {
       display: block;
@@ -324,7 +319,7 @@ footer {
           text-transform: uppercase;
           letter-spacing: 0.12em;
           margin-right: 25px;
-          line-height: 127px; }
+          line-height: 110px; }
           footer nav ul li a {
             font-size: 15px;
             font-weight: 600;
