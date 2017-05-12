@@ -18,7 +18,7 @@
       <div class="row">
         <div class="large-12 columns">
           <div class="container">
-            <h1 class="wow fadeInUp">Mike Peters — Senior Digital Designer and coder from Atlanta, GA. Focusing on Interactive Solutions & User Experience.</h1>
+            <h1>Mike Peters — Senior Digital Designer and coder from Atlanta, GA. Focusing on Interactive Solutions & User Experience.</h1>
             <p>See my work below, view my resume or get in touch.</p>
           </div>
         </div>

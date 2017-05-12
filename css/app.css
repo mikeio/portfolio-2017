@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Nunito+Sans:300,400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Nunito+Sans:300,400,600,700,800");
 .wow {
   visibility: hidden; }
 
@@ -9,6 +9,9 @@
 .overflow-hidden {
   position: fixed;
   overflow-y: scroll; }
+
+.row {
+  max-width: 80em; }
 
 #preloader {
   position: fixed;
@@ -155,7 +158,7 @@ header nav {
     margin-bottom: 17px;
     font-size: 34px; }
   .intro p {
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 0; }
   .intro .container {
     padding: 0 15px; }
@@ -198,9 +201,9 @@ footer {
     .mobile-menu ul li {
       text-transform: uppercase;
       letter-spacing: 0.12em;
-      padding: 10px; }
+      padding: 12px; }
       .mobile-menu ul li a {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
         position: relative;
         color: #222222; }
@@ -220,13 +223,13 @@ footer {
           visibility: visible;
           transform: scaleX(1); }
     .mobile-menu ul .title {
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: .24em;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: .36em;
       color: #a4a5a6; }
     .mobile-menu ul .social a {
-      font-size: 17px;
-      color: #cacbcc;
+      font-size: 18px;
+      color: #c6c6c7;
       padding: 0 7px; }
       .mobile-menu ul .social a:before {
         display: none; }
@@ -237,8 +240,8 @@ footer {
   header nav {
     height: 110px; }
     header nav .logo {
-      width: 60px;
-      height: 47px;
+      width: 62px;
+      height: 49px;
       left: 30px; }
     header nav .menu {
       display: none; }
@@ -253,7 +256,7 @@ footer {
         letter-spacing: 0.12em;
         margin-right: 50px; }
         header nav ul li a {
-          font-size: 14px;
+          font-size: 15px;
           font-weight: 600;
           position: relative;
           color: #222222; }
@@ -278,7 +281,7 @@ footer {
         margin-right: 15px;
         letter-spacing: 0; }
         header nav ul .social a {
-          font-size: 17px;
+          font-size: 18px;
           color: #c6c6c7; }
           header nav ul .social a:hover {
             color: #222222; }
@@ -287,10 +290,10 @@ footer {
   .intro {
     padding: 77px 0 95px; }
     .intro h1 {
-      font-size: 41px;
+      font-size: 44px;
       margin-bottom: 35px; }
     .intro p {
-      font-size: 20px;
+      font-size: 21px;
       font-weight: 300; }
     .intro .container {
       padding: 0 30px; }
@@ -306,7 +309,8 @@ footer {
     footer .copyright {
       margin: 0 0 0 30px;
       float: left;
-      line-height: 130px; }
+      line-height: 130px;
+      font-size: 15px; }
     footer nav {
       display: block;
       position: relative;
@@ -319,10 +323,10 @@ footer {
           display: inline;
           text-transform: uppercase;
           letter-spacing: 0.12em;
-          margin-right: 50px;
+          margin-right: 25px;
           line-height: 127px; }
           footer nav ul li a {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 600;
             position: relative;
             color: #a4a5a6; }
@@ -347,9 +351,13 @@ footer {
           margin-right: 15px;
           letter-spacing: 0; }
           footer nav ul .social a {
-            font-size: 17px;
+            font-size: 18px;
             color: #c6c6c7; }
             footer nav ul .social a:hover {
               color: #222222; }
             footer nav ul .social a:before {
               display: none; } }
+
+@media screen and (min-width: 64em) {
+  footer nav ul li {
+    margin-right: 50px; } }

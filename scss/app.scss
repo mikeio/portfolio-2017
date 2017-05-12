@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Nunito+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Nunito+Sans:300,400,600,700,800');
 // Variables
 
 $black:						#222222;
@@ -24,6 +24,10 @@ $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 
 .overflow-hidden {
 	position: fixed;
 	overflow-y: scroll;
+}
+
+.row {
+	max-width: 80em;
 }
 
 #preloader {
@@ -235,7 +239,7 @@ header {
 	}
 
 	p {
-		font-size: 17px;
+		font-size: 18px;
 		margin-bottom: 0;
 	}
 
@@ -292,10 +296,10 @@ footer {
 		li {
 			text-transform: uppercase;
 			letter-spacing: 0.12em;
-			padding: 10px;
+			padding: 12px;
 
 			a {
-				font-size: 14px;
+				font-size: 15px;
 				font-weight: 600;
 				position: relative;
 				color: $black;
@@ -324,17 +328,17 @@ footer {
 		}
 
 		.title {
-			font-size: 15px;
-			font-weight: 600;
-			letter-spacing: .24em;
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: .36em;
 			color: $gray;
 		}
 	
 		.social {
 
 			a {
-				font-size: 17px;
-				color: $lightgray;
+				font-size: 18px;
+				color: lighten($gray, 13);
 				padding: 0 7px;
 
 				&:before {
@@ -359,8 +363,8 @@ footer {
 			height: 110px;
 
 			.logo {
-				width: 60px;
-				height: 47px;
+				width: 62px;
+				height: 49px;
   				left: 30px;
 			}
 
@@ -381,7 +385,7 @@ footer {
 					margin-right: 50px;
 
 					a {
-						font-size: 14px;
+						font-size: 15px;
 						font-weight: 600;
 						position: relative;
 						color: $black;
@@ -419,7 +423,7 @@ footer {
 					letter-spacing: 0;
 
 					a {
-						font-size: 17px;
+						font-size: 18px;
 						color: lighten($gray, 13);
 
 						&:hover {
@@ -439,12 +443,12 @@ footer {
 		padding: 77px 0 95px;
 
 		h1 {
-			font-size: 41px;
+			font-size: 44px;
 			margin-bottom: 35px;
 		}
 
 		p {
-			font-size: 20px;
+			font-size: 21px;
 			font-weight: 300;
 		}
 
@@ -471,6 +475,7 @@ footer {
 			margin: 0 0 0 30px;
 			float: left;
 			line-height: 130px;
+			font-size: 15px;
 		}
 
 		nav {
@@ -487,11 +492,11 @@ footer {
 					display: inline;
 					text-transform: uppercase;
 					letter-spacing: 0.12em;
-					margin-right: 50px;
+					margin-right: 25px;
 					line-height: 127px;
 
 					a {
-						font-size: 14px;
+						font-size: 15px;
 						font-weight: 600;
 						position: relative;
 						color: $gray;
@@ -529,7 +534,7 @@ footer {
 					letter-spacing: 0;
 
 					a {
-						font-size: 17px;
+						font-size: 18px;
 						color: lighten($gray, 13);
 
 						&:hover {
@@ -548,7 +553,15 @@ footer {
 
 // 1024px+
 @media screen and (min-width: 64em) {
-	
+	footer {
+		nav {
+			ul {
+				li {
+					margin-right: 50px;
+				}
+			}
+		}
+	}
 }
 
 // 1280px+
