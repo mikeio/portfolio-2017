@@ -13,14 +13,13 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top - 30
+          scrollTop: target.offset().top
         }, 600);
         return false;
       }
     }
   });
 });
-
 
 var wow = new WOW(
   {
@@ -36,7 +35,6 @@ var wow = new WOW(
     scrollContainer: null // optional scroll container selector, otherwise use window
   }
 );
-
 
 $(window).on('load', function() { 
   $('#status').fadeOut(); // 
