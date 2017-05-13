@@ -18,8 +18,8 @@
       <div class="row">
         <div class="large-12 columns">
           <div class="container">
-            <h1>Mike Peters — Senior Digital Designer and coder from Atlanta, GA. Focusing on Interactive Solutions & User Experience.</h1>
-            <p>See my work below, view my resume or get in touch.</p>
+            <h1 class="wow fadeInUp" data-wow-delay=".1s">Mike Peters — Senior Digital Designer and coder from Atlanta, GA. focusing on Interactive Solutions & User Experience.</h1>
+            <p class="wow fadeInUpBig" data-wow-delay=".2s">See my work below, view my resume or get in touch.</p>
           </div>
         </div>
       </div>
@@ -28,8 +28,8 @@
     <section class="projects" id="work">
       <div class="row">
         <div class="large-12 columns">
-            <a href="/cone"><img src="img/cone-thumb.jpg"></a>
-            <a href="/audi"><img src="img/audi-thumb.jpg"></a>
+            <a href="/cone"><img src="img/cone-thumb.jpg" class="wow fadeInLeft" data-wow-delay=".3s"></a>
+            <a href="/audi"><img src="img/audi-thumb.jpg" class="wow fadeInRight" data-wow-delay=".4s"></a>
             <a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a>
             <a href="/honda"><img src="img/honda-thumb.jpg"></a>
             <a href="/mb"><img src="img/mb-thumb.jpg"></a>

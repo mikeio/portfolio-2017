@@ -36,8 +36,7 @@
   opacity: 0.15; }
 
 ::selection {
-  background: #f0f1f2;
-  color: #222222; }
+  background: #f0f1f2; }
 
 body {
   font-family: 'Nunito Sans', sans-serif;

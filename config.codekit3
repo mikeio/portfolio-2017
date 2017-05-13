@@ -15,24 +15,14 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/css\/animate-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/animate-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/animate.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/animate-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/css\/app.css": {
