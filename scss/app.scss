@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Nunito+Sans:300,400,600,700,800');
+@import "fonts";
+
 // Variables
 
-$black:						#222222;
-$gray:						#a4a5a6;
-$lightgray:					#cacbcc;
-$whitesmoke:				#f0f1f2;
 $white:						#ffffff;
+$offwhite:					#f5f5f5;
+$gray:						#898b8c;
+$black:						#18191a;
+$copyright-text:			#4b4c4d;
+$copyright-bg:				#1d1e1f;
+$btn-border-dark:			#323333;
 
 $default-transition: 		cubic-bezier(0.455, 0.03, 0.515, 0.955);
 $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
@@ -59,7 +62,7 @@ $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 
 }
 
 body {
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Proxima Nova', sans-serif;
 	color: $gray;
 	background-color: $white;
 }
