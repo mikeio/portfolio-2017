@@ -170,7 +170,7 @@ header {
       display: none; }
   header .intro {
     position: relative;
-    padding: 10px 0 40px; }
+    padding: 20px 0 50px; }
     header .intro::before {
       display: none; }
     header .intro h1 {
@@ -222,7 +222,7 @@ header {
     background-size: auto 100%; }
 
 .work {
-  margin: 45px 0 50px; }
+  margin: 55px 0 60px; }
   .work ul {
     margin: 0;
     list-style-type: none; }
@@ -231,7 +231,6 @@ header {
       text-align: center; }
       .work ul li img {
         width: 100%;
-        max-width: 400px;
         transition: opacity 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
         .work ul li img:hover {
           opacity: 0.75; }
@@ -240,7 +239,7 @@ footer {
   background-color: #18191a; }
   footer .resume {
     text-align: center;
-    padding: 50px 0; }
+    padding: 60px 0; }
     footer .resume h4 {
       color: #898b8c;
       font-size: 14px;
@@ -253,14 +252,14 @@ footer {
       font-size: 1.875rem;
       margin-bottom: 22px; }
   footer nav {
-    height: 60px;
+    height: 70px;
     background-color: #1d1e1f; }
     footer nav .copyright {
       color: #4b4c4d;
       letter-spacing: .06rem;
       font-size: 16px;
       text-align: center;
-      line-height: 60px; }
+      line-height: 70px; }
     footer nav ul {
       display: none; }
 
@@ -361,7 +360,8 @@ footer {
       background-blend-mode: screen; }
     header .intro h1 {
       font-size: 2.750em;
-      margin-bottom: 20px; }
+      max-width: 1100px;
+      margin: 0 auto 20px; }
     header .intro p {
       font-size: 1.250em;
       letter-spacing: .08rem; }

@@ -228,7 +228,7 @@ header {
 	
 	.intro {
 		position: relative;
-		padding: 10px 0 40px;
+		padding: 20px 0 50px;
 
 		&::before {
 			display: none;
@@ -306,7 +306,7 @@ header {
 
 
 .work {
-	margin: 45px 0 50px;
+	margin: 55px 0 60px;
 
 	ul {
 		margin: 0;
@@ -318,7 +318,6 @@ header {
 
 			img {
 				width: 100%;
-				max-width: 400px;
 				transition: opacity .2s $default-transition;
 		
 				&:hover {
@@ -334,7 +333,7 @@ footer {
 
 	.resume {
 		text-align: center;
-		padding: 50px 0;
+		padding: 60px 0;
 
 		h4 {
 			color: $gray;
@@ -353,7 +352,7 @@ footer {
 	}
 
 	nav {
-		height: 60px;
+		height: 70px;
 		background-color: $copyright-bg;
 
 		.copyright {
@@ -361,7 +360,7 @@ footer {
 			letter-spacing: .06rem;
 			font-size: 16px;
 			text-align: center;
-			line-height: 60px;
+			line-height: 70px;
 		}
 
 		ul {
@@ -528,7 +527,8 @@ footer {
 	
 			h1 {
 				font-size: 2.750em;
-				margin-bottom: 20px;
+				max-width: 1100px;
+				margin: 0 auto 20px;
 			}
 	
 			p {
