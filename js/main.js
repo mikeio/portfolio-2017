@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $('.menu, .mobile-menu a').on('click', function() {
+  $('.menu, .mobile-nav a').on('click', function() {
       $('.menu').toggleClass('menu-open');
-      $('.mobile-menu').fadeToggle();
+      $('.mobile-nav').fadeToggle();
         $("body").toggleClass("overflow-hidden");
   });
 });

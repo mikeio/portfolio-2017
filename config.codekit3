@@ -195,12 +195,6 @@
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
-	"\/head.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/head.php",
-		"oF": 0
-		},
 	"\/img": {
 		"ft": 65536,
 		"oA": 1,
@@ -217,18 +211,6 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/js",
-		"oF": 0
-		},
-	"\/mobile-menu.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/mobile-menu.php",
-		"oF": 0
-		},
-	"\/nav.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/nav.php",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -248,12 +230,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/scripts.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/scripts.php",
-		"oF": 0
 		},
 	"\/scss\/.sass-cache\/4d10b330b393aadb52353c326eb9e2df5e4cfd38\/_fonts.scssc": {
 		"ft": 8192,
