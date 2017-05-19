@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700i");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700i|Work+Sans:300,400,500,600,700");
 @font-face {
   font-family: 'Proxima Nova';
   src: url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff");
@@ -63,7 +63,7 @@ img {
   -webkit-backface-visibility: hidden; }
 
 body {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #898b8c;
   background-color: #f5f5f5; }
 
@@ -73,7 +73,7 @@ a {
     color: #898b8c; }
 
 .btn {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 13px;
@@ -175,24 +175,23 @@ header {
       display: none; }
     header .intro h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 2em;
+      font-size: 2.2em;
       color: #ffffff;
       margin-bottom: 1rem;
       line-height: 1.48; }
       header .intro h1 span {
         font-weight: 700;
-        font-style: italic;
-        white-space: nowrap; }
+        font-style: italic; }
     header .intro p {
       color: #898b8c;
-      font-size: 1.063em;
-      letter-spacing: .04rem;
+      font-size: 18px;
+      letter-spacing: .06rem;
       margin-bottom: 0; }
       header .intro p span {
         white-space: nowrap; }
   header .img-divide {
     position: relative;
-    padding: 0 15px; }
+    padding: 0 30px; }
     header .img-divide img {
       position: relative;
       max-width: 1150px;
@@ -206,7 +205,7 @@ header {
       width: 100%;
       height: 50%; }
   header .stack_container img {
-    max-height: 175px;
+    max-height: 190px;
     width: auto;
     max-width: 100%; }
   header .stack_container::before {
@@ -242,21 +241,21 @@ footer {
     padding: 60px 0; }
     footer .resume h4 {
       color: #898b8c;
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: .24rem; }
+      letter-spacing: .24rem;
+      margin-bottom: 12px; }
     footer .resume h1 {
       font-family: 'Playfair Display', serif;
       color: #ffffff;
-      font-size: 1.875rem;
+      font-size: 2rem;
       margin-bottom: 22px; }
   footer nav {
     height: 70px;
     background-color: #1d1e1f; }
     footer nav .copyright {
       color: #4b4c4d;
-      letter-spacing: .06rem;
       font-size: 16px;
       text-align: center;
       line-height: 70px; }
@@ -282,21 +281,21 @@ footer {
       letter-spacing: 0.12em;
       padding: 12px; }
       .mobile-nav ul li a {
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 16px;
         letter-spacing: .24em;
         position: relative;
-        color: #898b8c; }
+        color: #898b8c;
+        font-weight: 500; }
         .mobile-nav ul li a:hover {
           color: #ffffff; }
     .mobile-nav ul h4 {
       color: #ffffff;
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 500;
       text-transform: uppercase;
-      letter-spacing: .36rem; }
+      letter-spacing: .48rem; }
     .mobile-nav ul .social a {
-      font-size: 17px;
+      font-size: 18px;
       color: #4a4b4c;
       padding: 0 7px; }
       .mobile-nav ul .social a:hover {
@@ -316,8 +315,6 @@ footer {
       max-width: 100%; } }
 
 @media screen and (min-width: 64em) {
-  .btn {
-    font-size: 14px; }
   header nav {
     height: 120px; }
     header nav .logo {
@@ -334,15 +331,14 @@ footer {
         header nav ul li a {
           color: #ffffff;
           text-transform: uppercase;
-          font-size: 15px;
-          font-weight: 600;
-          letter-spacing: .24em; }
+          font-size: 16px;
+          letter-spacing: .18em; }
           header nav ul li a:hover {
             color: #898b8c; }
     header nav .menu {
       display: none; }
   header .intro {
-    padding: 115px 0 125px; }
+    padding: 105px 0; }
     header .intro::before {
       content: '';
       display: block;
@@ -363,8 +359,7 @@ footer {
       max-width: 1100px;
       margin: 0 auto 20px; }
     header .intro p {
-      font-size: 1.250em;
-      letter-spacing: .08rem; }
+      font-size: 1.250em; }
   header .stack_container {
     margin: 0 auto 80px; }
     header .stack_container img {
@@ -375,16 +370,16 @@ footer {
     padding: 120px 0; }
     footer .resume h1 {
       font-size: 2.375em;
-      margin-bottom: 25px; }
+      margin-bottom: 30px; }
     footer .resume h4 {
-      font-size: 15px;
+      font-size: 16px;
       margin-bottom: 15px; }
   footer nav {
     height: 95px; }
     footer nav .copyright {
       display: inline;
       float: left;
-      letter-spacing: .12rem;
+      letter-spacing: 0;
       line-height: 95px;
       text-align: left;
       margin-left: 25px; }
@@ -396,14 +391,14 @@ footer {
       margin-right: 20px; }
       footer nav ul li {
         display: inline;
-        padding: 0 15px;
+        padding: 0 30px;
         line-height: 95px; }
         footer nav ul li a {
           color: #4b4c4d;
           text-transform: uppercase;
           font-size: 15px;
-          font-weight: 600;
-          letter-spacing: .24em; }
+          font-weight: 500;
+          letter-spacing: .18em; }
           footer nav ul li a:hover {
             color: #ffffff; }
       footer nav ul .social {

@@ -59,7 +59,7 @@ img {
 }
 
 body {
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color: $gray;
 	background-color: $offwhite;
 }
@@ -73,7 +73,7 @@ a {
 }
 
 .btn {
-	font-family: 'Proxima Nova', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 13px;
@@ -236,7 +236,7 @@ header {
 
 		h1 {
 			font-family: 'Playfair Display', serif;
-			font-size: 2em;
+			font-size: 2.2em;
 			color: $white;
 			margin-bottom: 1rem;
 			line-height: 1.48;
@@ -244,14 +244,13 @@ header {
 			span {
 				font-weight: 700;
 				font-style: italic;
-				white-space: nowrap;
 			}
 		}
 
 		p {
 			color: $gray;
-			font-size: 1.063em;
-			letter-spacing: .04rem;
+			font-size: 18px;
+			letter-spacing: .06rem;
 			margin-bottom: 0;
 
 			span {
@@ -262,7 +261,7 @@ header {
 
 	.img-divide {
 		position: relative;
-		padding: 0 15px;
+		padding: 0 30px;
 
 		img {
 			position: relative;
@@ -284,7 +283,7 @@ header {
 	.stack_container {
 		
 		img {
-			max-height: 175px;
+			max-height: 190px;
 			width: auto;
 			max-width: 100%;
 		}
@@ -337,16 +336,17 @@ footer {
 
 		h4 {
 			color: $gray;
-			font-size: 14px;
-			font-weight: 600;
+			font-size: 15px;
+			font-weight: 500;
 			text-transform: uppercase;
 			letter-spacing: .24rem;
+			margin-bottom: 12px;
 		}
 
 		h1 {
 			font-family: 'Playfair Display', serif;
 			color: $white;
-			font-size: 1.875rem;
+			font-size: 2rem;
 			margin-bottom: 22px;
 		}
 	}
@@ -357,7 +357,6 @@ footer {
 
 		.copyright {
 			color: $copyright-text;
-			letter-spacing: .06rem;
 			font-size: 16px;
 			text-align: center;
 			line-height: 70px;
@@ -391,11 +390,11 @@ footer {
 			padding: 12px;
 
 			a {
-				font-size: 15px;
-				font-weight: 600;
+				font-size: 16px;
 				letter-spacing: .24em;
 				position: relative;
 				color: $gray;
+				font-weight: 500;
 
 				&:hover {
 					color: $white;
@@ -405,16 +404,16 @@ footer {
 
 		h4 {
 			color: $white;
-			font-size: 14px;
-			font-weight: 600;
+			font-size: 15px;
+			font-weight: 500;
 			text-transform: uppercase;
-			letter-spacing: .36rem;
+			letter-spacing: .48rem;
 		}
 	
 		.social {
 
 			a {
-				font-size: 17px;
+				font-size: 18px;
 				color: darken($gray, 25);
 				padding: 0 7px;
 
@@ -462,9 +461,6 @@ footer {
 
 // 1024px+
 @media screen and (min-width: 64em) {
-	.btn {
-		font-size: 14px;
-	}
 
 	header {
 
@@ -489,9 +485,8 @@ footer {
 					a {
 						color: $white;
 						text-transform: uppercase;
-						font-size: 15px;
-						font-weight: 600;
-						letter-spacing: .24em;
+						font-size: 16px;
+						letter-spacing: .18em;
 
 						&:hover {
 							color: $gray;
@@ -506,7 +501,7 @@ footer {
 		}
 
 		.intro {
-			padding: 115px 0 125px;
+			padding: 105px 0;
 
 			&::before {
 				content: '';
@@ -533,7 +528,6 @@ footer {
 	
 			p {
 				font-size: 1.250em;
-				letter-spacing: .08rem;
 			}
 		}
 
@@ -557,11 +551,11 @@ footer {
 
 			h1 {
 				font-size: 2.375em;
-				margin-bottom: 25px;
+				margin-bottom: 30px;
 			}
 
 			h4 {
-				font-size: 15px;
+				font-size: 16px;
 				margin-bottom: 15px;
 			}
 		}
@@ -572,7 +566,7 @@ footer {
 			.copyright {
 				display: inline;
 				float: left;
-				letter-spacing: .12rem;
+				letter-spacing: 0;
 				line-height: 95px;
 				text-align: left;
 				margin-left: 25px;		
@@ -587,15 +581,15 @@ footer {
 
 				li {
 					display: inline;
-					padding: 0 15px;
+					padding: 0 30px;
 					line-height: 95px;
 
 					a {
 						color: $copyright-text;
 						text-transform: uppercase;
 						font-size: 15px;
-						font-weight: 600;
-						letter-spacing: .24em;
+						font-weight: 500;
+						letter-spacing: .18em;
 
 						&:hover {
 							color: $white;
