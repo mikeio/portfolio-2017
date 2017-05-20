@@ -19,6 +19,7 @@
 
     <div id="preloader">
       <div id="status">&nbsp;</div>
+      <div class="load-content"></div>
     </div>
 
     <header>
@@ -27,7 +28,13 @@
         <div class="large-12 columns">
 
           <nav>
-            <a href="/"><img src="img/logo.svg" class="logo"></a>
+
+            <a href="/">
+              <div class="logo">
+                <img src="img/logo.svg">
+              </div>
+            </a>
+
             <ul>
               <li><a href="#work">Work</a></li>
               <li><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
@@ -74,8 +81,6 @@
           <li><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
           <li><a href="/mb"><img src="img/mb-thumb.jpg"></a></li>
           <li><a href="/lacher"><img src="img/lacher-thumb.jpg"></a></li>
-          <li><a href="/helix"><img src="https://unsplash.it/1170/780/?random"></a></li>
-          <li><a href="/none"><img src="https://unsplash.it/1170/780/?random"></a></li>
         </ul>
 
         </div>

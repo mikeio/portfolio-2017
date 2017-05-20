@@ -1,28 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700i|Work+Sans:300,400,500,600,700");
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/proximanova-light-webfont.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/proximanova-regular-webfont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-semibold-webfont.woff2") format("woff2"), url("../fonts/proximanova-semibold-webfont.woff") format("woff");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/proximanova-bold-webfont.woff2") format("woff2"), url("../fonts/proximanova-bold-webfont.woff") format("woff");
-  font-weight: 700;
-  font-style: normal; }
-
 .row {
   max-width: 80em; }
 
@@ -58,6 +34,64 @@
   background-position: center;
   margin: -32px 0 0 -32px;
   opacity: 0.15; }
+
+.load-content {
+  background-image: url("../img/glitch/01.png");
+  animation: glitch 1s 0s 1; }
+
+@keyframes glitch {
+  0% {
+    background-image: url("../img/glitch/01.png"); }
+  4% {
+    background-image: url("../img/glitch/02.png"); }
+  8% {
+    background-image: url("../img/glitch/03.png"); }
+  12% {
+    background-image: url("../img/glitch/04.png"); }
+  16% {
+    background-image: url("../img/glitch/05.png"); }
+  20% {
+    background-image: url("../img/glitch/06.png"); }
+  24% {
+    background-image: url("../img/glitch/07.png"); }
+  28% {
+    background-image: url("../img/glitch/08.png"); }
+  32% {
+    background-image: url("../img/glitch/09.png"); }
+  36% {
+    background-image: url("../img/glitch/10.png"); }
+  40% {
+    background-image: url("../img/glitch/11.png"); }
+  44% {
+    background-image: url("../img/glitch/12.png"); }
+  48% {
+    background-image: url("../img/glitch/13.png"); }
+  52% {
+    background-image: url("../img/glitch/14.png"); }
+  56% {
+    background-image: url("../img/glitch/15.png"); }
+  60% {
+    background-image: url("../img/glitch/16.png"); }
+  64% {
+    background-image: url("../img/glitch/17.png"); }
+  68% {
+    background-image: url("../img/glitch/18.png"); }
+  72% {
+    background-image: url("../img/glitch/19.png"); }
+  76% {
+    background-image: url("../img/glitch/20.png"); }
+  80% {
+    background-image: url("../img/glitch/21.png"); }
+  84% {
+    background-image: url("../img/glitch/22.png"); }
+  88% {
+    background-image: url("../img/glitch/23.png"); }
+  92% {
+    background-image: url("../img/glitch/24.png"); }
+  96% {
+    background-image: url("../img/glitch/25.png"); }
+  100% {
+    background-image: url("../img/glitch/26.png"); } }
 
 img {
   -webkit-backface-visibility: hidden; }
@@ -137,7 +171,8 @@ header {
     header nav .logo {
       width: 52px;
       height: 40px;
-      margin-left: 20px; }
+      margin-left: 20px;
+      position: relative; }
     header nav .menu {
       cursor: pointer;
       z-index: 2;
@@ -320,6 +355,20 @@ footer {
     header nav .logo {
       width: 66px;
       height: 51px; }
+      header nav .logo:hover::before {
+        display: block; }
+      header nav .logo::before {
+        content: '';
+        width: 120px;
+        height: 120px;
+        background-image: url("../img/glitch/01.png");
+        background-size: 100% auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        animation: glitch 1s 0s 1; }
     header nav ul {
       margin: 0;
       list-style-type: none;
@@ -327,7 +376,8 @@ footer {
       margin-left: auto; }
       header nav ul li {
         display: inline;
-        padding: 0 30px; }
+        padding: 0 30px;
+        line-height: 120px; }
         header nav ul li a {
           color: #ffffff;
           text-transform: uppercase;
