@@ -61,10 +61,12 @@
         </div>
       </div>
 
-      <div class="img-divide">
-        <span class="stack_container">
-          <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]">
-        </span>
+      <div class="divider">
+        <div class="container">
+          <span class="stack">
+            <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]">
+          </span>
+        </div>
       </div>
 
     </header>
@@ -79,12 +81,25 @@
           <li><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
           <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
           <li><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
-          <li><a href="/mb"><img src="img/mb-thumb.jpg"></a></li>
-          <li><a href="/lacher"><img src="img/lacher-thumb.jpg"></a></li>
         </ul>
 
         </div>
       </div>
+
+      <div class="row" id="show-more">
+        <div class="large-12 columns">
+
+        <ul>
+          <li><a href="/cone"><img src="img/cone-thumb.jpg"></a></li>
+          <li><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
+          <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
+          <li><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
+        </ul>
+
+        </div>
+      </div>
+
+      <a class="btn btn-light" id="view-all">View More</a>
 
     </section>
 

@@ -189,7 +189,10 @@ a {
 
 header {
 	text-align: center;
+	background-image: url('../img/bg.png');
+	background-size: 100% 100%;
 	background-color: $black;
+	background-repeat: repeat-x;
 
 	nav {
 		height: 90px;
@@ -265,10 +268,6 @@ header {
 		position: relative;
 		padding: 20px 0 50px;
 
-		&::before {
-			display: none;
-		}
-
 		h1 {
 			font-family: 'Playfair Display', serif;
 			font-size: 2.2em;
@@ -294,53 +293,59 @@ header {
 		}
 	}
 
-	.img-divide {
-		position: relative;
-		padding: 0 30px;
-
-		img {
+	.divider {
+		text-align: center;
+	
+		.container {
 			position: relative;
-			max-width: 1150px;
-			width: 100%;
+			padding: 0 30px;
+	
+			img {
+				position: relative;
+				max-width: 1150px;
+				width: 100%;
+			}
+	
+			&::before {
+				background-color: $offwhite;
+				content: '';
+				position: absolute;
+				bottom: -1px;
+				left: 0;
+				width: 100%;
+				height: 50%;
+			}
 		}
-
-		&::before {
-			background-color: $offwhite;
-			content: '';
-			position: absolute;
-			bottom: -1px;
-			left: 0;
-			width: 100%;
-			height: 50%;
-		}
-	}
-
-	.stack_container {
-		
-		img {
-			max-height: 190px;
-			width: auto;
-			max-width: 100%;
-		}
-
-		&::before {
-    		content: '';
-    		position: absolute;
-    		top: 0;
-    		left: 0;
-    		width: 100%;
-    		height: 100%;
-    		background-image: url(../img/shadow@2x.png);
-    		background-position: center center;
-    		background-repeat: no-repeat;
-    		background-size: auto 100%;
+	
+		.stack {
+			
+			img {
+				max-height: 190px;
+				width: auto;
+				max-width: 100%;
+			}
+	
+			&::before {
+	    		content: '';
+	    		position: absolute;
+	    		top: 0;
+	    		left: 0;
+	    		width: 100%;
+	    		height: 100%;
+	    		background-image: url(../img/shadow@2x.png);
+	    		background-position: center center;
+	    		background-repeat: no-repeat;
+	    		background-size: auto 100%;
+			}
 		}
 	}
 }
 
 
 .work {
+	text-align: center;
 	margin: 55px 0 60px;
+	position: relative;
 
 	ul {
 		margin: 0;
@@ -349,20 +354,32 @@ header {
 		li {
 			display: block;
 			text-align: center;
+			overflow: hidden;
 
 			img {
 				width: 100%;
-				transition: opacity .2s $default-transition;
+				transition: all .4s $default-transition;
+				transform: scale(1);
+				transform-origin: center center;
+				box-shadow: 0;
 		
 				&:hover {
 					opacity: 0.75;
+					transform: scale(1.05);
 				}
 			}
 		}
 	}
+
+	#view-all {
+		margin-top: 40px;
+	}
 }
 
 footer {
+	background-image: url('../img/bg.png');
+	background-size: 100% 90%;
+	background-repeat: repeat-x;
 	background-color: $black;
 
 	.resume {
@@ -498,6 +515,8 @@ footer {
 @media screen and (min-width: 64em) {
 
 	header {
+		background-position: center top;
+		background-size: auto;
 
 		nav {
 			height: 120px;
@@ -512,10 +531,11 @@ footer {
 
 				&::before {
 					content: '';
-					width: 120px;
-					height: 120px;
+					width: 100px;
+					height: 100px;
 					background-image: url('../img/glitch/01.png');
-					background-size: 100% auto;
+					background-size: 120px 120px;
+					background-position: 50% 50%;
 					position: absolute;
   					top: 50%;
   					left: 50%;
@@ -555,24 +575,7 @@ footer {
 		}
 
 		.intro {
-			padding: 105px 0;
-
-			&::before {
-				content: '';
- 				display: block;
- 				position: absolute;
- 				left: 0;
- 				top: 0;
- 				width: 100%;
- 				height: 100%;
- 				opacity: 0.03;
- 				background-color: $black;
-				background-image: url('../img/glitch@2x.gif');
-				background-position: 50% 50%;
-				background-repeat: no-repeat;
-				background-size: auto 465px;
-				background-blend-mode: screen;
-			}
+			padding: 110px 0 140px;
 	
 			h1 {
 				font-size: 2.750em;
@@ -585,20 +588,29 @@ footer {
 			}
 		}
 
-		.stack_container {
-			margin: 0 auto 80px;
+		.divider {
 
-			img {
-				max-height: 250px;
+			.stack {
+				margin: 0 auto 80px;
+	
+				img {
+					max-height: 260px;
+				}
 			}
 		}
 	}
 
 	.work {
 		margin: 100px 0 140px;
+
+		#view-all {
+			margin-top: 80px;
+		}
 	}
 
 	footer {
+		background-position: center top -205px;
+		background-size: auto;
 
 		.resume {
 			padding: 120px 0;
@@ -636,7 +648,7 @@ footer {
 				li {
 					display: inline;
 					padding: 0 30px;
-					line-height: 95px;
+					line-height: 94px;
 
 					a {
 						color: $copyright-text;

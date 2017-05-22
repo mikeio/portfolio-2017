@@ -44,3 +44,23 @@ $(window).on('load', function() {
   }, 600);
 })
 
+// Toggle projects
+$(document).ready(function(){
+    $('#show-more').hide();
+    $('#view-all').click(function(event) {
+          $('#show-more').slideToggle(1200);
+          event.stopPropagation();
+            $('html,body').animate({
+            scrollTop: $("#show-more").offset().top},
+            'slow');
+    });
+});
+
+$('#view-all').click(function() {
+    if ($(this).text() === 'View More') {
+         $(this).text('View Less');
+    }
+    else {
+        $(this).text('View More');
+    }
+});
