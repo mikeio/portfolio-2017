@@ -19,7 +19,8 @@
 
     <div id="preloader">
       <div id="status">&nbsp;</div>
-      <div class="load-content"></div>
+      <div class="load-logo"></div>
+      <div class="load-bg"></div>
     </div>
 
     <header>
@@ -30,15 +31,15 @@
           <nav>
 
             <a href="/">
-              <div class="logo">
+              <div class="logo wow fadeIn" data-wow-delay="2.2s">
                 <img src="img/logo.svg">
               </div>
             </a>
 
             <ul>
-              <li><a href="#work">Work</a></li>
-              <li><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
-              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
+              <li class="wow fadeIn" data-wow-delay="2.4s"><a href="#work">Work</a></li>
+              <li class="wow fadeIn" data-wow-delay="2.5s"><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
+              <li class="wow fadeIn" data-wow-delay="2.6s"><a href="mailto:mapdesigns@gmail.com?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
             </ul>
             <div class="menu">
               <span></span>
@@ -53,7 +54,7 @@
       <div class="row">
         <div class="small-centered medium-11 large-11 columns">
 
-          <div class="intro">
+          <div class="intro wow fadeIn" data-wow-delay="2.8s"">
             <h1>Mike Peters — <span>Senior Digital Designer</span> and coder focusing on Interactive Solutions & User Experience.</h1>
             <p>See my work below, view my resume <span>or get in touch.</span></p>
           </div>
