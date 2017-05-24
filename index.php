@@ -13,14 +13,19 @@
     <link rel="stylesheet" href="css/animate.css"> <!-- Animate.css -->
     <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font Awesome -->
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#18191a">
+
   </head>
 
   <body>
 
     <div id="preloader">
-      <div id="status">&nbsp;</div>
-      <div class="load-logo"></div>
-      <div class="load-bg"></div>
+      <div class="content">&nbsp;</div>
     </div>
 
     <header>
@@ -29,17 +34,15 @@
         <div class="large-12 columns">
 
           <nav>
-
             <a href="/">
-              <div class="logo wow fadeIn" data-wow-delay="2.2s">
+              <div class="logo">
                 <img src="img/logo.svg">
               </div>
             </a>
-
             <ul>
-              <li class="wow fadeIn" data-wow-delay="2.4s"><a href="#work">Work</a></li>
-              <li class="wow fadeIn" data-wow-delay="2.5s"><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
-              <li class="wow fadeIn" data-wow-delay="2.6s"><a href="mailto:mapdesigns@gmail.com?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
+              <li><a href="#work" data-chaffle="en">Work</a></li>
+              <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
+              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
             </ul>
             <div class="menu">
               <span></span>
@@ -54,7 +57,7 @@
       <div class="row">
         <div class="small-centered medium-11 large-11 columns">
 
-          <div class="intro wow fadeIn" data-wow-delay="2.8s"">
+          <div class="intro">
             <h1>Mike Peters — <span>Senior Digital Designer</span> and coder focusing on Interactive Solutions & User Experience.</h1>
             <p>See my work below, view my resume <span>or get in touch.</span></p>
           </div>
@@ -78,10 +81,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="/cone"><img src="img/cone-thumb.jpg"></a></li>
-          <li><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
-          <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
-          <li><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/cone"><img src="img/cone-thumb.jpg"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
         </ul>
 
         </div>
@@ -126,9 +129,9 @@
               © 2017 Mike Peters - All Rights Reserved.
             </div>
             <ul>
-              <li><a href="#work">Work</a></li>
-              <li><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
-              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
+              <li><a href="#work" data-chaffle="en">Work</a></li>
+              <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
+              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" data-chaffle="en">Let's Talk</a></li>
               <li class="social">
                 <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
@@ -160,7 +163,7 @@
     <script src="js/vendor/foundation.interchange.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery-ui.js"></script>
-    
+    <script src="js/chaffle.js"></script> <!-- Chaffle.js -->
     <script src="js/wow.min.js"></script> <!-- Wow.js -->
     <script src="js/main.js"></script> <!-- Main -->
 
