@@ -141,9 +141,6 @@
   100% {
     background-image: url("../img/glitch/logo26.png"); } }
 
-img {
-  -webkit-backface-visibility: hidden; }
-
 body {
   font-family: 'Work Sans', sans-serif;
   color: #898b8c;
@@ -337,7 +334,8 @@ header {
         -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -webkit-transform-origin: center center;
-                transform-origin: center center; }
+                transform-origin: center center;
+        -webkit-backface-visibility: hidden; }
         .work ul li img:hover {
           opacity: 0.75; }
   .work #view-all {
@@ -429,6 +427,8 @@ footer {
       max-width: 100%; } }
 
 @media screen and (min-width: 64em) {
+  #preloader {
+    background-size: 100% 100%; }
   header {
     background-position: center top;
     background-size: auto; }
