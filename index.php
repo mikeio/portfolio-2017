@@ -45,7 +45,7 @@
             <ul>
               <li><a href="#work" data-chaffle="en">Work</a></li>
               <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
-              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
+              <li><a href="mailto:info@mikepeters.io?subject=Hello" class="btn btn-dark">Let's Talk</a></li>
             </ul>
             <div class="menu">
               <span></span>
@@ -71,7 +71,7 @@
       <div class="divider">
         <div class="container">
           <span class="stack">
-            <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]" alt="Stack of books">
+            <img src="img/books.png" alt="Stack of books">
           </span>
         </div>
       </div>
@@ -84,10 +84,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/cone"><img src="img/cone-thumb.jpg" alt="Cone Middour Partners"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="/audi"><img src="img/audi-thumb.jpg" alt="Audi"></a></li>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/kfitz"><img src="img/kfitz-thumb.jpg" alt="Kristina Fitzpatrick"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="/honda"><img src="img/honda-thumb.jpg" alt="Honda"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="#"><img src="img/conemiddour.jpg" alt="Cone Middour Partners"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="#"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="#"><img src="img/mercedes.jpg" alt="Mercedes-Benz Winter Event"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="#"><img src="img/lacher.jpg" alt="Lacher & Associates"></a></li>
         </ul>
 
         </div>
@@ -97,10 +97,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="/cone"><img src="img/cone-thumb.jpg" alt="Cone Middour Partners"></a></li>
-          <li><a href="/audi"><img src="img/audi-thumb.jpg" alt="Audi"></a></li>
-          <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg" alt="Kristina Fitzpatrick"></a></li>
-          <li><a href="/honda"><img src="img/honda-thumb.jpg" alt="Honda"></a></li>
+          <li><a href="#"><img src="img/kfitz.jpg" alt="Kristina Fitzpatrick"></a></li>
+          <li><a href="#"><img src="img/honda.jpg" alt="Gulf Coast Honda Dealers"></a></li>
+          <li><a href="#"><img src="https://unsplash.it/1282/834/?random" alt="Audi"></a></li>
+          <li><a href="#"><img src="https://unsplash.it/1280/832/?random" alt="Honda"></a></li>
         </ul>
 
         </div>
@@ -135,7 +135,7 @@
             <ul>
               <li><a href="#work" data-chaffle="en">Work</a></li>
               <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
-              <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" data-chaffle="en">Let's Talk</a></li>
+              <li><a href="mailto:info@mikepeters.io?subject=Hello" data-chaffle="en">Let's Talk</a></li>
               <li class="social">
                 <a href="https://www.linkedin.com/in/mikepetersio/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a href="http://github.com/mikeio" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
