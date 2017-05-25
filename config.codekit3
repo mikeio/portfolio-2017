@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25479",
 "files": {
-	"\/.htaccess": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.htaccess",
-		"oF": 0
-		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 3980,
@@ -45,24 +39,14 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/css\/animate-min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/animate-min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/css\/animate.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/animate-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/css\/app.css": {
@@ -244,8 +228,8 @@
 		"oF": 0
 		},
 	"\/scss\/app.scss": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
@@ -2175,7 +2159,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/js, \/img",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/img",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

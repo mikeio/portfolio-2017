@@ -140,7 +140,7 @@ if (document.images) {
   img24.src = "./img/glitch/logo24.png";
   img25.src = "./img/glitch/logo25.png";
   img26.src = "./img/glitch/logo26.png";
-  img26.src = "./img/nosignal.gif";
+  img26.src = "./img/no-signal.gif";
 }
 
 
@@ -149,7 +149,7 @@ Array.prototype.forEach.call(elements, function (el) {
   const chaffle = new Chaffle(el, {
     lang: 'en',
     speed: 100, // default: 20
-    delay: 500, // default: 100
+    delay: 400, // default: 100
   });
   el.addEventListener('mouseover', function () {
     chaffle.init();

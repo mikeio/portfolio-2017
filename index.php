@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mike Peters | Senior Digital Designer</title>
+    <meta name="description" content="Mike Peters — Senior Digital Designer and coder from Atlanta, GA focusing on Interactive Solutions & User Experience.">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Designer,Developer,Atlanta,Georgia">
+    <meta name="author" content="Mike Peters">
+    <title>Mike Peters | Senior Digital Designer | Online Portfolio</title>
     
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
@@ -36,7 +39,7 @@
           <nav>
             <a href="/">
               <div class="logo">
-                <img src="img/logo.svg">
+                <img src="img/logo.svg" alt="logo">
               </div>
             </a>
             <ul>
@@ -68,7 +71,7 @@
       <div class="divider">
         <div class="container">
           <span class="stack">
-            <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]">
+            <img data-interchange="[img/stack.png, small], [img/stack@2x.png, retina]" alt="Stack of books">
           </span>
         </div>
       </div>
@@ -81,10 +84,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/cone"><img src="img/cone-thumb.jpg"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/cone"><img src="img/cone-thumb.jpg" alt="Cone Middour Partners"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="/audi"><img src="img/audi-thumb.jpg" alt="Audi"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="/kfitz"><img src="img/kfitz-thumb.jpg" alt="Kristina Fitzpatrick"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="/honda"><img src="img/honda-thumb.jpg" alt="Honda"></a></li>
         </ul>
 
         </div>
@@ -94,10 +97,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="/cone"><img src="img/cone-thumb.jpg"></a></li>
-          <li><a href="/audi"><img src="img/audi-thumb.jpg"></a></li>
-          <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg"></a></li>
-          <li><a href="/honda"><img src="img/honda-thumb.jpg"></a></li>
+          <li><a href="/cone"><img src="img/cone-thumb.jpg" alt="Cone Middour Partners"></a></li>
+          <li><a href="/audi"><img src="img/audi-thumb.jpg" alt="Audi"></a></li>
+          <li><a href="/kfitz"><img src="img/kfitz-thumb.jpg" alt="Kristina Fitzpatrick"></a></li>
+          <li><a href="/honda"><img src="img/honda-thumb.jpg" alt="Honda"></a></li>
         </ul>
 
         </div>
@@ -114,7 +117,7 @@
             
             <div class="resume">
               <h4>Want to learn more?</h4>
-              <h1>View my work experience.</h1>
+              <h2>View my work experience.</h2>
               <a class="btn btn-dark">View Resume</a>
             </div>
 
@@ -122,6 +125,7 @@
       </div>
 
       <nav>
+
         <div class="row">
           <div class="large-12 columns">
 
@@ -133,11 +137,14 @@
               <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
               <li><a href="mailto:mapdesigns@gmail.com?subject=Hello" data-chaffle="en">Let's Talk</a></li>
               <li class="social">
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/mikepetersio/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="http://github.com/mikeio" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                <a href="https://www.behance.net/mikeio" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
               </li>
             </ul>
+
+          </div>
+        </div>
 
       </nav>
 
@@ -150,9 +157,9 @@
         <li class="wow fadeInDown" data-wow-delay=".7s"><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
         <li class="wow fadeInDown" data-wow-delay=".8s"><a href="mailto:mapdesigns@gmail.com?subject=Hello">Let's Talk</a></li>
         <li class="social">
-          <a href="#" class="wow fadeIn" data-wow-delay=".9s"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="#" class="wow fadeIn" data-wow-delay="1s"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-          <a href="#" class="wow fadeIn" data-wow-delay="1.1s"><i class="fa fa-behance" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/mikepetersio/" class="wow fadeIn" data-wow-delay=".9s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="http://github.com/mikeio" class="wow fadeIn" data-wow-delay="1s" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a href="https://www.behance.net/mikeio" class="wow fadeIn" data-wow-delay="1.1s" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
         </li>
       </ul>
     </section>
@@ -163,9 +170,21 @@
     <script src="js/vendor/foundation.interchange.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery-ui.js"></script>
-    <script src="js/chaffle.js"></script> <!-- Chaffle.js -->
-    <script src="js/wow.min.js"></script> <!-- Wow.js -->
-    <script src="js/main.js"></script> <!-- Main -->
+
+    <script src="js/chaffle.js"></script> 
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-50797702-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
 
   </body>
 </html>

@@ -10,7 +10,7 @@ $btn-border-dark:			#323333;
 $default-transition: 		cubic-bezier(0.455, 0.03, 0.515, 0.955);
 $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 0, 0, 0.15);
 
- // * { border: 1px solid red; }	
+// * { border: 1px solid red; }	
 
 .row {
 	max-width: 80em;
@@ -37,8 +37,8 @@ $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 
 	right: 0;
 	bottom: 0;
 	background-color: $black; 
-	background-image: url('../img/nosignal.gif');
-	background-size: 100% 100%;
+	background-image: url('../img/no-signal.gif');
+	background-size: auto 100%;
 	background-position: center top;
 	opacity: 1;
 	z-index: 99; 
@@ -348,14 +348,11 @@ header {
 
 			img {
 				width: 100%;
-				transition: all .4s $default-transition;
-				transform: scale(1);
+				transition: all .2s $default-transition;
 				transform-origin: center center;
-				box-shadow: 0;
 		
 				&:hover {
 					opacity: 0.75;
-					transform: scale(1.05);
 				}
 			}
 		}
@@ -384,7 +381,7 @@ footer {
 			margin-bottom: 12px;
 		}
 
-		h1 {
+		h2 {
 			font-family: 'Playfair Display', serif;
 			color: $white;
 			font-size: 2rem;
@@ -536,12 +533,20 @@ footer {
 						text-transform: uppercase;
 						font-size: 16px;
 						letter-spacing: .18em;
-						text-align: left;
-						padding: 10px;
+						text-align: center;
+						display: block;
 
 						&:hover {
 							color: $gray;
 						}
+					}
+
+					&:nth-of-type(1) {
+						width: 120px;
+					}
+
+					&:nth-of-type(2) {
+						width: 144px;
 					}
 
 					&:nth-of-type(1),
@@ -550,11 +555,7 @@ footer {
 						line-height: 2;
 
 						&:hover::before {
-							-webkit-transform-origin: left center;
-    						-ms-transform-origin: left center;
     						transform-origin: left center;
-    						-webkit-transform: scale(1);
-    						-ms-transform: scale(1);
     						transform: scale(1);
 						}
 
@@ -566,22 +567,10 @@ footer {
     						height: 1px;
     						width: calc(100% - 60px);
     						background: $white;
-    						-webkit-transform-origin: right center;
-    						-ms-transform-origin: right center;
     						transform-origin: right center;
-    						-webkit-transform: scaleX(0);
-    						-ms-transform: scaleX(0);
     						transform: scaleX(0);
-    						transition: -webkit-transform .2s $default-transition;
+    						transition: transform .2s $default-transition;
   						}
-					}
-
-					&:nth-of-type(1) {
-						width: 120px;
-					}
-
-					&:nth-of-type(2) {
-						width: 144px;
 					}
 
 					&:nth-of-type(3) {
@@ -634,7 +623,7 @@ footer {
 		.resume {
 			padding: 120px 0;
 
-			h1 {
+			h2 {
 				font-size: 2.375em;
 				margin-bottom: 30px;
 			}
@@ -674,7 +663,7 @@ footer {
 						font-size: 15px;
 						font-weight: 500;
 						letter-spacing: .18em;
-						padding: 10px;
+						display: block;
 
 						&:hover {
 							color: $white;
@@ -688,11 +677,7 @@ footer {
 						line-height: 2;
 
 						&:hover::before {
-							-webkit-transform-origin: left center;
-    						-ms-transform-origin: left center;
     						transform-origin: left center;
-    						-webkit-transform: scale(1);
-    						-ms-transform: scale(1);
     						transform: scale(1);
 						}
 
@@ -704,13 +689,9 @@ footer {
     						height: 1px;
     						width: calc(100% - 60px);
     						background: $copyright-text;
-    						-webkit-transform-origin: right center;
-    						-ms-transform-origin: right center;
     						transform-origin: right center;
-    						-webkit-transform: scaleX(0);
-    						-ms-transform: scaleX(0);
     						transform: scaleX(0);
-    						transition: -webkit-transform .2s $default-transition;
+    						transition: transform .2s $default-transition;
   						}
 					}
 
@@ -735,6 +716,7 @@ footer {
 						font-size: 17px;
 						color: darken($gray, 25);
 						padding: 0 7px;
+						display: inline;
 
 						&:last-of-type {
 							padding-right: 0;

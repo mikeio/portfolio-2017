@@ -137,7 +137,7 @@
       var str
       switch (this.options.lang) {
         case 'en':
-          str = String.fromCharCode(48 + Math.round(Math.random() * 1))
+          str = String.fromCharCode(33 + Math.round(Math.random() * 99))
           break
 
         case 'ja':
