@@ -118,7 +118,7 @@
             <div class="resume">
               <h4>Want to learn more?</h4>
               <h2>View my work experience.</h2>
-              <a class="btn btn-dark">View Resume</a>
+              <a href="pdf/mikepeters-resume.pdf" target="_blank" class="btn btn-dark">View Resume</a>
             </div>
 
         </div>
@@ -134,7 +134,7 @@
             </div>
             <ul>
               <li><a href="#work" data-chaffle="en">Work</a></li>
-              <li><a href="pdf/mikepeters-resume.pdf" data-chaffle="en">Resume</a></li>
+              <li><a href="pdf/mikepeters-resume.pdf" target="_blank" data-chaffle="en">Resume</a></li>
               <li><a href="mailto:info@mikepeters.io?subject=Hello" data-chaffle="en" target="_blank">Let's Talk</a></li>
               <li class="social">
                 <a href="https://www.linkedin.com/in/mikepetersio/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -154,8 +154,8 @@
       <ul>
         <li><h4>Navigation</h4></li>
         <li class="wow fadeInDown" data-wow-delay=".6s"><a href="/#work">Work</a></li>
-        <li class="wow fadeInDown" data-wow-delay=".7s"><a href="pdf/mikepeters-resume.pdf">Resume</a></li>
-        <li class="wow fadeInDown" data-wow-delay=".8s"><a href="mailto:mapdesigns@gmail.com?subject=Hello" target="_blank">Let's Talk</a></li>
+        <li class="wow fadeInDown" data-wow-delay=".7s"><a href="pdf/mikepeters-resume.pdf" target="_blank">Resume</a></li>
+        <li class="wow fadeInDown" data-wow-delay=".8s"><a href="mailto:info@mikepeters.io?subject=Hello" target="_blank">Let's Talk</a></li>
         <li class="social">
           <a href="https://www.linkedin.com/in/mikepetersio/" class="wow fadeIn" data-wow-delay=".9s" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           <a href="http://github.com/mikeio" class="wow fadeIn" data-wow-delay="1s" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
