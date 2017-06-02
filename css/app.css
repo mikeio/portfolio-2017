@@ -291,7 +291,8 @@ header {
       header .divider .container img {
         position: relative;
         max-width: 1150px;
-        width: 100%; }
+        width: 100%;
+        -webkit-backface-visibility: hidden; }
       header .divider .container::before {
         background-color: #f5f5f5;
         content: '';
@@ -329,8 +330,8 @@ header {
       overflow: hidden; }
       .work ul li img {
         width: 100%;
-        -webkit-transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        -webkit-transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
         -webkit-transform-origin: center center;
                 transform-origin: center center;
         -webkit-backface-visibility: hidden; }

@@ -84,10 +84,10 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="https://www.behance.net/gallery/53123349/Cone-Middour-Partners" target="_blank"><img src="img/conemiddour.jpg" alt="Cone Middour Partners"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="#"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover"></a></li>
-          <li class="wow fadeInLeft" data-wow-offset="100"><a href="https://www.behance.net/gallery/53124357/Mercedes-Benz-Winter-Event" target="_blank"><img src="img/mercedes.jpg" alt="Mercedes-Benz Winter Event"></a></li>
-          <li class="wow fadeInRight" data-wow-offset="100"><a href="https://www.behance.net/gallery/53123545/Lacher-Associates" target="_blank"><img src="img/lacher.jpg" alt="Lacher & Associates"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><a href="#"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="https://www.behance.net/gallery/53123349/Cone-Middour-Partners" target="_blank"><img src="img/helix.jpg" alt="Helix"></a></li>
+          <li class="wow fadeInLeft" data-wow-offset="100"><A href="#" target="_blank"><img src="img/conemiddour.jpg" alt="Cone Middour Partners"></a></li>
+          <li class="wow fadeInRight" data-wow-offset="100"><a href="https://www.behance.net/gallery/53124357/Mercedes-Benz-Winter-Event" target="_blank"><img src="img/mercedes.jpg" alt="Mercedes-Benz Winter Event"></a></li>
         </ul>
 
         </div>
@@ -99,8 +99,8 @@
         <ul>
           <li><a href="https://www.behance.net/gallery/53123865/Kristinia-Fitzpatrick" target="_blank"><img src="img/kfitz.jpg" alt="Kristina Fitzpatrick"></a></li>
           <li><a href="https://www.behance.net/gallery/53122467/Gulf-Coast-Honda-Dealers" target="_blank"><img src="img/honda.jpg" alt="Gulf Coast Honda Dealers"></a></li>
-          <li><a href="#"><img src="https://unsplash.it/1282/834/?random" alt="Audi"></a></li>
-          <li><a href="#"><img src="https://unsplash.it/1280/832/?random" alt="Honda"></a></li>
+          <li><a href="#"><img src="img/purl.jpg" alt="PURL Landing Page"></a></li>
+          <li><a href="https://www.behance.net/gallery/53123545/Lacher-Associates" target="_blank"><img src="img/lacher.jpg" alt="Lacher & Associates"></a></li>
         </ul>
 
         </div>

@@ -290,6 +290,7 @@ header {
 				position: relative;
 				max-width: 1150px;
 				width: 100%;
+				-webkit-backface-visibility: hidden;
 			}
 	
 			&::before {
@@ -344,7 +345,7 @@ header {
 
 			img {
 				width: 100%;
-				transition: all .2s $default-transition;
+				transition: all .4s $default-transition;
 				transform-origin: center center;
 				-webkit-backface-visibility: hidden;
 		
