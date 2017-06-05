@@ -27,8 +27,9 @@
 
   <body>
 
-    <div id="preloader">
-      <div class="content">&nbsp;</div>
+    <div class="preloader">
+      <div id="signal">&nbsp;</div>
+      <div id="load-animations">&nbsp;</div>
     </div>
 
     <header>
