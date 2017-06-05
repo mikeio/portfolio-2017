@@ -113,7 +113,6 @@ if (document.images) {
   img24 = new Image();
   img25 = new Image();
   img26 = new Image();
-  img27 = new Image();
   img01.src = "./img/glitch/logo01.png";
   img02.src = "./img/glitch/logo02.png";
   img03.src = "./img/glitch/logo03.png";

@@ -20,7 +20,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #18191a;
+  background-color: #111212;
   background-image: url("../img/no-signal.gif");
   background-size: auto 100%;
   background-position: center top;
@@ -158,7 +158,7 @@ a {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: .24em;
-  color: #18191a;
+  color: #111212;
   border-width: 2px;
   border-style: solid;
   border-radius: 100px;
@@ -194,27 +194,27 @@ a {
       width: 131%; }
 
 .btn-light {
-  color: #18191a;
-  border-color: #18191a; }
+  color: #111212;
+  border-color: #111212; }
   .btn-light::before, .btn-light::after {
-    background: #18191a; }
+    background: #111212; }
   .btn-light:hover {
     color: #ffffff !important;
-    background-color: #18191a; }
+    background-color: #111212; }
 
 .btn-dark {
   color: #ffffff;
-  border-color: #323333; }
+  border-color: #2a2b2b; }
   .btn-dark::before, .btn-dark::after {
     background: #ffffff; }
   .btn-dark:hover {
-    color: #18191a !important;
+    color: #111212 !important;
     border-color: #ffffff;
     background-color: #ffffff; }
 
 header {
   text-align: center;
-  background-color: #18191a;
+  background-color: #111212;
   background-image: url("../img/bg.png");
   background-size: 100% 270%; }
   header nav {
@@ -343,7 +343,7 @@ header {
 footer {
   background-image: url("../img/bg.png");
   background-size: 100% 270%;
-  background-color: #18191a; }
+  background-color: #111212; }
   footer .resume {
     text-align: center;
     padding: 60px 0; }
@@ -361,7 +361,7 @@ footer {
       margin-bottom: 22px; }
   footer nav {
     height: 70px;
-    background-color: #1d1e1f; }
+    background-color: #191a1a; }
     footer nav .copyright {
       color: #4b4c4d;
       font-size: 16px;
@@ -377,7 +377,7 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #18191a;
+  background-color: #111212;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
