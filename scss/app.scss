@@ -40,49 +40,49 @@ $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 
 	opacity: 1;
 	z-index: 99;
 
-	#signal {
+	#no-signal {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-image: url('../img/signal.gif');
+		background-image: url('../img/no-signal.gif');
 		background-size: 100% 100%;
 		display: none;
 	}
 
 	#load-animations {
-		animation: glitch-logo 1s 0s 2;
+		animation: logo-glitch 1s 0s 2;
 		width: 0;
 		height: 0;
 	}
 }
 
-@keyframes glitch-logo {
-    0%	{	background-image: url('../img/logo-glitch/logo01.png'); } 
-    4%	{	background-image: url('../img/logo-glitch/logo02.png'); }
-    8% 	{	background-image: url('../img/logo-glitch/logo03.png');}
-    12%	{	background-image: url('../img/logo-glitch/logo04.png'); }
-    16%	{	background-image: url('../img/logo-glitch/logo05.png'); }
-    20%	{	background-image: url('../img/logo-glitch/logo06.png'); }
-    24%	{	background-image: url('../img/logo-glitch/logo07.png'); }
-    28% {	background-image: url('../img/logo-glitch/logo08.png'); }
-    32%	{	background-image: url('../img/logo-glitch/logo09.png'); } 
-    36%	{	background-image: url('../img/logo-glitch/logo10.png'); }
-    40%	{	background-image: url('../img/logo-glitch/logo11.png');}
-    44%	{	background-image: url('../img/logo-glitch/logo12.png'); }
-    48%	{	background-image: url('../img/logo-glitch/logo13.png'); }
-    52%	{	background-image: url('../img/logo-glitch/logo14.png'); }
-    56%	{	background-image: url('../img/logo-glitch/logo15.png'); }
-    60% {	background-image: url('../img/logo-glitch/logo16.png'); }
-    64%	{	background-image: url('../img/logo-glitch/logo17.png'); } 
-    68%	{	background-image: url('../img/logo-glitch/logo18.png'); }
-    72%	{	background-image: url('../img/logo-glitch/logo19.png');}
-    76%	{	background-image: url('../img/logo-glitch/logo20.png'); }
-    80%	{	background-image: url('../img/logo-glitch/logo21.png'); }
-    84%	{	background-image: url('../img/logo-glitch/logo22.png'); }
-    88%	{	background-image: url('../img/logo-glitch/logo23.png'); }
-    92% { 	background-image: url('../img/logo-glitch/logo24.png'); }
-    96% { 	background-image: url('../img/logo-glitch/logo25.png'); }
-    100% { 	background-image: url('../img/logo-glitch/logo26.png'); }
+@keyframes logo-glitch {
+    0%	{	background-image: url('../img/logo-glitch/01.png'); } 
+    4%	{	background-image: url('../img/logo-glitch/02.png'); }
+    8% 	{	background-image: url('../img/logo-glitch/03.png');}
+    12%	{	background-image: url('../img/logo-glitch/04.png'); }
+    16%	{	background-image: url('../img/logo-glitch/05.png'); }
+    20%	{	background-image: url('../img/logo-glitch/06.png'); }
+    24%	{	background-image: url('../img/logo-glitch/07.png'); }
+    28% {	background-image: url('../img/logo-glitch/08.png'); }
+    32%	{	background-image: url('../img/logo-glitch/09.png'); } 
+    36%	{	background-image: url('../img/logo-glitch/10.png'); }
+    40%	{	background-image: url('../img/logo-glitch/11.png');}
+    44%	{	background-image: url('../img/logo-glitch/12.png'); }
+    48%	{	background-image: url('../img/logo-glitch/13.png'); }
+    52%	{	background-image: url('../img/logo-glitch/14.png'); }
+    56%	{	background-image: url('../img/logo-glitch/15.png'); }
+    60% {	background-image: url('../img/logo-glitch/16.png'); }
+    64%	{	background-image: url('../img/logo-glitch/17.png'); } 
+    68%	{	background-image: url('../img/logo-glitch/18.png'); }
+    72%	{	background-image: url('../img/logo-glitch/19.png');}
+    76%	{	background-image: url('../img/logo-glitch/20.png'); }
+    80%	{	background-image: url('../img/logo-glitch/21.png'); }
+    84%	{	background-image: url('../img/logo-glitch/22.png'); }
+    88%	{	background-image: url('../img/logo-glitch/23.png'); }
+    92% { 	background-image: url('../img/logo-glitch/24.png'); }
+    96% { 	background-image: url('../img/logo-glitch/25.png'); }
+    100% { 	background-image: url('../img/logo-glitch/26.png'); }
 }
 
 body {
@@ -518,7 +518,7 @@ footer {
   					left: 50%;
   					transform: translate(-50%, -50%);
   					display: none;
-  					animation: glitch-logo 1s 0s 1;
+  					animation: logo-glitch 1s 0s 1;
 				}
 			}
 
