@@ -141,11 +141,319 @@
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/img": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/img",
-		"oF": 0
+	"\/img\/audi.jpg": {
+		"ft": 16384,
+		"iS": 131820,
+		"oA": 0,
+		"oAP": "\/img\/audi.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bg.png": {
+		"ft": 32768,
+		"iS": 128394,
+		"oA": 0,
+		"oAP": "\/img\/bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/books.png": {
+		"ft": 32768,
+		"iS": 121704,
+		"oA": 0,
+		"oAP": "\/img\/books.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/conemiddour.jpg": {
+		"ft": 16384,
+		"iS": 198513,
+		"oA": 0,
+		"oAP": "\/img\/conemiddour.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/helix.jpg": {
+		"ft": 16384,
+		"iS": 190634,
+		"oA": 0,
+		"oAP": "\/img\/helix.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/honda.jpg": {
+		"ft": 16384,
+		"iS": 134510,
+		"oA": 0,
+		"oAP": "\/img\/honda.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/kfitz.jpg": {
+		"ft": 16384,
+		"iS": 169877,
+		"oA": 0,
+		"oAP": "\/img\/kfitz.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/lacher.jpg": {
+		"ft": 16384,
+		"iS": 98523,
+		"oA": 0,
+		"oAP": "\/img\/lacher.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/01.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/02.png": {
+		"ft": 32768,
+		"iS": 5476,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/02.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/03.png": {
+		"ft": 32768,
+		"iS": 5476,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/03.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/04.png": {
+		"ft": 32768,
+		"iS": 5476,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/04.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/05.png": {
+		"ft": 32768,
+		"iS": 9235,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/05.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/06.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/06.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/07.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/07.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/08.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/08.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/09.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/09.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/10.png": {
+		"ft": 32768,
+		"iS": 2847,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/10.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/11.png": {
+		"ft": 32768,
+		"iS": 2862,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/12.png": {
+		"ft": 32768,
+		"iS": 2637,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/13.png": {
+		"ft": 32768,
+		"iS": 2637,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/14.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/14.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/15.png": {
+		"ft": 32768,
+		"iS": 6440,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/15.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/16.png": {
+		"ft": 32768,
+		"iS": 6907,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/17.png": {
+		"ft": 32768,
+		"iS": 6839,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/18.png": {
+		"ft": 32768,
+		"iS": 6018,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/18.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/19.png": {
+		"ft": 32768,
+		"iS": 6839,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/19.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/20.png": {
+		"ft": 32768,
+		"iS": 6440,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/20.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/21.png": {
+		"ft": 32768,
+		"iS": 2929,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/21.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/22.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/22.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/23.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/23.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/24.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/24.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/25.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/25.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo-glitch\/26.png": {
+		"ft": 32768,
+		"iS": 2531,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch\/26.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/mercedes.jpg": {
+		"ft": 16384,
+		"iS": 214009,
+		"oA": 0,
+		"oAP": "\/img\/mercedes.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/no-signal.gif": {
+		"ft": 4194304,
+		"iS": 2924872,
+		"oA": 0,
+		"oAP": "\/img\/no-signal.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/purl.jpg": {
+		"ft": 16384,
+		"iS": 163903,
+		"oA": 0,
+		"oAP": "\/img\/purl.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/shadow.png": {
+		"ft": 32768,
+		"iS": 12200,
+		"oA": 0,
+		"oAP": "\/img\/shadow.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
