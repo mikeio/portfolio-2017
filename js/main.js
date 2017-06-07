@@ -1,6 +1,6 @@
 $(window).on('load', function() {
     $('#no-signal').fadeIn(1000);
-    $('.preloader').delay(2400).fadeOut(300);
+    $('.preloader').delay(2100).fadeOut(300);
     setTimeout(function() {
         wow.init();
     }, 950);
