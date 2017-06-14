@@ -174,7 +174,7 @@
     <script src="js/app.js"></script>
     <script src="js/jquery-ui.js"></script>
 
-    <script src="js/chaffle.js"></script> 
+    <script src="js/min/chaffle-min.js"></script> 
     <script src="js/wow.min.js"></script>
     <script src="js/min/main-min.js"></script>
 
