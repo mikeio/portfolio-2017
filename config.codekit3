@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25479",
 "files": {
+	"\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
 	"\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 3980,
@@ -141,151 +147,11 @@
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
-	"\/img\/audi.jpg": {
-		"ft": 16384,
-		"iS": 131820,
+	"\/img": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/img\/audi.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/bg.png": {
-		"ft": 32768,
-		"iS": 128394,
-		"oA": 1,
-		"oAP": "\/img\/bg.png",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/books.png": {
-		"ft": 32768,
-		"iS": 121704,
-		"oA": 1,
-		"oAP": "\/img\/books.png",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/conemiddour.jpg": {
-		"ft": 16384,
-		"iS": 198513,
-		"oA": 1,
-		"oAP": "\/img\/conemiddour.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/cupidsprey.jpg": {
-		"ft": 16384,
-		"iS": 199651,
-		"oA": 1,
-		"oAP": "\/img\/cupidsprey.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/hazard.jpg": {
-		"ft": 16384,
-		"iS": 543690,
-		"oA": 1,
-		"oAP": "\/img\/hazard.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/helix.jpg": {
-		"ft": 16384,
-		"iS": 190634,
-		"oA": 1,
-		"oAP": "\/img\/helix.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/honda.jpg": {
-		"ft": 16384,
-		"iS": 134510,
-		"oA": 1,
-		"oAP": "\/img\/honda.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/kfitz.jpg": {
-		"ft": 16384,
-		"iS": 169877,
-		"oA": 1,
-		"oAP": "\/img\/kfitz.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/lacher.jpg": {
-		"ft": 16384,
-		"iS": 98523,
-		"oA": 1,
-		"oAP": "\/img\/lacher.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/loading.gif": {
-		"ft": 4194304,
-		"iS": 2924872,
-		"oA": 1,
-		"oAP": "\/img\/loading.gif",
-		"oF": 1,
-		"opt": 1
-		},
-	"\/img\/logo-glitch.png": {
-		"ft": 32768,
-		"iS": 149831,
-		"oA": 0,
-		"oAP": "\/img\/logo-glitch.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/img\/logo.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/mercedes.jpg": {
-		"ft": 16384,
-		"iS": 214009,
-		"oA": 1,
-		"oAP": "\/img\/mercedes.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/purl.jpg": {
-		"ft": 16384,
-		"iS": 163903,
-		"oA": 1,
-		"oAP": "\/img\/purl.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/quark.jpg": {
-		"ft": 16384,
-		"iS": 77843,
-		"oA": 1,
-		"oAP": "\/img\/quark.jpg",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/shadow.png": {
-		"ft": 32768,
-		"iS": 12200,
-		"oA": 1,
-		"oAP": "\/img\/shadow.png",
-		"oF": 1,
-		"opt": 0
-		},
-	"\/img\/tabernacle.jpg": {
-		"ft": 16384,
-		"iS": 353575,
-		"oA": 1,
-		"oAP": "\/img\/tabernacle.jpg",
-		"oF": 1,
-		"opt": 1
+		"oAP": "\/build\/img",
+		"oF": 0
 		},
 	"\/index.php": {
 		"ft": 8192,
@@ -2191,7 +2057,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.gif",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2214,7 +2080,7 @@
 		"useUnixNewlines": 0
 		},
 	"languageDefaultsJPG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.jpg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2307,7 +2173,7 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.png",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2398,7 +2264,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules,",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, img",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
