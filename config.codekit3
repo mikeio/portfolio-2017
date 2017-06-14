@@ -221,6 +221,22 @@
 		"oF": 1,
 		"opt": 0
 		},
+	"\/img\/loading.gif": {
+		"ft": 4194304,
+		"iS": 2924872,
+		"oA": 1,
+		"oAP": "\/img\/loading.gif",
+		"oF": 1,
+		"opt": 1
+		},
+	"\/img\/logo-glitch.png": {
+		"ft": 32768,
+		"iS": 149831,
+		"oA": 0,
+		"oAP": "\/img\/logo-glitch.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -238,14 +254,6 @@
 		"oAP": "\/img\/mercedes.jpg",
 		"oF": 1,
 		"opt": 0
-		},
-	"\/img\/no-signal.gif": {
-		"ft": 4194304,
-		"iS": 2924872,
-		"oA": 1,
-		"oAP": "\/img\/no-signal.gif",
-		"oF": 1,
-		"opt": 1
 		},
 	"\/img\/purl.jpg": {
 		"ft": 16384,
@@ -279,10 +287,10 @@
 		"oF": 1,
 		"opt": 1
 		},
-	"\/index.html": {
+	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/js\/app.js": {
@@ -468,7 +476,7 @@
 		"oA": 0,
 		"oAP": "\/css\/app.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 3,
 		"uL": 1
 		}
 	},

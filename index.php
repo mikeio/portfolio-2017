@@ -28,7 +28,7 @@
   <body>
 
     <div class="preloader">
-      <div id="no-signal">&nbsp;</div>
+      <div id="loading">&nbsp;</div>
       <div id="load-animations">&nbsp;</div>
     </div>
 
@@ -83,8 +83,8 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
           <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342471/Helix-UI-Automotive-Marketing-Platform" target="_blank"><img src="img/helix.jpg" alt="Helix Marketing Technology Platform"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
           <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img src="img/conemiddour.jpg" alt="Cone Middour Partners Real Estate Website"></a></li>
           <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img src="img/mercedes.jpg" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
           <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img src="img/kfitz.jpg" alt="Kristina Fitzpatrick Official Website"></a></li>

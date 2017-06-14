@@ -1,5 +1,5 @@
 $(window).on('load', function() {
-    $('#no-signal').fadeIn(1000);
+    $('#loading').fadeIn(1000);
     $('.preloader').delay(2100).fadeOut(300);
     setTimeout(function() {
         wow.init();
@@ -93,56 +93,5 @@ Array.prototype.forEach.call(elements, function(el) {
 
 if (document.images) {
     img01 = new Image();
-    img02 = new Image();
-    img03 = new Image();
-    img04 = new Image();
-    img05 = new Image();
-    img06 = new Image();
-    img07 = new Image();
-    img08 = new Image();
-    img09 = new Image();
-    img10 = new Image();
-    img11 = new Image();
-    img12 = new Image();
-    img13 = new Image();
-    img14 = new Image();
-    img15 = new Image();
-    img16 = new Image();
-    img17 = new Image();
-    img18 = new Image();
-    img19 = new Image();
-    img20 = new Image();
-    img21 = new Image();
-    img22 = new Image();
-    img23 = new Image();
-    img24 = new Image();
-    img25 = new Image();
-    img26 = new Image();
-    img01.src = "./img/logo-glitch/01.png";
-    img02.src = "./img/logo-glitch/02.png";
-    img03.src = "./img/logo-glitch/03.png";
-    img04.src = "./img/logo-glitch/04.png";
-    img05.src = "./img/logo-glitch/05.png";
-    img06.src = "./img/logo-glitch/06.png";
-    img07.src = "./img/logo-glitch/07.png";
-    img08.src = "./img/logo-glitch/08.png";
-    img09.src = "./img/logo-glitch/09.png";
-    img10.src = "./img/logo-glitch/10.png";
-    img11.src = "./img/logo-glitch/11.png";
-    img12.src = "./img/logo-glitch/12.png";
-    img13.src = "./img/logo-glitch/13.png";
-    img14.src = "./img/logo-glitch/14.png";
-    img15.src = "./img/logo-glitch/15.png";
-    img16.src = "./img/logo-glitch/16.png";
-    img17.src = "./img/logo-glitch/17.png";
-    img18.src = "./img/logo-glitch/18.png";
-    img19.src = "./img/logo-glitch/19.png";
-    img20.src = "./img/logo-glitch/20.png";
-    img21.src = "./img/logo-glitch/21.png";
-    img22.src = "./img/logo-glitch/22.png";
-    img23.src = "./img/logo-glitch/23.png";
-    img24.src = "./img/logo-glitch/24.png";
-    img25.src = "./img/logo-glitch/25.png";
-    img26.src = "./img/logo-glitch/26.png";
-    img26.src = "./img/no-signal.gif";
+    img01.src = "./img/loading.gif";
 }
