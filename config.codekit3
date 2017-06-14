@@ -45,6 +45,16 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/css\/animate.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/animate-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -158,6 +168,15 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/chaffle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/chaffle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/jquery-ui.js": {
 		"ft": 64,
 		"mi": 0,
@@ -174,6 +193,15 @@
 		"oAP": "\/js\/min\/main-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/min\/jquery-ui-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/jquery-ui-min-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/js\/min\/main-min.js": {
