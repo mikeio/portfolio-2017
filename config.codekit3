@@ -45,16 +45,6 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/css\/animate.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/animate-min.css",
-		"oF": 1,
-		"oS": 0
-		},
 	"\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -70,9 +60,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/font-awesome.min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/css\/foundation.css": {
@@ -80,9 +70,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/css\/foundation-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"\/favicon-16x16.png": {
@@ -168,15 +158,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/chaffle.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/js\/min\/chaffle-min.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/js\/jquery-ui.js": {
 		"ft": 64,
 		"mi": 0,
@@ -207,7 +188,7 @@
 	"\/js\/vendor\/foundation.interchange.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/foundation.interchange-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -216,7 +197,7 @@
 	"\/js\/vendor\/foundation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/foundation-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -225,7 +206,7 @@
 	"\/js\/vendor\/foundation.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/foundation.min-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -234,7 +215,7 @@
 	"\/js\/vendor\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/jquery-min.js",
 		"oF": 1,
 		"sC": 1,
@@ -243,7 +224,7 @@
 	"\/js\/vendor\/what-input.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/vendor\/min\/what-input-min.js",
 		"oF": 1,
 		"sC": 1,
