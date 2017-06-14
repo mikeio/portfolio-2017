@@ -70,7 +70,7 @@
       <div class="divider">
         <div class="container">
           <span class="stack">
-            <img src="img/books.png" alt="Stack of books">
+            <img data-interchange="[img/books.png, small], [img/books@2x.png, retina]" alt="Stack of books">
           </span>
         </div>
       </div>
@@ -83,12 +83,12 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342471/Helix-UI-Automotive-Marketing-Platform" target="_blank"><img src="img/helix.jpg" alt="Helix Marketing Technology Platform"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img src="img/audi.jpg" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img src="img/conemiddour.jpg" alt="Cone Middour Partners Real Estate Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img src="img/mercedes.jpg" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img src="img/kfitz.jpg" alt="Kristina Fitzpatrick Official Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img src="img/honda.jpg" alt="Gulf Coast Honda Dealers Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342471/Helix-UI-Automotive-Marketing-Platform" target="_blank"><img data-interchange="[img/helix.jpg, small], [img/helix@2x.jpg, retina]" alt="Helix Marketing Technology Platform"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img data-interchange="[img/audi.jpg, small], [img/audi@2x.jpg, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img data-interchange="[img/conemiddour.jpg, small], [img/conemiddour@2x.jpg, retina]" alt="Cone Middour Partners Real Estate Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img data-interchange="[img/mercedes.jpg, small], [img/mercedes@2x.jpg, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img data-interchange="[img/kfitz.jpg, small], [img/kfitz@2x.jpg, retina]" alt="Kristina Fitzpatrick Official Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.jpg, small], [img/honda@2x.jpg, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
         </ul>
 
         </div>
@@ -98,12 +98,12 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank"><img src="img/purl.jpg" alt="PURL Landing Page"></a></li>
-          <li><a href="https://www.behance.net/gallery/53341173/Lacher-Associates-Website" target="_blank"><img src="img/lacher.jpg" alt="Lacher & Associates Website"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519935/Hazard-County-Money-Jam-Flyer-Poster" target="_blank"><img src="img/hazard.jpg" alt="Hazard County's Money Jam 2012 Flyer / Poster"></a></li>
-          <li><a href="https://www.behance.net/gallery/53518965/Quark-Coin-Logo-Concept-Contest-Entry" target="_blank"><img src="img/quark.jpg" alt="Quark Coin - Logo Concept / Contest Entry"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519769/Cupids-Prey-Valentines-Day-Party-Flyer" target="_blank"><img src="img/cupidsprey.jpg" alt="Cupid's Prey - Valentine's Day Party Flyer"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519297/Tabernacle-VIP-Flyers-Posters" target="_blank"><img src="img/tabernacle.jpg" alt="Tabernacle - VIP Flyers / Posters"></a></li>
+          <li><a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank"><img data-interchange="[img/purl.jpg, small], [img/purl@2x.jpg, retina]" alt="PURL Landing Page"></a></li>
+          <li><a href="https://www.behance.net/gallery/53341173/Lacher-Associates-Website" target="_blank"><img data-interchange="[img/lacher.jpg, small], [img/lacher@2x.jpg, retina]" alt="Lacher & Associates Website"></a></li>
+          <li><a href="https://www.behance.net/gallery/53519935/Hazard-County-Money-Jam-Flyer-Poster" target="_blank"><img data-interchange="[img/hazard.jpg, small], [img/hazard@2x.jpg, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster"></a></li>
+          <li><a href="https://www.behance.net/gallery/53518965/Quark-Coin-Logo-Concept-Contest-Entry" target="_blank"><img data-interchange="[img/quark.jpg, small], [img/quark@2x.jpg, retina]" alt="Quark Coin - Logo Concept / Contest Entry"></a></li>
+          <li><a href="https://www.behance.net/gallery/53519769/Cupids-Prey-Valentines-Day-Party-Flyer" target="_blank"><img data-interchange="[img/cupidsprey.jpg, small], [img/cupidsprey@2x.jpg, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer"></a></li>
+          <li><a href="https://www.behance.net/gallery/53519297/Tabernacle-VIP-Flyers-Posters" target="_blank"><img data-interchange="[img/tabernacle.jpg, small], [img/tabernacle@2x.jpg, retina]" alt="Tabernacle - VIP Flyers / Posters"></a></li>
         </ul>
 
         </div>
