@@ -83,7 +83,7 @@
           <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img data-interchange="[img/conemiddour.jpg, small], [img/conemiddour@2x.jpg, retina]" alt="Cone Middour Partners Real Estate Website"></a></li>
           <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img data-interchange="[img/mercedes.jpg, small], [img/mercedes@2x.jpg, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
           <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img data-interchange="[img/kfitz.jpg, small], [img/kfitz@2x.jpg, retina]" alt="Kristina Fitzpatrick Official Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.jpg, small], [img/honda@2x.jpg, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank"><img data-interchange="[img/purl.jpg, small], [img/purl@2x.jpg, retina]" alt="PURL Landing Page"></a></li>
         </ul>
 
         </div>
@@ -93,7 +93,7 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank"><img data-interchange="[img/purl.jpg, small], [img/purl@2x.jpg, retina]" alt="PURL Landing Page"></a></li>
+          <li><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.jpg, small], [img/honda@2x.jpg, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
           <li><a href="https://www.behance.net/gallery/53341173/Lacher-Associates-Website" target="_blank"><img data-interchange="[img/lacher.jpg, small], [img/lacher@2x.jpg, retina]" alt="Lacher & Associates Website"></a></li>
           <li><a href="https://www.behance.net/gallery/53519935/Hazard-County-Money-Jam-Flyer-Poster" target="_blank"><img data-interchange="[img/hazard.jpg, small], [img/hazard@2x.jpg, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster"></a></li>
           <li><a href="https://www.behance.net/gallery/53518965/Quark-Coin-Logo-Concept-Contest-Entry" target="_blank"><img data-interchange="[img/quark.jpg, small], [img/quark@2x.jpg, retina]" alt="Quark Coin - Logo Concept / Contest Entry"></a></li>
