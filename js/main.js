@@ -1,11 +1,3 @@
-$(window).on('load', function() {
-    $('#loading').fadeIn(1000);
-    $('.preloader').delay(2100).fadeOut(300);
-    setTimeout(function() {
-        wow.init();
-    }, 950);
-});
-
 $(document).ready(function() {
 
     $('.menu, .mobile-nav a').on('click', function() {
@@ -38,6 +30,7 @@ var wow = new WOW({
     },
     scrollContainer: null // optional scroll container selector, otherwise use window
 });
+wow.init();
 
 (function($) {
     var $window = $(window),
@@ -90,8 +83,3 @@ Array.prototype.forEach.call(elements, function(el) {
         chaffle.init();
     });
 });
-
-if (document.images) {
-    img01 = new Image();
-    img01.src = "./img/loading.gif";
-}

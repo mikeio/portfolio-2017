@@ -27,11 +27,6 @@
 
   <body>
 
-    <div class="preloader">
-      <div id="loading">&nbsp;</div>
-      <div id="load-animations">&nbsp;</div>
-    </div>
-
     <header>
 
       <div class="row">
@@ -83,12 +78,12 @@
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342471/Helix-UI-Automotive-Marketing-Platform" target="_blank"><img data-interchange="[img/helix.jpg, small], [img/helix@2x.jpg, retina]" alt="Helix Marketing Technology Platform"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img data-interchange="[img/audi.jpg, small], [img/audi@2x.jpg, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img data-interchange="[img/conemiddour.jpg, small], [img/conemiddour@2x.jpg, retina]" alt="Cone Middour Partners Real Estate Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img data-interchange="[img/mercedes.jpg, small], [img/mercedes@2x.jpg, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img data-interchange="[img/kfitz.jpg, small], [img/kfitz@2x.jpg, retina]" alt="Kristina Fitzpatrick Official Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="200"><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.jpg, small], [img/honda@2x.jpg, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="100"><a href="https://www.behance.net/gallery/53342471/Helix-UI-Automotive-Marketing-Platform" target="_blank"><img data-interchange="[img/helix.jpg, small], [img/helix@2x.jpg, retina]" alt="Helix Marketing Technology Platform"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="100"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img data-interchange="[img/audi.jpg, small], [img/audi@2x.jpg, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img data-interchange="[img/conemiddour.jpg, small], [img/conemiddour@2x.jpg, retina]" alt="Cone Middour Partners Real Estate Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img data-interchange="[img/mercedes.jpg, small], [img/mercedes@2x.jpg, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Official-Website" target="_blank"><img data-interchange="[img/kfitz.jpg, small], [img/kfitz@2x.jpg, retina]" alt="Kristina Fitzpatrick Official Website"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.jpg, small], [img/honda@2x.jpg, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
         </ul>
 
         </div>
