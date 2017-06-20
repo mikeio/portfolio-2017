@@ -10,6 +10,7 @@
     <meta name="author" content="Mike Peters">
     <title>Mike Peters | Senior Digital Designer | Online Portfolio</title>
     
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700i|Work+Sans:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
 
