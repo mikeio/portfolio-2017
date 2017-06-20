@@ -28,7 +28,7 @@ $mdc-elevation--z24: 		0 22px 55px 0 rgba(0, 0, 0, 0.25), 0 12px 17px 0 rgba(0, 
 	overflow-y: scroll;
 }
 
-@keyframes logo-glitch {
+@keyframes glitchLogo {
 	 0% { background-position:    -10px; }
      100% { background-position: -3130px; }
 }
@@ -462,8 +462,8 @@ footer {
   					left: 50%;
   					transform: translate(-50%, -50%);
   					display: none;
-  					animation: logo-glitch 1s steps(26);
-  					background-image: url('../img/logo-glitch.png');
+  					animation: glitchLogo 1s steps(26);
+  					background-image: url('../img/glitchLogo.png');
 					background-position: -10px;
 					background-size: auto 120px;
 				}

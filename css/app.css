@@ -12,7 +12,7 @@
   position: fixed;
   overflow-y: scroll; }
 
-@keyframes logo-glitch {
+@keyframes glitchLogo {
   0% {
     background-position: -10px; }
   100% {
@@ -298,8 +298,8 @@ footer {
           left: 50%;
           transform: translate(-50%, -50%);
           display: none;
-          animation: logo-glitch 1s steps(26);
-          background-image: url("../img/logo-glitch.png");
+          animation: glitchLogo 1s steps(26);
+          background-image: url("../img/glitchLogo.png");
           background-position: -10px;
           background-size: auto 120px; }
       header nav ul {
