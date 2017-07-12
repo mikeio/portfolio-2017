@@ -12,11 +12,47 @@
   position: fixed;
   overflow-y: scroll; }
 
+#loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111212;
+  z-index: 99; }
+  #loading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px; }
+
 @keyframes glitchLogo {
   0% {
     background-position: -10px; }
   100% {
     background-position: -3130px; } }
+
+@keyframes glitchImg1 {
+  0% {
+    clip: rect(311px 625px 92px 0px); }
+  33.33333% {
+    clip: rect(362px 625px 361px 0px); }
+  66.66667% {
+    clip: rect(194px 625px 126px 0px); }
+  100% {
+    clip: rect(390px 625px 205px 0px); } }
+
+@keyframes glitchImg2 {
+  0% {
+    clip: rect(323px 625px 369px 0px); }
+  33.33333% {
+    clip: rect(89px 625px 273px 0px); }
+  66.66667% {
+    clip: rect(76px 625px 49px 0px); }
+  100% {
+    clip: rect(195px 625px 13px 0px); } }
 
 body {
   font-family: 'Work Sans', sans-serif;
@@ -189,13 +225,25 @@ header {
     .work ul li {
       display: block;
       text-align: center;
-      overflow: hidden; }
-      .work ul li img {
-        width: 100%;
-        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-        transform-origin: center center; }
-        .work ul li img:hover {
-          opacity: 0.75; }
+      overflow: hidden;
+      transition: opacity 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      opacity: 1; }
+      .work ul li:hover {
+        opacity: .75; }
+      .work ul li .container {
+        position: relative;
+        overflow: hidden; }
+        .work ul li .container a > img:nth-child(2),
+        .work ul li .container a > img:nth-child(3) {
+          clip: rect(0 0 0 0);
+          position: absolute;
+          top: 0; }
+      .work ul li .active a > img:nth-child(2) {
+        left: 3px;
+        animation: glitchImg1 1s 2 linear alternate-reverse; }
+      .work ul li .active a > img:nth-child(3) {
+        left: -3px;
+        animation: glitchImg2 1.3s 2 linear alternate-reverse; }
   .work #view-all {
     margin-top: 40px; }
 
@@ -349,7 +397,7 @@ footer {
       header nav .menu {
         display: none; }
     header .intro {
-      padding: 110px 0 140px; }
+      padding: 120px 0 140px; }
       header .intro h1 {
         font-size: 2.750em;
         max-width: 1100px;

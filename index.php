@@ -28,6 +28,10 @@
 
   <body>
 
+    <div id="loading">
+      <img src="img/three-dots.svg">
+    </div>
+
     <header>
 
       <div class="row">
@@ -75,16 +79,64 @@
 
     <section class="work" id="work">
 
-      <div class="row">
+      <div class="row" id="initial">
         <div class="large-12 columns">
 
         <ul>
-          <li class="wow fadeInUp" data-wow-offset="100"><a href="https://www.behance.net/gallery/53342471/Helix-Automotive-Marketing-App" target="_blank"><img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="100"><a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank"><img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank"><img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank"><img data-interchange="[img/mercedes.png, small], [img/mercedes@2x.png, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank"><img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website"></a></li>
-          <li class="wow fadeInUp" data-wow-offset="150"><a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank"><img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page"></a></li>
+          <li class="wow fadeInUp" data-wow-offset="100">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53342471/Helix-Advanced-Technology-Marketing-Platform" target="_blank">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="100">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="150">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="150">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank">
+                <img data-interchange="[img/mercedes.png, small], [img/mercedes@2x.png, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign">
+                <img data-interchange="[img/mercedes.png, small], [img/mercedes@2x.png, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign">
+                <img data-interchange="[img/mercedes.png, small], [img/mercedes@2x.png, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="150">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="150">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+              </a>
+            </div>
+          </li>
         </ul>
 
         </div>
@@ -94,12 +146,54 @@
         <div class="large-12 columns">
 
         <ul>
-          <li><a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank"><img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
-          <li><a href="https://www.behance.net/gallery/53341173/Lacher-Associates-Website" target="_blank"><img data-interchange="[img/lacher.png, small], [img/lacher@2x.png, retina]" alt="Lacher & Associates Website"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519769/Cupids-Prey-Flyer-Poster" target="_blank"><img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519297/Tabernacle-VIP-Flyers-Posters" target="_blank"><img data-interchange="[img/tabernacle.png, small], [img/tabernacle@2x.png, retina]" alt="Tabernacle - VIP Flyers / Posters"></a></li>
-          <li><a href="https://www.behance.net/gallery/53519935/Hazard-County-Skatepark-Money-Jam" target="_blank"><img data-interchange="[img/hazard.png, small], [img/hazard@2x.png, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster"></a></li>
-          <li><a href="https://www.behance.net/gallery/53518965/Quark-(QRK)-Logo" target="_blank"><img data-interchange="[img/quark.png, small], [img/quark@2x.png, retina]" alt="Quark Coin - Logo Concept / Contest Entry"></a></li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank">
+                <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website">
+                <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website">
+                <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website"></a></li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53341173/Lacher-Associates-Website" target="_blank">
+                <img data-interchange="[img/lacher.png, small], [img/lacher@2x.png, retina]" alt="Lacher & Associates Website">
+                <img data-interchange="[img/lacher.png, small], [img/lacher@2x.png, retina]" alt="Lacher & Associates Website">
+                <img data-interchange="[img/lacher.png, small], [img/lacher@2x.png, retina]" alt="Lacher & Associates Website"></a></li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53519769/Cupids-Prey-Flyer-Poster" target="_blank">
+                <img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer">
+                <img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer">
+                <img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer">
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53519297/Tabernacle-VIP-Flyers-Posters" target="_blank">
+                <img data-interchange="[img/tabernacle.png, small], [img/tabernacle@2x.png, retina]" alt="Tabernacle - VIP Flyers / Posters">
+                <img data-interchange="[img/tabernacle.png, small], [img/tabernacle@2x.png, retina]" alt="Tabernacle - VIP Flyers / Posters">
+                <img data-interchange="[img/tabernacle.png, small], [img/tabernacle@2x.png, retina]" alt="Tabernacle - VIP Flyers / Posters">
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53519935/Hazard-County-Skatepark-Money-Jam" target="_blank">
+                <img data-interchange="[img/hazard.png, small], [img/hazard@2x.png, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster">
+                <img data-interchange="[img/hazard.png, small], [img/hazard@2x.png, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster">
+                <img data-interchange="[img/hazard.png, small], [img/hazard@2x.png, retina]" alt="Hazard County's Money Jam 2012 Flyer / Poster">
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53518965/Quark-(QRK)-Logo" target="_blank">
+                <img data-interchange="[img/quark.png, small], [img/quark@2x.png, retina]" alt="Quark Coin - Logo Concept / Contest Entry">
+                <img data-interchange="[img/quark.png, small], [img/quark@2x.png, retina]" alt="Quark Coin - Logo Concept / Contest Entry">
+                <img data-interchange="[img/quark.png, small], [img/quark@2x.png, retina]" alt="Quark Coin - Logo Concept / Contest Entry">
+              </a>
+            </div>
+          </li>
         </ul>
 
         </div>
