@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mike Peters — Senior Digital Designer and coder from Atlanta, GA focusing on Interactive Solutions & User Experience.">
+    <meta name="description" content="Mike Peters — Senior Digital Designer from Atlanta, GA focusing on Interactive Solutions & User Experience.">
     <meta name="keywords" content="HTML,CSS,JavaScript,Designer,Developer,Atlanta,Georgia">
     <meta name="author" content="Mike Peters">
     <title>Mike Peters | Senior Digital Designer | Online Portfolio</title>
@@ -60,7 +60,7 @@
         <div class="small-centered medium-11 large-11 columns">
 
           <div class="intro">
-            <h1>Mike Peters — <span>Senior Digital Designer</span> and coder focusing on Interactive Solutions & User Experience.</h1>
+            <h1>Mike Peters — <span>Senior Digital Designer</span> focusing on Interactive Solutions & User Experience.</h1>
             <p>See my work below, view my resume <span>or get in touch.</span></p>
           </div>
 
