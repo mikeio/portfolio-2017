@@ -61,7 +61,7 @@
 
           <div class="intro">
             <h1>Mike Peters — <span>Senior Digital Designer</span> focusing on Interactive Solutions & User Experience.</h1>
-            <p>See my work below, view my resume <span>or get in touch.</span></p>
+            <p>I’m currently available for freelance / full-time work.</p>
           </div>
 
         </div>
