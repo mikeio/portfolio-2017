@@ -335,21 +335,21 @@ footer {
       header nav .logo {
         width: 66px;
         height: 51px; }
-        header nav .logo:hover::before {
-          display: block; }
         header nav .logo::before {
-          content: '';
-          width: 100px;
-          height: 100px;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          display: none;
-          animation: glitchLogo 1s steps(26);
-          background-image: url("../img/glitchLogo.png");
-          background-position: -10px;
-          background-size: auto 120px; }
+          display: none; }
+      header nav .start::before {
+        content: '';
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        animation: glitchLogo 1s steps(26);
+        background-image: url("../img/glitchLogo.png");
+        background-position: -10px;
+        background-size: auto 120px; }
       header nav ul {
         margin: 0;
         list-style-type: none;

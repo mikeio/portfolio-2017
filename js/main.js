@@ -6,6 +6,16 @@ $(document).ready(function() {
         $("body").toggleClass("overflow-hidden");
     });
 
+    $(".logo").hover(function () {
+       $(this).toggleClass("start");
+    });
+
+//    setTimeout(function(){ 
+//        $(".logo").addClass("start").delay(2000).queue(function(){
+//            $(this).removeClass("start").dequeue();
+//        });
+//    }, 600);
+    
     $('#show-more').hide();
     $('#view-all').click(function(event) {
         $('#show-more').slideToggle(1200);
