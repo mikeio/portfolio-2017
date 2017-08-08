@@ -265,9 +265,13 @@ header {
 			margin-bottom: 1rem;
 			line-height: 1.48;
 
-			span {
+			.title {
 				font-weight: 700;
 				font-style: italic;
+			}
+
+			span {
+				white-space: nowrap;
 			}
 		}
 

@@ -60,7 +60,7 @@
         <div class="small-centered medium-11 large-11 columns">
 
           <div class="intro">
-            <h1>Mike Peters — <span>Senior Digital Designer</span> focusing on Interactive Solutions & User Experience.</h1>
+            <h1>Mike Peters — <span class="title">Senior Digital Designer</span> focusing on Interactive Solutions & <span>User Experience.</span></h1>
             <p>I’m currently available for freelance / full-time work.</p>
           </div>
 

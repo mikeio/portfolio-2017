@@ -172,9 +172,11 @@ header {
       color: #ffffff;
       margin-bottom: 1rem;
       line-height: 1.48; }
-      header .intro h1 span {
+      header .intro h1 .title {
         font-weight: 700;
         font-style: italic; }
+      header .intro h1 span {
+        white-space: nowrap; }
     header .intro p {
       color: #898b8c;
       font-size: 18px;
