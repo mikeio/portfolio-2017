@@ -60,7 +60,7 @@
         <div class="small-centered medium-11 large-11 columns">
 
           <div class="intro">
-            <h1>Mike Peters — <span class="title">Senior Digital Designer</span> focusing on Interactive Solutions & <span>User Experience.</span></h1>
+            <h1>Mike Peters — <span class="title">Senior Digital Designer</span> focusing on Interactive Solutions & <span class="detail">User Experience.</span></h1>
             <p>I’m currently available for freelance / full-time work.</p>
           </div>
 
@@ -94,10 +94,10 @@
           </li>
           <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
-              <a href="https://www.behance.net/gallery/53342471/Helix-Advanced-Technology-Marketing-Platform" target="_blank">
-                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
-                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
-                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Helix Marketing Technology Platform">
+              <a href="https://www.behance.net/gallery/53342471/Helix-Advanced-Marketing-Intelligence-Platform" target="_blank">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Advanced Marketing Intelligence Platform">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Advanced Marketing Intelligence Platform">
+                <img data-interchange="[img/helix.png, small], [img/helix@2x.png, retina]" alt="Advanced Marketing Intelligence Platform">
               </a>
             </div>
           </li>
