@@ -29,7 +29,7 @@ $(document).ready(function() {
     setRandomClass1();
     setInterval(function () {
         setRandomClass1();
-    }, 7000);
+    }, 9000);
     
     function setRandomClass1() {
         var items = $("#initial ul li .container");
@@ -42,7 +42,7 @@ $(document).ready(function() {
     setRandomClass2();
     setInterval(function () {
         setRandomClass2();
-    }, 7000);
+    }, 9000);
     
     function setRandomClass2() {
         var items = $("#show-more ul li .container");
