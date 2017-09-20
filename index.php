@@ -94,6 +94,15 @@
           </li>
           <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
+              <a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="100">
+            <div class="container">
               <a href="https://www.behance.net/gallery/55013269/Toyota-E-mail-Campaign" target="_blank">
                 <img data-interchange="[img/toyota.png, small], [img/toyota@2x.png, retina]" alt="Toyota E-Mail Campaign">
                 <img data-interchange="[img/toyota.png, small], [img/toyota@2x.png, retina]" alt="Toyota E-Mail Campaign">
@@ -110,15 +119,6 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp" data-wow-offset="100">
-            <div class="container">
-              <a href="https://www.behance.net/gallery/53342389/Audi-Q3-Email-Campaign" target="_blank">
-                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
-                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
-                <img data-interchange="[img/audi.png, small], [img/audi@2x.png, retina]" alt="2017 Audi Q3 Crossover E-mail Campaign">
-              </a>
-            </div>
-          </li>
           <li class="wow fadeInUp" data-wow-offset="150">
             <div class="container">
               <a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank">
@@ -128,12 +128,12 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp" data-wow-offset="150">
+          <li>
             <div class="container">
-              <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
-                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
-                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
-                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
               </a>
             </div>
           </li>
@@ -148,28 +148,19 @@
         <ul>
           <li>
             <div class="container">
-              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="container">
-              <a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="container">
               <a href="https://www.behance.net/gallery/53341313/Gulf-Coast-Honda-Dealers-Website" target="_blank">
                 <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website">
                 <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website">
                 <img data-interchange="[img/honda.png, small], [img/honda@2x.png, retina]" alt="Gulf Coast Honda Dealers Website">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="150">
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
+                <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
               </a>
             </div>
           </li>
@@ -184,6 +175,16 @@
           </li>
           <li>
             <div class="container">
+              <a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+              </a>
+            </div>
+          </li>
+          <!--
+          <li>
+            <div class="container">
               <a href="https://www.behance.net/gallery/53519769/Cupids-Prey-Flyer-Poster" target="_blank">
                 <img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer">
                 <img data-interchange="[img/cupidsprey.png, small], [img/cupidsprey@2x.png, retina]" alt="Cupid's Prey - Valentine's Day Party Flyer">
@@ -191,7 +192,6 @@
               </a>
             </div>
           </li>
-          <!--
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53519935/Hazard-County-Skatepark-Money-Jam" target="_blank">
@@ -201,7 +201,6 @@
               </a>
             </div>
           </li>
-          -->
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53518965/Quark-(QRK)-Logo" target="_blank">
@@ -211,6 +210,7 @@
               </a>
             </div>
           </li>
+        -->
         </ul>
 
         </div>
