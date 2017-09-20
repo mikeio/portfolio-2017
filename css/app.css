@@ -1,136 +1,136 @@
 @keyframes noise-anim {
   0% {
-    clip: rect(44px, 9999px, 64px, 0);
+    clip: rect(209px, 9999px, 242px, 0);
     left: 4%;
-    filter: saturate(3.4);
-    transform: scale(1.1); }
+    filter: saturate(7.4);
+    transform: scale(1.2); }
   8.3333333333% {
-    clip: rect(234px, 9999px, 242px, 0);
-    left: 3%;
-    filter: saturate(18.6);
+    clip: rect(115px, 9999px, 183px, 0);
+    left: 4%;
+    filter: saturate(6.2);
     transform: scale(1.3); }
   16.6666666667% {
-    clip: rect(229px, 9999px, 246px, 0);
-    left: 0%;
-    filter: saturate(11);
-    transform: scale(1.1); }
-  25% {
-    clip: rect(45px, 9999px, 115px, 0);
-    left: -4%;
-    filter: saturate(15.6);
-    transform: scale(1.2); }
-  33.3333333333% {
-    clip: rect(59px, 9999px, 149px, 0);
+    clip: rect(310px, 9999px, 396px, 0);
     left: -2%;
-    filter: saturate(2.4);
+    filter: saturate(17.4);
     transform: scale(1.2); }
-  41.6666666667% {
-    clip: rect(205px, 9999px, 213px, 0);
+  25% {
+    clip: rect(398px, 9999px, 472px, 0);
     left: 0%;
-    filter: saturate(15.6);
+    filter: saturate(13.2);
     transform: scale(1.1); }
+  33.3333333333% {
+    clip: rect(86px, 9999px, 92px, 0);
+    left: -2%;
+    filter: saturate(18.4);
+    transform: scale(1.1); }
+  41.6666666667% {
+    clip: rect(246px, 9999px, 295px, 0);
+    left: -3%;
+    filter: saturate(5.8);
+    transform: scale(1.3); }
   50% {
-    clip: rect(1px, 9999px, 43px, 0);
-    left: 3%;
-    filter: saturate(16.4);
-    transform: scale(1.1); }
+    clip: rect(84px, 9999px, 138px, 0);
+    left: 1%;
+    filter: saturate(16.8);
+    transform: scale(1.3); }
   58.3333333333% {
-    clip: rect(380px, 9999px, 446px, 0);
-    left: 5%;
-    filter: saturate(8.4);
+    clip: rect(204px, 9999px, 250px, 0);
+    left: -4%;
+    filter: saturate(10);
     transform: scale(1.1); }
   66.6666666667% {
-    clip: rect(482px, 9999px, 533px, 0);
-    left: -2%;
-    filter: saturate(10.6);
-    transform: scale(1.1); }
-  75% {
-    clip: rect(373px, 9999px, 450px, 0);
+    clip: rect(158px, 9999px, 187px, 0);
     left: -1%;
-    filter: saturate(3);
+    filter: saturate(8.2);
+    transform: scale(1.3); }
+  75% {
+    clip: rect(428px, 9999px, 478px, 0);
+    left: 5%;
+    filter: saturate(19.4);
     transform: scale(1.2); }
   83.3333333333% {
-    clip: rect(94px, 9999px, 178px, 0);
-    left: 1%;
-    filter: saturate(9.4);
-    transform: scale(1.3); }
-  91.6666666667% {
-    clip: rect(232px, 9999px, 281px, 0);
-    left: 2%;
-    filter: saturate(10.8);
+    clip: rect(377px, 9999px, 415px, 0);
+    left: 0%;
+    filter: saturate(13.8);
     transform: scale(1.1); }
+  91.6666666667% {
+    clip: rect(121px, 9999px, 190px, 0);
+    left: -2%;
+    filter: saturate(16.8);
+    transform: scale(1.2); }
   100% {
-    clip: rect(316px, 9999px, 321px, 0);
-    left: 2%;
-    filter: saturate(2.2);
+    clip: rect(97px, 9999px, 147px, 0);
+    left: 1%;
+    filter: saturate(8.6);
     transform: scale(1.1); } }
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(408px, 9999px, 423px, 0);
-    left: 5%;
-    transform: scale(1.1);
-    filter: saturate(12.2); }
-  8.3333333333% {
-    clip: rect(26px, 9999px, 46px, 0);
-    left: -3%;
-    transform: scale(1.2);
-    filter: saturate(5.8); }
-  16.6666666667% {
-    clip: rect(12px, 9999px, 34px, 0);
+    clip: rect(487px, 9999px, 488px, 0);
     left: 2%;
     transform: scale(1.2);
-    filter: saturate(19); }
-  25% {
-    clip: rect(387px, 9999px, 437px, 0);
-    left: 4%;
-    transform: scale(1.1);
-    filter: saturate(11.6); }
-  33.3333333333% {
-    clip: rect(36px, 9999px, 44px, 0);
-    left: -3%;
-    transform: scale(1.1);
-    filter: saturate(12.2); }
-  41.6666666667% {
-    clip: rect(45px, 9999px, 80px, 0);
-    left: 1%;
-    transform: scale(1.1);
-    filter: saturate(15.8); }
-  50% {
-    clip: rect(206px, 9999px, 250px, 0);
-    left: -3%;
-    transform: scale(1.2);
-    filter: saturate(5.8); }
-  58.3333333333% {
-    clip: rect(82px, 9999px, 110px, 0);
-    left: -2%;
+    filter: saturate(13.6); }
+  8.3333333333% {
+    clip: rect(205px, 9999px, 246px, 0);
+    left: 0%;
     transform: scale(1.2);
     filter: saturate(12.6); }
-  66.6666666667% {
-    clip: rect(117px, 9999px, 167px, 0);
-    left: 0%;
-    transform: scale(1.1);
-    filter: saturate(13.4); }
-  75% {
-    clip: rect(209px, 9999px, 222px, 0);
-    left: 0%;
-    transform: scale(1.1);
-    filter: saturate(7); }
-  83.3333333333% {
-    clip: rect(123px, 9999px, 139px, 0);
-    left: 5%;
-    transform: scale(1.2);
-    filter: saturate(16.8); }
-  91.6666666667% {
-    clip: rect(412px, 9999px, 421px, 0);
+  16.6666666667% {
+    clip: rect(475px, 9999px, 481px, 0);
     left: -1%;
     transform: scale(1.1);
-    filter: saturate(15); }
-  100% {
-    clip: rect(407px, 9999px, 426px, 0);
+    filter: saturate(17.6); }
+  25% {
+    clip: rect(449px, 9999px, 490px, 0);
+    left: 5%;
+    transform: scale(1.1);
+    filter: saturate(6.2); }
+  33.3333333333% {
+    clip: rect(196px, 9999px, 228px, 0);
+    left: -3%;
+    transform: scale(1.1);
+    filter: saturate(18.6); }
+  41.6666666667% {
+    clip: rect(289px, 9999px, 320px, 0);
+    left: 4%;
+    transform: scale(1.2);
+    filter: saturate(9); }
+  50% {
+    clip: rect(123px, 9999px, 171px, 0);
+    left: 5%;
+    transform: scale(1.1);
+    filter: saturate(9.8); }
+  58.3333333333% {
+    clip: rect(28px, 9999px, 50px, 0);
+    left: 3%;
+    transform: scale(1.3);
+    filter: saturate(6); }
+  66.6666666667% {
+    clip: rect(435px, 9999px, 451px, 0);
+    left: 4%;
+    transform: scale(1.2);
+    filter: saturate(19.4); }
+  75% {
+    clip: rect(137px, 9999px, 173px, 0);
     left: 0%;
     transform: scale(1.1);
-    filter: saturate(8.8); } }
+    filter: saturate(5.6); }
+  83.3333333333% {
+    clip: rect(407px, 9999px, 417px, 0);
+    left: 2%;
+    transform: scale(1.1);
+    filter: saturate(9); }
+  91.6666666667% {
+    clip: rect(191px, 9999px, 197px, 0);
+    left: 0%;
+    transform: scale(1.1);
+    filter: saturate(7.6); }
+  100% {
+    clip: rect(317px, 9999px, 357px, 0);
+    left: 1%;
+    transform: scale(1.1);
+    filter: saturate(8); } }
 
 .row {
   max-width: 80em; }
@@ -305,7 +305,8 @@ header {
       font-size: 2.2em;
       color: #ffffff;
       margin-bottom: 1rem;
-      line-height: 1.48; }
+      line-height: 1.48;
+      padding: 0 10px; }
       header .intro h1 .title {
         font-weight: 700;
         font-style: italic; }
@@ -315,7 +316,8 @@ header {
       color: #898b8c;
       font-size: 18px;
       letter-spacing: .06rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding: 0 10px; }
       header .intro p span {
         white-space: nowrap; }
   header .divider {
