@@ -288,7 +288,8 @@ header {
 			color: $white;
 			margin-bottom: 1rem;
 			line-height: 1.48;
-			padding: 0 10px;
+			padding-right: 0.625rem;
+    		padding-left: 0.625rem;
 
 			.title {
 				font-weight: 700;
@@ -305,7 +306,8 @@ header {
 			font-size: 18px;
 			letter-spacing: .06rem;
 			margin-bottom: 0;
-			padding: 0 10px;
+			padding-right: 0.625rem;
+    		padding-left: 0.625rem;
 
 			span {
 				white-space: nowrap;
