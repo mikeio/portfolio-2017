@@ -119,7 +119,7 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp" data-wow-offset="150">
+          <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
               <a href="https://www.behance.net/gallery/53342201/Mercedes-Benz-Winter-Event-Email-Campaign" target="_blank">
                 <img data-interchange="[img/mercedes.png, small], [img/mercedes@2x.png, retina]" alt="Mercedes-Benz Winter Event E-mail Campaign">
@@ -128,7 +128,7 @@
               </a>
             </div>
           </li>
-          <li>
+          <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
               <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
                 <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
@@ -155,7 +155,7 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp" data-wow-offset="150">
+          <li class="wow fadeInUp">
             <div class="container">
               <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
                 <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
