@@ -144,7 +144,7 @@
 
       <div class="row" id="show-more">
         <div class="large-12 columns">
-
+          
         <ul>
           <li>
             <div class="container">
@@ -155,7 +155,7 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp">
+          <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
                 <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
