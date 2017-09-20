@@ -85,6 +85,15 @@
         <ul>
           <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
+              <a href="https://www.behance.net/gallery/56956963/Aura-Financial-Website" target="_blank">
+                <img data-interchange="[img/aura.png, small], [img/aura@2x.png, retina]" alt="Aura Financial Website">
+                <img data-interchange="[img/aura.png, small], [img/aura@2x.png, retina]" alt="Aura Financial Website">
+                <img data-interchange="[img/aura.png, small], [img/aura@2x.png, retina]" alt="Aura Financial Website">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="100">
+            <div class="container">
               <a href="https://www.behance.net/gallery/55013269/Toyota-E-mail-Campaign" target="_blank">
                 <img data-interchange="[img/toyota.png, small], [img/toyota@2x.png, retina]" alt="Toyota E-Mail Campaign">
                 <img data-interchange="[img/toyota.png, small], [img/toyota@2x.png, retina]" alt="Toyota E-Mail Campaign">
@@ -121,15 +130,6 @@
           </li>
           <li class="wow fadeInUp" data-wow-offset="150">
             <div class="container">
-              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-              </a>
-            </div>
-          </li>
-          <li class="wow fadeInUp" data-wow-offset="150">
-            <div class="container">
               <a href="https://www.behance.net/gallery/53342113/Cone-Middour-Partners-Website" target="_blank">
                 <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
                 <img data-interchange="[img/conemiddour.png, small], [img/conemiddour@2x.png, retina]" alt="Cone Middour Partners Real Estate Website">
@@ -146,6 +146,15 @@
         <div class="large-12 columns">
 
         <ul>
+          <li>
+            <div class="container">
+              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
+              </a>
+            </div>
+          </li>
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank">
@@ -182,6 +191,7 @@
               </a>
             </div>
           </li>
+          <!--
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53519935/Hazard-County-Skatepark-Money-Jam" target="_blank">
@@ -191,6 +201,7 @@
               </a>
             </div>
           </li>
+          -->
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53518965/Quark-(QRK)-Logo" target="_blank">
