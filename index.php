@@ -85,7 +85,7 @@
         <ul>
           <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
-              <a href="https://www.behance.net/gallery/61469009/SendGrid-Email-Delivery-Service" target="_blank">
+              <a href="https://www.behance.net/gallery/61515197/SendGrid-Email-Delivery-Service" target="_blank">
                 <img data-interchange="[img/sendgrid.png, small], [img/sendgrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
                 <img data-interchange="[img/sendgrid.png, small], [img/sendgrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
                 <img data-interchange="[img/sendgrid.png, small], [img/sendgrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
