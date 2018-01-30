@@ -85,6 +85,15 @@
         <ul>
           <li class="wow fadeInUp" data-wow-offset="100">
             <div class="container">
+              <a href="https://www.behance.net/gallery/61469009/SendGrid-Email-Delivery-Service" target="_blank">
+                <img data-interchange="[img/sendGrid.png, small], [img/sendGrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
+                <img data-interchange="[img/sendGrid.png, small], [img/sendGrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
+                <img data-interchange="[img/sendGrid.png, small], [img/sendGrid@2x.png, retina]" alt="SendGrid Email Delivery Service Website">
+              </a>
+            </div>
+          </li>
+          <li class="wow fadeInUp" data-wow-offset="100">
+            <div class="container">
               <a href="https://www.behance.net/gallery/56956963/Aura-Financial-Website" target="_blank">
                 <img data-interchange="[img/aura.png, small], [img/aura@2x.png, retina]" alt="Aura Financial Website">
                 <img data-interchange="[img/aura.png, small], [img/aura@2x.png, retina]" alt="Aura Financial Website">
@@ -128,15 +137,6 @@
               </a>
             </div>
           </li>
-          <li class="wow fadeInUp" data-wow-offset="100">
-            <div class="container">
-              <a href="https://www.behance.net/gallery/53341393/Kristina-Fitzpatrick-Website" target="_blank">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-                <img data-interchange="[img/kfitz.png, small], [img/kfitz@2x.png, retina]" alt="Kristina Fitzpatrick Official Website">
-              </a>
-            </div>
-          </li>
         </ul>
 
         </div>
@@ -176,9 +176,9 @@
           <li>
             <div class="container">
               <a href="https://www.behance.net/gallery/53340897/Automotive-Landing-Page-PURL-(Personal-URL)" target="_blank">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
-                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="PURL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="Personal URL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="Personal URL Landing Page">
+                <img data-interchange="[img/purl.png, small], [img/purl@2x.png, retina]" alt="Personal URL Landing Page">
               </a>
             </div>
           </li>
